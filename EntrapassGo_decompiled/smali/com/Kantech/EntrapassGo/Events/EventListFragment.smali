@@ -1967,7 +1967,9 @@
 .end method
 
 .method public final onPrepareOptionsMenu(Landroid/view/Menu;)V
-    .locals 4
+    .locals 5
+
+    move-object v4, p1
 
     .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V
@@ -2061,7 +2063,7 @@
     const/16 v1, 0x3e9
     const/16 v2, 0x64
     const-string v3, "Event History..."
-    invoke-interface {p1, v0, v1, v2, v3}, Landroid/view/Menu;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
+    invoke-interface {v4, v0, v1, v2, v3}, Landroid/view/Menu;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 47
     .line 48
