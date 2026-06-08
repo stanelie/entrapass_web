@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_grunge_repeat" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fl_progressbar" layout="@layout/progressbar" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/ll_obj_account" android:background="@color/gray5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/BackButton" android:background="@color/transparent" android:layout_width="50.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_action_back" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:contentDescription="@string/zero" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@drawable/bg_glass_no_border" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="Accounts" />
+        <ImageButton android:id="@id/SearchButton" android:background="@color/transparent" android:layout_width="50.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_action_search" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:contentDescription="@string/zero" />
+    </RelativeLayout>
+    <include android:id="@id/ll_search" layout="@layout/accountsearchbar" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/tv_rootaccount" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:text="Root Account" />
+    <View android:id="@id/v_separation" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/lv_accounts" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:divider="#40bebebe" android:dividerHeight="1.0dip" android:layout_weight="1.0" />
+</LinearLayout>

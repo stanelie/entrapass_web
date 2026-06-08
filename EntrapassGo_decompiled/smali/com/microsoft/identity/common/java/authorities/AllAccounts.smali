@@ -1,0 +1,56 @@
+.class public Lcom/microsoft/identity/common/java/authorities/AllAccounts;
+.super Lcom/microsoft/identity/common/java/authorities/AzureActiveDirectoryAudience;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+
+# static fields
+.field public static final ALL_ACCOUNTS_TENANT_ID:Ljava/lang/String; = "common"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lcom/microsoft/identity/common/java/authorities/AzureActiveDirectoryAudience;-><init>()V
+
+    .line 2
+    const-string v0, "common"
+
+    invoke-virtual {p0, v0}, Lcom/microsoft/identity/common/java/authorities/AzureActiveDirectoryAudience;->setTenantId(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 1
+    .param p1    # Ljava/lang/String;
+        .annotation build Llombok/NonNull;
+        .end annotation
+    .end param
+
+    .line 3
+    invoke-direct {p0}, Lcom/microsoft/identity/common/java/authorities/AzureActiveDirectoryAudience;-><init>()V
+
+    if-eqz p1, :cond_0
+
+    .line 4
+    invoke-virtual {p0, p1}, Lcom/microsoft/identity/common/java/authorities/AzureActiveDirectoryAudience;->setCloudUrl(Ljava/lang/String;)V
+
+    .line 5
+    const-string p1, "common"
+
+    invoke-virtual {p0, p1}, Lcom/microsoft/identity/common/java/authorities/AzureActiveDirectoryAudience;->setTenantId(Ljava/lang/String;)V
+
+    return-void
+
+    .line 6
+    :cond_0
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string v0, "cloudUrl is marked non-null but is null"
+
+    invoke-direct {p1, v0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method

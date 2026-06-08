@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>Geldig</item>
+        <item>Ongeldig</item>
+        <item>Gestolen/verloren</item>
+        <item>Verlopen</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>Vakantie1</item>
+        <item>Vakantie2</item>
+        <item>Vakantie3</item>
+        <item>Vakantie4</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>Maandag</item>
+        <item>Dinsdag</item>
+        <item>Woensdag</item>
+        <item>Donderdag</item>
+        <item>Vrijdag</item>
+        <item>Zaterdag</item>
+        <item>Zondag</item>
+    </string-array>
+</resources>

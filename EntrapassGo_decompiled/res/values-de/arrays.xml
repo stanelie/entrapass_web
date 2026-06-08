@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>Gültig</item>
+        <item>Ungültig</item>
+        <item>Verloren/gestohlen</item>
+        <item>Abgelaufen</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>Ferien1</item>
+        <item>Ferien2</item>
+        <item>Ferien3</item>
+        <item>Ferien4</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </string-array>
+</resources>

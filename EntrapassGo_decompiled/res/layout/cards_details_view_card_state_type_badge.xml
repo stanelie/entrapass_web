@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_state_type_badge_section" android:background="@drawable/bg_glass_round_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="7.0dip" android:paddingEnd="0.0dip">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/tv_addcard_cardstate" android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="@string/cardstate" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/tv_addcard_cardtype" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="7.0dip" android:text="@string/cardtype" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/tv_addcard_badge" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="7.0dip" android:text="@string/badge" />
+    </LinearLayout>
+    <View android:layout_width="7.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="7.0dip" android:paddingBottom="7.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="7.0dip" android:paddingEnd="7.0dip">
+        <FrameLayout android:id="@id/fl_cardstate" android:layout_width="fill_parent" android:layout_height="24.0dip">
+            <com.Kantech.EntrapassGo.utils.ReselectSameItemSpinner android:gravity="start|center" android:id="@id/spinner_cardstate" android:background="@drawable/background_dropdown_black" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="start|center" android:id="@id/tv_card_state_pending" android:background="@drawable/background_dropdown_black" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:gravity="start|center" android:id="@id/tv_card_state_tobeactivated" android:background="@drawable/background_dropdown_black" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_cardtype" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="7.0dip">
+            <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="start|center" android:id="@id/btn_addcard_cardtype" android:background="@drawable/background_dropdown_black" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+            <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_addcard_type_restricted" android:background="@drawable/background_hashed_border_gray" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginTop="7.0dip">
+            <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="start|center" android:id="@id/btn_addcard_badge" android:background="@drawable/background_dropdown_black" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+            <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_addcard_badge_restricted" android:background="@drawable/background_hashed_border_gray" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

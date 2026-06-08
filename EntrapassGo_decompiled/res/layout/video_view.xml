@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <include android:id="@id/fl_progressbar" layout="@layout/progressbar" />
+        <com.Kantech.EntrapassGo.Video.ExacqVideoPanel_Android android:id="@id/exacq_camera_view" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/exacq_ptz_controls" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/exacq_ptz_presets_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ptz_presets" android:contentDescription="@string/emptystring" />
+        <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/exacq_ptz_ul_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_up_left" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_u_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_up" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_ur_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_up_right" android:contentDescription="@string/emptystring" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/exacq_ptz_l_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_left" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_zi_btn" android:layout_width="32.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_zoom_in" android:layout_weight="1.0" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_zo_btn" android:layout_width="32.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_zoom_out" android:layout_weight="1.0" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_r_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_right" android:layout_weight="2.0" android:contentDescription="@string/emptystring" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/exacq_ptz_dl_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_down_left" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_d_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_down" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/exacq_ptz_dr_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_down_right" android:contentDescription="@string/emptystring" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/exacq_search_controls" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <SeekBar android:id="@id/exacq_search_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="20.0dip" android:weightSum="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/exacq_search_timestamp_textview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Paused" android:layout_weight="1.0" />
+            <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/exacq_search_playspeed_textview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Paused" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textColor="@android:color/white" android:id="@id/exacq_search_rw_button" android:layout_width="40.0sp" android:layout_height="wrap_content" android:text="@string/videoSearchRewindButtonText" style="?android:borderlessButtonStyle" />
+            <Button android:textColor="@android:color/white" android:id="@id/exacq_search_rev_button" android:layout_width="40.0sp" android:layout_height="wrap_content" android:text="@string/videoSearchReverseButtonText" style="?android:borderlessButtonStyle" />
+            <Button android:textColor="@android:color/white" android:id="@id/exacq_search_pause_button" android:layout_width="40.0sp" android:layout_height="wrap_content" android:text="@string/videoSearchPauseButtonText" style="?android:borderlessButtonStyle" />
+            <Button android:textColor="@android:color/white" android:id="@id/exacq_search_play_button" android:layout_width="40.0sp" android:layout_height="wrap_content" android:text="@string/videoSearchPlayButtonText" style="?android:borderlessButtonStyle" />
+            <Button android:textColor="@android:color/white" android:id="@id/exacq_search_ff_button" android:layout_width="40.0sp" android:layout_height="wrap_content" android:text="@string/videoSearchFastForwardButtonText" style="?android:borderlessButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

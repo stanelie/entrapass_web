@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_addcard_down" android:background="@drawable/bg_glass_round_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:background="@drawable/bg_glass_no_border" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_margin="1.0dip" android:text="@string/accesslevel" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:textSize="20.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="start|center" android:id="@id/sp_selectGSI" android:background="@drawable/background_dropdown_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/spinner_height" android:text="@string/select" android:paddingStart="7.0dip" android:paddingEnd="0.0dip" />
+        <Button android:layout_gravity="center" android:id="@id/btnGSI1" android:background="@drawable/bg_btn_gray_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:scaleType="fitXY" android:contentDescription="@null" />
+        <View android:id="@id/v_selectGSI12" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+        <Button android:layout_gravity="center" android:id="@id/btnGSI2" android:background="@drawable/bg_btn_gray_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:scaleType="fitXY" android:contentDescription="@null" />
+        <View android:id="@id/v_selectGSI23" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+        <Button android:layout_gravity="center" android:id="@id/btnGSI3" android:background="@drawable/bg_btn_gray_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/button_height" android:scaleType="fitXY" android:contentDescription="@null" />
+    </LinearLayout>
+</LinearLayout>

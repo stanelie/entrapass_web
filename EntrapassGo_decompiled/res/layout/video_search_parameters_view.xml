@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_glass_round_border" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fl_progressbar" layout="@layout/progressbar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/Duration" android:layout_marginStart="10.0dip" />
+            <RadioGroup android:orientation="vertical" android:id="@id/RGRadio" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+                <RadioButton android:id="@id/radio_five_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FiveMinutes" />
+                <RadioButton android:id="@id/radio_fifteen_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FifteenMinutes" />
+                <RadioButton android:id="@id/radio_sixty_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SixtyMinutes" />
+                <RadioButton android:id="@id/radio_four_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/FourHours" />
+                <RadioButton android:id="@id/radio_twenty_four_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TwentyFoundHours" />
+                <RadioButton android:id="@id/radio_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Custom" />
+            </RadioGroup>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_custom_search_ui" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="68.0dip" android:layout_height="fill_parent" android:text="@string/Start" android:layout_marginStart="12.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                        <EditText android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/et_search_start_date" android:background="@drawable/background_edittext_black" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/emptystring" android:layout_weight="1.0" android:inputType="date" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="5.0dip" />
+                        <EditText android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/et_search_start_time" android:background="@drawable/background_edittext_black" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/emptystring" android:layout_weight="1.0" android:inputType="time" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                    <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="68.0dip" android:layout_height="wrap_content" android:text="@string/End" android:layout_marginStart="12.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0">
+                        <EditText android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/et_search_end_date" android:background="@drawable/background_edittext_black" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/emptystring" android:layout_weight="1.0" android:inputType="date" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginEnd="5.0dip" />
+                        <EditText android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/et_search_end_time" android:background="@drawable/background_edittext_black" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/emptystring" android:layout_weight="1.0" android:inputType="time" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="5.0dip" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_seach_video" android:background="@drawable/bg_btn_gray_dark" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/Search" android:layout_marginEnd="0.0dip" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>有效</item>
+        <item>无效</item>
+        <item>被盗/丢失</item>
+        <item>已过期</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>节假日1</item>
+        <item>节假日2</item>
+        <item>节假日3</item>
+        <item>节假日4</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+</resources>

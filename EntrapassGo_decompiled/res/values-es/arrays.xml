@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>Válida</item>
+        <item>No válida</item>
+        <item>Robada/perdida</item>
+        <item>Caducado</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>Día feriado 1</item>
+        <item>Día feriado 2</item>
+        <item>Día feriado 3</item>
+        <item>Día feriado 4</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miércoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+</resources>

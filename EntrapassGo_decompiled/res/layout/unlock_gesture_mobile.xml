@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_main_background" android:background="@drawable/bg_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:weightSum="12.0" android:layout_weight="1.0">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:weightSum="12.0" android:layout_weight="10.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="10.0">
+                <FrameLayout android:background="@drawable/background_gray_inner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" />
+                <RelativeLayout android:orientation="vertical" android:id="@id/rl_gest_groupbutton" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <view android:id="@id/custom_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.Kantech.EntrapassGo.UnlockerGestureView" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:weightSum="3.0">
+                        <LinearLayout android:orientation="horizontal" android:focusable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:weightSum="3.0" android:layout_weight="1.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_0" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_1" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_2" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_3" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_4" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_5" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_6" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_7" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                            <LinearLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                                <ImageView android:id="@id/iv_gest_8" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_bigball_grey" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/emptystring" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </FrameLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="-10.0dip" android:weightSum="12.0">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/fl_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" android:layout_marginEnd="-5.0dip">
+                <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_btn_gray" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" />
+                <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_gest_redo" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/redo" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_confirm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" android:layout_marginStart="-5.0dip">
+                <FrameLayout android:layout_gravity="center" android:background="@drawable/bg_btn_blue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" />
+                <Button android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_gest_confirm" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/confirm" />
+            </FrameLayout>
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" android:minHeight="68.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_fingerprint" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_fingerprint_black_48dp" android:contentDescription="@string/emptystring" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

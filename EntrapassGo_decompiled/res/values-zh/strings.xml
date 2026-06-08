@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ActionNotCompatibleWithSelectedComponents">This action is not compatible with the component(s) you selected. If you choose to continue, the component(s) will be cleared. Do you want to continue?</string>
+    <string name="CantBeEmptyField">字段无法清空</string>
+    <string name="ComponentsAlreadySelected">Components already selected.</string>
+    <string name="ComponentsMaxLimitReached">"Can't add more component as the maximum limit has been reached."</string>
+    <string name="ComponentsNotAvailable">No more components available to assign.</string>
+    <string name="Counter">Counter</string>
+    <string name="Custom">自定义</string>
+    <string name="DefaultPort">8801</string>
+    <string name="DeleteAction">Delete action when expired</string>
+    <string name="DoubleZero">00</string>
+    <string name="Duration">时长</string>
+    <string name="EXCEL">EXCEL</string>
+    <string name="EmailSendSuccessfully">邮件发送成功</string>
+    <string name="EnableGoPass">启用 Go Pass</string>
+    <string name="End">结束</string>
+    <string name="EntrapassGOCommaSpace">EntraPassGO:</string>
+    <string name="Exit">退出</string>
+    <string name="FifteenMinutes">前 15 分钟</string>
+    <string name="FiveMinutes">前 5 分钟</string>
+    <string name="FourHours">前 4 小时</string>
+    <string name="HHMM0">00:00</string>
+    <string name="HHMM24">24:00</string>
+    <string name="HintAT">\@</string>
+    <string name="HintEmail">User@Email.com</string>
+    <string name="Intrusion">侵入</string>
+    <string name="MacroMaker">Macromaker</string>
+    <string name="One">01</string>
+    <string name="PDF">PDF</string>
+    <string name="PartitionArmed">已布防</string>
+    <string name="PartitionArmedAwayZeroDelay">已撤防，无延迟</string>
+    <string name="PartitionArmedStay">已布防留守</string>
+    <string name="PartitionArmedStayZeroDelay">已布防留守，无延迟</string>
+    <string name="PartitionEntryDelayInProgress">正处于分区进入延时状态</string>
+    <string name="PartitionExitDelayInProgress">正处于分区退出延时状态</string>
+    <string name="PartitionInAlarm">处于报警状态</string>
+    <string name="PartitionInAlarmDisarmed">报警状态(已撤防)</string>
+    <string name="PartitionNotConnected">未连接</string>
+    <string name="PartitionNotReady">未就绪</string>
+    <string name="PartitionReady">就绪</string>
+    <string name="PartitionUnknown">未知</string>
+    <string name="Paused">暂停</string>
+    <string name="Recurring">Recurring</string>
+    <string name="Relay">Relay</string>
+    <string name="Report_Access">进出</string>
+    <string name="Report_AlarmSystem">警报系统</string>
+    <string name="Report_All">全部</string>
+    <string name="Report_Area">区域</string>
+    <string name="Report_Camera">摄像机</string>
+    <string name="Report_Controller">控制器</string>
+    <string name="Report_Database">数据库</string>
+    <string name="Report_Door">门</string>
+    <string name="Report_DoorEntry">KTES</string>
+    <string name="Report_DoorEntryController">门进入控制器</string>
+    <string name="Report_GuardTour">巡更</string>
+    <string name="Report_Input">输入</string>
+    <string name="Report_Login">登录</string>
+    <string name="Report_ManualOperation">手动操作</string>
+    <string name="Report_Matrix">视频服务器</string>
+    <string name="Report_Operator">操作员</string>
+    <string name="Report_Relay">继电器</string>
+    <string name="Report_Server">服务器</string>
+    <string name="Report_TimeAndAttendance">考勤系统</string>
+    <string name="RestrictedMessage">受限</string>
+    <string name="RootDetected">该设备已植根。</string>
+    <string name="RootDetectedMessage">您无法使用此应用程序。</string>
+    <string name="STRComma">:</string>
+    <string name="Search">搜索</string>
+    <string name="SendEmailNotification">发送电子邮件通知</string>
+    <string name="SixtyMinutes">前 60 分钟</string>
+    <string name="SmartService">SmartService</string>
+    <string name="SmartServiceCommaSpace">SmartService:</string>
+    <string name="SmartlinkCommaSpace">SmartLink:</string>
+    <string name="Start">开始</string>
+    <string name="Title">标题</string>
+    <string name="ToBeActivated">待激活</string>
+    <string name="TwentyFoundHours">前 24 小时</string>
+    <string name="URLCommaSpace">URL:</string>
+    <string name="Versions">版本</string>
+    <string name="YYYYMMDDHR">YYYY-MM-DD / HR</string>
+    <string name="ZoneAlarm">域警报</string>
+    <string name="ZoneBypassed">域旁路</string>
+    <string name="ZoneClosed">关闭</string>
+    <string name="ZoneFault">域故障</string>
+    <string name="ZoneOpened">打开</string>
+    <string name="ZoneTamper">域防拆</string>
+    <string name="ZoneUnknown">未知</string>
+    <string name="_1_100">1–100</string>
+    <string name="accesslevel">访问级别</string>
+    <string name="action">Action</string>
+    <string name="actionType">Action Type</string>
+    <string name="actionname">Action Name</string>
+    <string name="activate_temp">暂时激活</string>
+    <string name="active">激活的</string>
+    <string name="add">添加</string>
+    <string name="add_door_exception">添加门异常</string>
+    <string name="add_interval">添加间隔</string>
+    <string name="add_row_card">添加一张卡</string>
+    <string name="additional_accesslevels">附加访问级别</string>
+    <string name="alert">Alert</string>
+    <string name="all_day">全天</string>
+    <string name="allow">允许</string>
+    <string name="app_name">EntraPass Go</string>
+    <string name="badge">身份卡</string>
+    <string name="cameraCanceled">用户取消图像捕获</string>
+    <string name="cameraFail">很抱歉，无法捕捉到的图像</string>
+    <string name="cameraNotAvailable">相机功能无法使用</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_button">“取消”按钮</string>
+    <string name="cardTypeIsMandatory">卡类型是强制性的</string>
+    <string name="cardnumber">卡号</string>
+    <string name="cardstate">卡状态</string>
+    <string name="cardtype">卡类型</string>
+    <string name="clear">清除</string>
+    <string name="commaspace">,</string>
+    <string name="component">Component</string>
+    <string name="confirm">确认</string>
+    <string name="count">Count</string>
+    <string name="create_gesture">创建一个手势</string>
+    <string name="day">天</string>
+    <string name="delete">删除</string>
+    <string name="demo">演示</string>
+    <string name="deny">拒绝</string>
+    <string name="description">说明</string>
+    <string name="dev_version">©2016年EntraPass围棋2.0版</string>
+    <string name="door">门</string>
+    <string name="doorTempoUnlockDoubleSwipe">通过两次刷卡暂时解锁门</string>
+    <string name="doorTempoUnlockInput">通过输入暂时解锁门</string>
+    <string name="doorTempoUnlockOperator">门暂时由操作员解锁</string>
+    <string name="doorTempoUnlockTripleSwipe">通过三次刷卡暂时解锁门</string>
+    <string name="door_exception">门例外</string>
+    <string name="doors">门(多个)</string>
+    <string name="drawer_close">关闭导航面板</string>
+    <string name="drawer_open">打开导航面板</string>
+    <string name="email">邮件</string>
+    <string name="emptystring" />
+    <string name="end_date">结束日期</string>
+    <string name="end_time">结束时间</string>
+    <string name="ending_date">结束时间</string>
+    <string name="entapassservercommaspace">EntraPass Server:</string>
+    <string name="enter_a_date">MM/DD/YYYY</string>
+    <string name="enter_a_number">输入一个号码</string>
+    <string name="error_authentication_canceled">用户取消了身份验证</string>
+    <string name="error_entra_id">身份验证过程中出现问题，请稍后再试。</string>
+    <string name="exit_application">难道你真的想退出应用程序？</string>
+    <string name="expiration">到期</string>
+    <string name="extendedschedule">扩展计划</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="frequency">Frequency</string>
+    <string name="gateways_sites">网关/站点</string>
+    <string name="gateways_sites_colon">网关/站点:</string>
+    <string name="group_floor">楼层组</string>
+    <string name="h_hint">Hr</string>
+    <string name="hint_port_number">8801</string>
+    <string name="hint_servername">SmartService</string>
+    <string name="hint_serverurl">www.myurl.com</string>
+    <string name="hrs">Hrs</string>
+    <string name="i_accept">我接受</string>
+    <string name="i_agree">我同意</string>
+    <string name="inactive">停止的</string>
+    <string name="interval">间隔</string>
+    <string name="intervals">间隔</string>
+    <string name="jc_privacy_notice">Johnson Controls 隐私通知</string>
+    <string name="jc_privacy_notice_url">Johnson Controls 隐私通知 : <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a></string>
+    <string name="locked">锁定</string>
+    <string name="lockedfirstpersonin">等待第一人</string>
+    <string name="log_share_intent_type">text/plain</string>
+    <string name="login">登录</string>
+    <string name="login_error">登录错误</string>
+    <string name="login_error_message">请输入有效的用户名/密码。</string>
+    <string name="logout_message">你确定要注销？</string>
+    <string name="m_hint">Min</string>
+    <string name="min">Min</string>
+    <string name="more_servers">更多服务器</string>
+    <string name="msg_back_nosave">退出而不保存？</string>
+    <string name="msg_back_nosave_actionscheduler">Are you sure you want to discard any changes you have made?</string>
+    <string name="msg_delete_accesslevel">您确定要删除该访问级别?</string>
+    <string name="msg_delete_schedule">您确定要删除该计划表?</string>
+    <string name="msg_enddate_smaller_than_startdate">请输入有效时间, 开始时间不能大于结束时间.</string>
+    <string name="msg_endtime_value_invalid">请输入有效时间, 开始时间不能大于结束时间.</string>
+    <string name="msg_error_addaccesslevel">无法添加访问级别.</string>
+    <string name="msg_error_addschedule">无法添加计划.</string>
+    <string name="msg_error_password">您输入的密码不正确.</string>
+    <string name="msg_error_server_network">网络错误</string>
+    <string name="msg_error_server_not_connected">服务器连接不</string>
+    <string name="msg_error_server_unavailable">服务器不可用。</string>
+    <string name="msg_error_update_user">在修改用户问题.</string>
+    <string name="msg_error_updateaccesslevel">无法修改访问级别.</string>
+    <string name="msg_error_updateschedule">无法修改计划.</string>
+    <string name="msg_error_upload_photo">无法下载图片.</string>
+    <string name="msg_error_username">请输入有效用户名.</string>
+    <string name="msg_error_username_password">请输入有效的用户名和密码.</string>
+    <string name="msg_gesture_created">成功创建手势.</string>
+    <string name="msg_gesture_notvalid">无效手势,请再次尝试.</string>
+    <string name="msg_load">请等待…</string>
+    <string name="msg_login_connexion_error">无法与服务器连接!请检查你的服务器和用户信息!</string>
+    <string name="msg_no_connexion">互联网联接似乎下线！</string>
+    <string name="msg_password_empty">密码不能为空!</string>
+    <string name="msg_pin_invalid">请输入最大为6位数的有效PIN码</string>
+    <string name="msg_psw_sent">已将暂时密码发送给您.</string>
+    <string name="msg_report_send_ko">无法发送报告.</string>
+    <string name="msg_server_error">您的服务器或用户信息无效！</string>
+    <string name="msg_server_error_save">服务器不能保存！</string>
+    <string name="msg_servername_empty">服务器名称不能为空!</string>
+    <string name="msg_serverurl_empty">服务器 URL不能为空!</string>
+    <string name="msg_session_full">已到最大连接数,请联系系统管理员增加系统的可用连接数。</string>
+    <string name="msg_user_more_to_search">用户列表太长。请使用搜索功能来过滤用户要显示在列表.</string>
+    <string name="msg_userinfo_cleaned">后3个错误的尝试中，用户的信息将被删除。</string>
+    <string name="msg_username_empty">用户名不能为空!</string>
+    <string name="name_en">名称 EN</string>
+    <string name="name_fr">名称 FR</string>
+    <string name="no_supervised_temp">暂时未监控的</string>
+    <string name="none">无</string>
+    <string name="normal">正常</string>
+    <string name="not_supervised">未监控的</string>
+    <string name="off">OFF</string>
+    <string name="ok">OK</string>
+    <string name="ok_button">“确定”按钮</string>
+    <string name="on">ON</string>
+    <string name="password">密码</string>
+    <string name="pending">有待</string>
+    <string name="pin">PIN</string>
+    <string name="port">端口</string>
+    <string name="port_number">8801</string>
+    <string name="primary_accesslevel">初级访问级别</string>
+    <string name="privacy_notice_content">Johnson Controls 作为控制方、由本应用处理的个人数据将根据以下网址的 Johnson Controls 隐私通知进行处理：<a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a>。点击本页面上任何部分，您确认您已阅读并理解 Johnson Controls 隐私通知。如果适用法律对处理和/或转移（包括国际转移）这类个人数据需要您的同意，并且在适用法律下需要同意的严格范围内，您的上述操作即代表您的同意。</string>
+    <string name="proceed">Proceed</string>
+    <string name="readerdisable">禁用读卡器</string>
+    <string name="readerenable">启用读卡器</string>
+    <string name="redo">重做</string>
+    <string name="reverse_supervision">撤销监督</string>
+    <string name="s_hint">Sec</string>
+    <string name="save">保存</string>
+    <string name="schedule">计划表</string>
+    <string name="search">搜索</string>
+    <string name="secondary_accesslevels">二级访问级别</string>
+    <string name="seconds">Sec</string>
+    <string name="secure_login">安全登录</string>
+    <string name="select">选择</string>
+    <string name="server_name">服务器名称</string>
+    <string name="server_saved">服务器设置已保存.</string>
+    <string name="server_url">服务器 URL</string>
+    <string name="set_date">选择日期</string>
+    <string name="share_chooser_title">分享日志文件</string>
+    <string name="share_message">请分析日志。</string>
+    <string name="share_subject">epgo-Android-logs</string>
+    <string name="start_date">开始日期</string>
+    <string name="start_time">开始时间</string>
+    <string name="starting_date">开始时间</string>
+    <string name="stolen_lost">被盗 / 丢失</string>
+    <string name="submit">提交</string>
+    <string name="supervision">监控</string>
+    <string name="system_schedule">系统时间表</string>
+    <string name="tab_1">事件</string>
+    <string name="tab_2">用户</string>
+    <string name="tab_3">报告</string>
+    <string name="tamporaryunlock">暂时解锁</string>
+    <string name="terms_and_conditions">条款和条件</string>
+    <string name="terms_and_conditions_content">"移动应用程序 Go 最终用户许可协议 (EULA) - 简体中文
+
+重要 - 请先仔细阅读此最终用户许可协议（简称“EULA”），再从 Google Play 商店或 Apple App Store 下载此应用程序或此应用程序的任何部分，或者安装、复制或使用此应用程序。
+
+此 EULA 是您与 TYCO SAFETY PRODUCTS CANADA LTD.（简称“TYCO”）之间的法律协议，并且与通过引用的方式并入此协议的隐私政策（定义见下文）共同限制您对此 EULA 随附应用程序的访问和使用，其中应用程序包括移动应用程序软件，并且可能包括媒介、印刷材料以及在线或电子文档（统称为“应用程序”或“移动应用程序”）。下载、安装、复制应用程序或以其他方式使用应用程序，即表示您同意接受此 EULA 的约束。如果您不同意此 EULA 的全部条款和条件，请勿打开、下载、安装、复制或以其他方式使用应用程序。继续使用应用程序即表示您继续接受这些条款和条件以及对它们所做的任何更改。
+
+1.  许可范围。应用程序可能包含移动应用程序代码、程序文件以及任何相关的媒介、硬件或应用程序密钥、印刷材料和电子文档。应用程序受版权法和国际版权条约以及其他知识产权法和条约的保护。属于应用程序（包括但不限于并入应用程序的任何图像、照片和文本）、随附的印刷材料以及应用程序的任何副本的所有权和知识产权以及上述内容包含的所有权和知识产权全部归 Tyco 和/或其供应商所有。应用程序只授权，不销售。Tyco 及其供应商保留此 EULA 未明确授予的所有权利。如果您从 Apple App Store 下载应用程序，此 EULA 的条款将作为 Apple 授权应用程序最终用户许可协议的补充，Apple 授权应用程序最终用户许可协议的条款特此并入此 EULA。如果此 EULA 和授权应用程序最终用户许可协议的条款之间存在任何矛盾，须适用此 EULA。
+
+2.  授予许可。此 EULA 在非排他性的基础上授予您下列权利：
+
+Tyco 在不违反此 EULA 的条款的前提下，特此授予您非排他性、不可转让、有限且可撤销的个人许可，以按照这些条款，在由您所有或控制的兼容移动设备上，仅出于个人使用的目的安装和使用应用程序。上述许可允许将应用程序与您被授权使用的 EntraPass 软件（“系统”）一起使用。禁止以任何其他方式使用应用程序，包括但不限于转售、转让、修改、分发应用程序或与应用程序相关的文本、图片、音乐、条形码、视频、数据、超链接、显示内容或其他内容。此 EULA 还限制对此应用程序进行任何更新、增补或替换，除非此类更新、增补或替换附有单独条款，在这种情况下适用单独条款。
+
+3.  其他权利和限制。您对应用程序的使用须遵循下列其他限制。如果未能遵守其中任何限制，将导致此 EULA 自动终止，并要向 Tyco 提供其他法律补救措施。
+
+a.  有关反向工程和衍生作品的限制。您不得对应用程序实施反向工程、反编译或反汇编，如果进行任何此类尝试将立即终止此 EULA - 除非且直到尽管存在此限制，但是适用法律明确允许此类活动。未经 Tyco 高管书面许可（此 EULA 中与“开源软件”相关的第 3(e) 小节另有规定除外），您不得对应用程序的任何部分进行任何更改或修改，或者创建任何衍生作品。您不得从应用程序中删除任何所有权声明、标记或标签。您必须制定合理的措施来确保您的员工和代理遵守此 EULA 的条款和条件。
+
+b.  版权声明。您必须保留应用程序所有副本中的所有版权声明。
+
+c.  终止。在不影响其他任何权利的情况下，如果您未能遵守此协议的条款和条件，Tyco 会终止此 EULA。在这种情况下，您必须立即销毁应用程序的所有副本及其所有组成部分。
+
+d.  后续 EULA。Tyco 未来为您提供任何应用程序组件、版本、升级、其他修改或增补后，可能还会用一份后续 EULA 来取代此 EULA。同样地，如果此 EULA 的条款与任何一份以前的 EULA 或您与 Tyco 之间与应用程序相关的其他协议有冲突，须以此 EULA 的条款为准。
+
+e.  并入“开源”软件和其他第三方软件。应用程序部分内容（包括通常称为“开源”软件的部分）的使用、复制、修改、重新分发和担保可能受某些第三方许可协议的限制。应用程序的“关于”界面中有各个适用的第三方协议的副本。此类开源软件不受制于此 EULA 中所述的任何担保或赔偿。使用应用程序即表示您还同意遵守此类第三方协议的条款。如果适用的第三方许可授权，那么只要您反过来同意遵守适用的第三方许可的条款，并且按照该许可的条款分发您的程序，则您有权获取此类软件的源代码，以在您创建的任何程序中使用和分发。联系您的 Tyco 销售代表，可以免费获取此类源代码的副本。
+
+f.  商标。此 EULA 未授予您与 Tyco、其附属公司或其供应商的任何商标或服务标记相关的任何权利。
+
+g.  租赁。您获得 Tyco 明确的书面同意前，不得复制、修改、租赁、出租、转让、销售、再授权、分发应用程序，或授予应用程序的担保权益，或以其他方式转让对应用程序享有的权力，或允许任何第三方使用应用程序。
+
+h.  演示和评估副本。此 EULA 包含应用程序的演示或评估副本；条件是此处包含的许可须于演示或评估阶段结束后终止。
+
+i.  其他限制。应用程序的使用可能要遵守此应用程序随附的文档中规定的其他限制和条件，特此将其他限制和条件并入此 EULA 并作为此 EULA 的一部分。
+
+j.  升级和更新。Tyco 发布的应用程序升级和更新只能用于替换您最初被授权使用的全部或部分应用程序。
+
+k.  注册。使用前，应用程序会要求注册 Tyco。如果您没有注册应用程序，此 EULA 会自动终止，您不得使用应用程序。如果 Tyco 要求您提供注册信息，您必须为 Tyco 提供真实、准确、时新、完整的信息。您必须及时更新您的注册信息以确保信息准确、时新、完整。如果 Tyco 为您提供密码，您不得将密码披露给任何其他方。您不得使用属于任何第三方所有的密码。您负责保持您帐户和密码的机密性。您同意如果出现任何未经授权使用您密码或帐户的情况，或任何其他违反安全规范的情况，将立即通知 Tyco。您还同意每次会话结束后退出您的帐户。如果由于您未能遵守这些要求而导致任何损失或损害（包括出现未经授权使用应用程序的情况），Tyco 不对此负任何责任。
+
+l.  更新。Tyco 会不时地为应用程序开发更新、升级、错误修复、修补程序和其他修改（统称为“更新”），更新会自动安装，不会向您发出任何额外的通知或取得您额外的同意。您特此同意任何此类更新。您确认需要安装更新以继续使用应用程序，并特此同意及时安装此类更新。
+  
+4.  其他系统条款
+
+a.  经销商取消激活。如果您就系统的使用与经销商或其他第三方签订合约，则您对系统的使用权须受制于与经销商或其他第三方签订的此类合约的条款和条件，而且经销商或其他第三方能够通过取消激活您的帐户，终止您通过应用程序访问系统。如果您的经销商或其他第三方确实取消激活您的帐户，Tyco 对由于此类取消激活而产生的任何损害不负任何赔偿责任。
+
+b.  第三方使用权。您特此确认并同意：(a) 您可以选择将其他方添加到您的帐户，并且他们能够获得系统的全部或部分使用权，(b) 在您与 Tyco 之间，您对此类第三方的作为或不作为承担全部责任和赔偿责任。Tyco 不对由于任何此类第三方的作为或不作为产生的任何损失或损害承担赔偿责任，而且您必须为任何此类第三方用户为 Tyco 带来的任何诉讼费用、损害、损失或费用，对 Tyco 进行赔偿。
+
+5.  出口限制。您同意您不会直接或间接地将应用程序的任何部分或其他任何直接产品（上述内容统称为“受限组件”）出口、再出口或转移至伊朗、朝鲜、叙利亚和苏丹，包括上述国家/地区中的任何实体或个人（“Tyco 的经营范围”）。您还同意，除了完全符合所有适用的政府要求的国家/地区，您不会向任何其他国家/地区出口、再出口或转移受限组件，政府要求包括但不限于由美国财政部实施的适用的经济制裁和限制、由美国商务部和美国国务院以及任何其他美国政府机构实施的适用的出口管制办法，以及由欧盟或任何其他国家/地区的政府机构实施的办法。如果您违反美国或任何其他政府机构的任何适用法律或法规，或者违反 Tyco 的经营范围 - 无论此举是否违背上述任何适用的法律或法规，都将自动终止此 EULA。
+
+6.  美国政府的权利限制。应用程序是商业计算机软件，由美国联邦采购法规及其机构增补本赋予“受限权利”。美国政府的任何使用、复制或披露行为均受如下所述的限制条件的限制：“技术数据权利”(Rights in Technical Data) 的 (c)(1)(ii) 小节中制定的限制条件和 DFAR 255.227-7013 及以下或 252.211-7015 中的计算机应用程序条款，或 FAR 52.227-19 中“商业计算机应用程序限制权利”(Commercial Computer Application Restricted Rights) 中的 (a) 到 (d) 小节（如适用），或 NASA FAR 增补本中的类似条款。制造商是 Tyco Safety Products Ltd.，地址是 3301 Langstaff Road, Concord, Ontario, Canada L4K 4L2。
+
+7.  免责声明。
+
+您明确理解并同意您对移动应用程序的使用由您自行决定且风险自负，而且应用程序“按原样”提供且“仅在可用时”提供，不做任何形式的担保。您独自负责由于此类使用而对您的移动设备或其他设备造成的任何损坏或数据丢失。TYCO 进一步明确拒绝所有明示或默示的任何担保和条件，包括但不限于对移动应用程序的适销性、对特定用途的适用性和非侵权性给出的默示担保和条件。对于由于运行移动应用程序的设备发生的运行特性的变化而导致的问题，或者由于移动应用程序与非 TYCO 应用程序或硬件产品进行交互而导致的问题，TYCO 不承担责任。TYCO 既不自行也不授权任何其他人员代表自己修改或更改此担保，也不承担与此应用程序相关的任何其他担保或赔偿责任。
+
+8.  赔偿责任限制和损害免责。
+
+a.  赔偿责任限制。由于此 EULA 或使用应用程序而导致的或与之相关的 TYCO 赔偿责任总额（包括但不限于由于疏忽、严格赔偿责任、违约、歪曲以及其他合约或侵权索赔所产生的的赔偿责任）不得超过您为导致此类赔偿责任的应用程序支付给 TYCO 或其分销商的费用和五加元 (CAD$5.00),以金额较大者为准。直到由于某些司法管辖区不允许免除或限制上述赔偿责任，方不适用此条款。
+
+b.  其他损害免责。TYCO 或其任何分销商或授权商不得承担下列任何赔偿责任：(I) 第三方索赔；(II) 任何系统、记录或数据的损失或损坏，或与侵犯个人隐私权相关的赔偿责任；(III) 与通信故障、网络、电子通信、腐败、安全性、数据丢失或失窃、病毒、间谍软件相关的损失或损害，或者 (IV) 间接损害、意外损害、特殊损害、连带损害、惩罚性损害、信赖损害或赔付损害（包括利益损失和存储损失），在每种情况下均不承担，即使 TYCO 已被告知出现此类损害的可能性。您独自负责并有义务验证应用程序任何输出的安全性、准确性和适当性，及其可依赖性。某些司法管辖区不允许免除意外损害或连带损害，或者限制默示担保的有效期限，因此仅当此类法律允许的情况下，方可适用上述某些限制。
+
+c.  当您安装、设置或使用应用程序时，您有机会调整某些默认设置或选择特定设置，包括但不限于停用应用程序的密码保护。您的选择可能导致损坏和/或导致非推荐的应用程序操作或使用。当您选择特定设置、设置或调整默认设置（包括但不限于停用应用程序的密码保护）时，您为此类损害负所有赔偿责任。为免存疑，如果您禁用应用程序的密码保护，TYCO 不对由此产生的任何损失或损害（包括未授权的应用程序使用）负责。
+
+d.  移动应用程序可能遇到限制、延迟和其他使用蜂窝网络、互联网和电子通信时固有的问题。TYCO 不对通过通信网络和设施（包括互联网和蜂窝网络）传输数据而导致的任何延迟、传输故障或其他损失或损害负责。您确认：(a) 移动应用程序的可用性取决于您的移动设备、您的互联网服务提供商以及您的手机运营商；(b) 您负责承担所有使用费用并遵守与此类使用相关的任何协议。
+
+9.  隐私政策。Tyco 从您那里收集的所有信息，例如注册信息，均受制于各个时期生效的 Tyco 隐私政策（“隐私政策”）以及适用的隐私法律。请转到 Tyco 网站查看当前生效的 Tyco 隐私政策全文。
+
+10.  数据隐私许可。您允许收集、处理和在国际范围内传输与您和 Tyco 的业务关系相关的数据和信息，包括向 Tyco 及其位于任何地方的附属公司传输以及在 Tyco 及其位于任何地方的附属公司之间传输个人身份数据（例如姓名、地址、电子邮件地址、电话号码）、向任何其他政府机构传输，以及将安全细节以外的数据传输给任何征信机构、收债机构或公共电信机构，以履行此 EULA 规定的 Tyco 的义务、评估 Tyco 的信用风险以及实现任何业务。您有权：(a) 请求访问此数据；(b) 改正或取消任何不准确或过期数据；以及 (c) 拒绝接受不符合上述目的的处理。您可以发送电子邮件至 Tycopolicy@tyco.com 或 Tyco 指定的其他此类位置，行使您的权利。
+
+11.  设备、服务和设施。您独自负责自费提供、安装和维护获取和使用应用程序所必需的所有设备、设施、第三方软件和服务，包括但不限于所有硬件和软件、调制解调器、蜂窝网络服务和互联网连接。
+
+12.  转让。此 EULA 对协议双方及其各自的继任者以及允许的受让人均有约束力，并保护上述各方的权利。Tyco 可以自行决定将此 EULA 以及本协议的任何权利和义务进行转让。您不得整体或部分地转让、再授权或以其他方式转让此 EULA 规定的任何权利（包括由于合并、资产收购、股票销售或导致控制权变动的其他交易导致的转让）、此协议授予的任何许可，或此协议授予您的任何权利 - 除非且直到尽管存在此限制，但是适用法律明确允许此类活动。
+
+13.  通用。如果发现此 EULA 的任何条款不合法、无效或出于任何原因不能执行，则将该条款与此 EULA 分离，且不得影响剩余条款的有效性和可执行性。您应该保留授权费付款凭证，包括型号、序列号和付款日期，并在请求提供此 EULA 的担保所涵盖的服务或帮助时，出示此付款凭证。此 EULA 受制于加拿大安大略省的法律，不考虑法律原则冲突。协议双方特此不可撤销地同意接受安大略省和联邦法院的个人管辖权，以解决由这些条款和条件导致的或与这些条款和条件相关的任何及所有争议。协议双方明确表示不适用《联合国国际货物销售合同公约》的条款。
+
+ 
+警告：移动应用程序旨在成为系统的扩展。Tyco 建议定期对整个系统进行全面测试。尽管经常测试，移动应用程序的性能仍然受到多种因素的影响，包括系统的安装方式、面板的互联网连接、由于进行维护偶尔关闭服务器、蜂窝网络的问题、非法干扰或供电中断。在这些情况下，可能导致移动应用程序无法正常运行。
+"</string>
+    <string name="time">时间</string>
+    <string name="time_format">HH:MM</string>
+    <string name="to">至</string>
+    <string name="unlockByAccess">通过访问解锁</string>
+    <string name="unlockByDoubleSwipe">解锁双卡存在</string>
+    <string name="unlockByInput">通过输入解锁</string>
+    <string name="unlockByOperator">由运营商解锁</string>
+    <string name="unlockBySchedule">按时间解锁</string>
+    <string name="unlockByTripleSwipe">三重卡开锁存在</string>
+    <string name="unlocked">解锁</string>
+    <string name="user_delete">你确定要删除这个用户？</string>
+    <string name="user_error_deleted">错误删除用户!</string>
+    <string name="user_name">用户名</string>
+    <string name="username">用户名</string>
+    <string name="video">视频</string>
+    <string name="videoSearchFastForwardButtonText">>></string>
+    <string name="videoSearchPauseButtonText">||</string>
+    <string name="videoSearchPlayButtonText">></string>
+    <string name="videoSearchReverseButtonText">&lt;</string>
+    <string name="videoSearchRewindButtonText">&lt;&lt;</string>
+    <string name="video_search">视频搜索</string>
+    <string name="video_state_camera_disabled">停用摄像头</string>
+    <string name="video_state_camera_not_found">摄像头未找到</string>
+    <string name="video_state_no_video">视频无法播放</string>
+    <string name="video_state_online">在线</string>
+    <string name="video_state_unsupported_format">不支持的视频格式</string>
+    <string name="wait_keypad">等候键盘</string>
+    <string name="zero">0</string>
+</resources>

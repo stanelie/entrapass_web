@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fragment_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/fl_progressbar" layout="@layout/progressbar" />
+        <FrameLayout android:layout_gravity="center" android:id="@id/videoContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0">
+            <TextureView android:id="@id/textureView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" />
+            <ImageView android:id="@id/jpegView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/infoText" android:background="#334f8ef7" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Starting..." android:maxLines="1" />
+</FrameLayout>

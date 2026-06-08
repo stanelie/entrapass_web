@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>Geçerli</item>
+        <item>Geçersiz</item>
+        <item>Çalıntı/kayıp</item>
+        <item>Süresi doldu</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>Tatil1</item>
+        <item>Tatil2</item>
+        <item>Tatil3</item>
+        <item>Tatil4</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+        <item>Pazar</item>
+    </string-array>
+</resources>

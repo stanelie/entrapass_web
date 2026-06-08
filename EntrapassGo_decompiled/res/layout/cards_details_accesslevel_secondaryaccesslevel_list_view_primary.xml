@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_glass_round_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_titlePrimary" android:background="@drawable/bg_glass_no_border" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_margin="1.0dip" android:text="@string/primary_accesslevel" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+    <FrameLayout android:layout_gravity="center_vertical" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_primary" android:background="@drawable/background_dropdown_black" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/select" android:popupBackground="@color/gray2" />
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_primary_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/RestrictedMessage" />
+    </FrameLayout>
+</LinearLayout>

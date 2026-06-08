@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/background_progress_bar_wrapper" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/background_grunge_repeat" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/background_inner_shadow" android:scaleType="fitXY" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="40.0dip" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</LinearLayout>

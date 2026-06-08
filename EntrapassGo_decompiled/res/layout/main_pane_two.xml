@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/background_grunge_repeat" android:scaleType="fitXY" android:contentDescription="@null" />
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="2.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/centerFrameParentLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+                    <ImageButton android:id="@id/IMGBTNMainBack" android:background="@color/transparent" android:visibility="invisible" android:layout_width="32.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_action_back" android:scaleType="centerInside" android:contentDescription="@string/emptystring" android:paddingStart="-30.0dip" android:paddingEnd="0.0dip" />
+                    <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/tv_account" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" android:layout_marginEnd="26.0dip" />
+                </androidx.appcompat.widget.Toolbar>
+                <FrameLayout android:orientation="horizontal" android:id="@id/FLMain" android:background="@drawable/background_inner_shadow" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                    <FrameLayout android:id="@id/centerFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <FrameLayout android:id="@id/PopOverView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/flAlphaLine" android:background="@color/seperator" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/RightFrameLayout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/drawer_view" android:fitsSystemWindows="true" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize">
+            <FrameLayout android:id="@id/LeftFrameLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</merge>

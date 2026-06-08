@@ -1,0 +1,25 @@
+.class public interface abstract Lcom/microsoft/identity/common/internal/platform/AsymmetricKeyAccessor;
+.super Ljava/lang/Object;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+# interfaces
+.implements Lcom/microsoft/identity/common/internal/platform/IManagedKeyAccessor;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/microsoft/identity/common/internal/platform/IManagedKeyAccessor<",
+        "Ljava/security/KeyStore$PrivateKeyEntry;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract getPublicKey(Lcom/microsoft/identity/common/java/crypto/IDevicePopManager$PublicKeyFormat;)Ljava/lang/String;
+.end method
+
+.method public abstract getPublicKey()Ljava/security/PublicKey;
+.end method

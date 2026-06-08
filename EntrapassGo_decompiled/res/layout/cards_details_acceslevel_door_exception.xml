@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="22.0dip" android:layout_weight="1.0" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_door" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <Button android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/btn_door" android:background="@drawable/background_dropdown_black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_schedule" android:background="@drawable/background_dropdown_black" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="@string/select" android:popupBackground="@color/gray2" android:layout_weight="1.0" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="32.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_allow" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/allow" android:layout_marginStart="12.0dip" />
+        <androidx.appcompat.widget.SwitchCompat android:textSize="12.0sp" android:textColor="@color/blue_grey_950" android:layout_gravity="center_vertical" android:id="@id/tb_allow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="" android:textOff="" android:thumb="@drawable/thumb" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" app:showText="true" app:track="@drawable/trackgreen" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_deny" android:layout_width="50.0dip" android:layout_height="24.0dip" android:text="@string/deny" />
+        <View android:layout_width="0.0dip" android:layout_height="5.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/btn_delete" android:background="@drawable/bg_btn_gray_dark" android:layout_width="60.0dip" android:layout_height="30.0dip" android:text="@string/delete" android:layout_marginStart="5.0dip" android:layout_marginEnd="7.0dip" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+.class public final Lj2/j;
+.super Ljava/lang/Object;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+
+# instance fields
+.field public a:Lj2/c;
+
+.field public b:Lj2/c;
+
+.field public c:Lj2/c;

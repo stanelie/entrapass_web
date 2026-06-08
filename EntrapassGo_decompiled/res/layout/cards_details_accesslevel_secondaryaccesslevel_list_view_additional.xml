@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_AdditionalAccessLevels" android:background="@drawable/bg_glass_round_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_titleAdditional" android:background="@drawable/bg_glass_no_border" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_margin="1.0dip" android:text="@string/additional_accesslevels" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_additional_1" android:paddingTop="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="7.0dip" android:paddingEnd="7.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_additional_1" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" android:popupBackground="@color/gray2" />
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_additional1_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+            </FrameLayout>
+            <Button android:id="@id/btn_additional_warning_1" android:background="@drawable/cards_accesslevels_warning" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="9.0dip" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_additional_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_additional_2" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" android:popupBackground="@color/gray2" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_additional2_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_additional_warning_2" android:background="@drawable/cards_accesslevels_warning" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="9.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_additional_3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_additional_3" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" android:popupBackground="@color/gray2" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_additional3_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_additional_warning_3" android:background="@drawable/cards_accesslevels_warning" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="9.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_additional_4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_additional_4" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" android:popupBackground="@color/gray2" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_additional4_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_additional_warning_4" android:background="@drawable/cards_accesslevels_warning" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="9.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+            <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+</LinearLayout>

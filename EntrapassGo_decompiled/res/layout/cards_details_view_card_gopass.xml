@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_gopass" android:background="@drawable/bg_glass_round_border" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:weightSum="1.0">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/EnableGoPass" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_enablegopass" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_gopass_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_gopass_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/v_seperator_gopass" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip" android:weightSum="1.0">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/SendEmailNotification" android:layout_weight="1.0" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_gopassgenerateemail" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_gopassemail_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_gopassemail_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

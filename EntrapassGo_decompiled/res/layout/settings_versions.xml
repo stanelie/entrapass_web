@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_versions" android:background="#ff282828" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textColor="#ff33b5e5" android:gravity="center" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/Versions" />
+    <View android:background="#ff33b5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="3.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grayLight" android:gravity="center" android:id="@id/tv_versiongo" android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="@string/dev_version" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grayLight" android:gravity="center" android:id="@id/tv_smartservice" android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="@string/dev_version" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grayLight" android:gravity="center" android:id="@id/tv_smartlink" android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="@string/dev_version" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grayLight" android:gravity="center" android:id="@id/tv_server" android:layout_width="fill_parent" android:layout_height="24.0dip" android:text="@string/dev_version" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grayLight" android:gravity="center" android:id="@id/tv_address" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/dev_version" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/grayLight" android:gravity="center" android:id="@id/privacy_notice_info" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/jc_privacy_notice_url" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

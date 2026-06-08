@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_search_video" android:id="@id/video_search" android:visible="false" android:orderInCategory="50" android:title="@string/video_search" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_new" android:id="@id/add" android:visible="false" android:orderInCategory="100" android:title="@string/add" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_search" android:id="@id/search" android:visible="false" android:orderInCategory="300" android:title="@string/search" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_cancel" android:id="@id/cancel" android:visible="false" android:orderInCategory="400" android:title="@string/cancel" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_discard" android:id="@id/delete" android:visible="false" android:orderInCategory="500" android:title="@string/delete" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_accept" android:id="@id/save" android:visible="false" android:orderInCategory="600" android:title="@string/save" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_action_accept" android:id="@id/savePopOver" android:visible="false" android:orderInCategory="601" android:title="@string/save" app:showAsAction="ifRoom" />
+</menu>

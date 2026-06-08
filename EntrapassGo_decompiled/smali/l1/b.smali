@@ -1,0 +1,103 @@
+.class public final Ll1/b;
+.super LN/w;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+
+# instance fields
+.field public final f:Ljava/lang/String;
+
+.field public final g:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
+    .locals 3
+
+    .line 1
+    invoke-static {p1, p2}, LS1/a;->p0(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object v0
+
+    .line 5
+    invoke-static {p1, p2}, LS1/a;->p0(Ljava/lang/String;Ljava/lang/String;)Landroid/os/Bundle;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object v1
+
+    .line 9
+    const/4 v2, 0x1
+
+    .line 10
+    invoke-direct {p0, v0, v1, v2}, LN/w;-><init>(Landroid/os/Bundle;Landroid/os/Bundle;Z)V
+
+    .line 11
+    .line 12
+    .line 13
+    iput-object p1, p0, Ll1/b;->f:Ljava/lang/String;
+
+    .line 14
+    .line 15
+    iput-object p2, p0, Ll1/b;->g:Ljava/lang/String;
+
+    .line 16
+    .line 17
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    .line 18
+    .line 19
+    .line 20
+    move-result p1
+
+    .line 21
+    if-lez p1, :cond_0
+
+    .line 22
+    .line 23
+    return-void
+
+    .line 24
+    :cond_0
+    new-instance p1, Ljava/lang/IllegalArgumentException;
+
+    .line 25
+    .line 26
+    const-string p2, "serverClientId should not be empty"
+
+    .line 27
+    .line 28
+    invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    .line 29
+    .line 30
+    .line 31
+    throw p1
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+.end method

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_main_numbers" android:background="@drawable/bg_glass_round_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_glass_no_border" android:paddingLeft="7.0dip" android:paddingTop="1.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_margin="1.0dip" android:weightSum="1.0">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="110.0dip" android:layout_height="fill_parent" android:text="@string/cardnumber" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ending_date" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="68.0dip" android:layout_height="fill_parent" android:text="@string/stolen_lost" />
+    </LinearLayout>
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+    <FrameLayout android:id="@id/fl_title_space" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_cardnumber_1" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_1_number1" android:background="@drawable/background_edittext_black" android:layout_width="110.0dip" android:layout_height="24.0dip" android:hint="@string/enter_a_number" android:maxLines="1" android:inputType="text" android:imeOptions="actionDone" />
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_1_expiration" android:background="@drawable/background_edittext_black" android:focusable="false" android:layout_width="0.0dip" android:layout_height="24.0dip" android:hint="@string/YYYYMMDDHR" android:singleLine="true" android:layout_weight="1.0" android:inputType="none" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_cardnumber_1_stolenLost" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_cardnumber_1_stolenLost_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_cardnumber_1_stolenLost_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_cardnumber_1_line_top" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:id="@id/v_cardnumber_1_line" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+    <FrameLayout android:id="@id/fl_cardnumber_1_line_bottom" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_cardnumber_2" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_2_number2" android:background="@drawable/background_edittext_black" android:layout_width="110.0dip" android:layout_height="24.0dip" android:hint="@string/enter_a_number" android:maxLines="1" android:inputType="text" android:imeOptions="actionDone" />
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_2_expiration" android:background="@drawable/background_edittext_black" android:focusable="false" android:layout_width="0.0dip" android:layout_height="24.0dip" android:hint="@string/YYYYMMDDHR" android:singleLine="true" android:layout_weight="1.0" android:inputType="none" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_cardnumber_2_stolenLost" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_cardnumber_2_stolenLost_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_cardnumber_2_stolenLost_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_cardnumber_2_line_top" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:id="@id/v_cardnumber_2_line" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+    <FrameLayout android:id="@id/fl_cardnumber_2_line_bottom" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_cardnumber_3" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_3_number3" android:background="@drawable/background_edittext_black" android:layout_width="110.0dip" android:layout_height="24.0dip" android:hint="@string/enter_a_number" android:maxLines="1" android:inputType="text" android:imeOptions="actionDone" />
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_3_expiration" android:background="@drawable/background_edittext_black" android:focusable="false" android:layout_width="0.0dip" android:layout_height="24.0dip" android:hint="@string/YYYYMMDDHR" android:singleLine="true" android:layout_weight="1.0" android:inputType="none" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_cardnumber_3_stolenLost" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_cardnumber_3_stolenLost_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_cardnumber_3_stolenLost_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_cardnumber_3_line_top" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:id="@id/v_cardnumber_3_line" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+    <FrameLayout android:id="@id/fl_cardnumber_3_line_bottom" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_cardnumber_4" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_4_number4" android:background="@drawable/background_edittext_black" android:layout_width="110.0dip" android:layout_height="24.0dip" android:hint="@string/enter_a_number" android:maxLines="1" android:inputType="text" android:imeOptions="actionDone" />
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_4_expiration" android:background="@drawable/background_edittext_black" android:focusable="false" android:layout_width="0.0dip" android:layout_height="24.0dip" android:hint="@string/YYYYMMDDHR" android:singleLine="true" android:layout_weight="1.0" android:inputType="none" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_cardnumber_4_stolenLost" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_cardnumber_4_stolenLost_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_cardnumber_4_stolenLost_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_cardnumber_4_line_top" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:id="@id/v_cardnumber_4_line" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+    <FrameLayout android:id="@id/fl_cardnumber_4_line_bottom" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_cardnumber_5" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_5_number5" android:background="@drawable/background_edittext_black" android:layout_width="110.0dip" android:layout_height="24.0dip" android:hint="@string/enter_a_number" android:maxLines="1" android:inputType="text" android:imeOptions="actionDone" />
+        <EditText android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_cardnumber_5_expiration" android:background="@drawable/background_edittext_black" android:focusable="false" android:layout_width="0.0dip" android:layout_height="24.0dip" android:hint="@string/YYYYMMDDHR" android:singleLine="true" android:layout_weight="1.0" android:inputType="none" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+        <FrameLayout android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ToggleButton android:layout_gravity="end|center" android:id="@id/tb_cardnumber_5_stolenLost" android:background="@drawable/icon_crochet" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" />
+                <FrameLayout android:id="@id/fl_cardnumber_5_stolenLost_hashed_spacing" android:layout_width="3.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/fl_cardnumber_5_stolenLost_hashed" android:background="@drawable/background_hashed_border_gray" android:layout_width="30.0dip" android:layout_height="30.0dip" android:alpha="0.6" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/fl_add_button_top_spacing" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+    <Button android:textColor="@android:color/white" android:gravity="center" android:id="@id/btn_add_new_card" android:background="@drawable/bg_btn_gray_dark" android:layout_width="fill_parent" android:layout_height="35.0dip" android:text="@string/add_row_card" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+</LinearLayout>

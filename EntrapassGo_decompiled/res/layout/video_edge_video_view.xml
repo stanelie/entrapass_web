@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/playback_container_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <FrameLayout android:id="@id/video_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/ve_ptz_controls" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="vertical" android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ve_ptz_up_left_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_up_left" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_up_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_up" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_up_right_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_up_right" android:contentDescription="@string/emptystring" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ve_ptz_left_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_left" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_zoom_in_btn" android:layout_width="32.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_zoom_in" android:layout_weight="1.0" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_zoom_out_btn" android:layout_width="32.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_zoom_out" android:layout_weight="1.0" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_right_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_right" android:layout_weight="2.0" android:contentDescription="@string/emptystring" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/ve_ptz_down_left_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_down_left" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_down_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_down" android:contentDescription="@string/emptystring" />
+                <ImageView android:id="@id/ve_ptz_down_right_btn" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ptz_down_right" android:contentDescription="@string/emptystring" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

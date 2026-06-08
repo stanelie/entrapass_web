@@ -1,0 +1,59 @@
+.class public Lcom/microsoft/identity/common/java/dto/Credential$SerializedNames;
+.super Ljava/lang/Object;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/microsoft/identity/common/java/dto/Credential;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "SerializedNames"
+.end annotation
+
+
+# static fields
+.field public static final CACHED_AT:Ljava/lang/String; = "cached_at"
+
+.field public static final CLIENT_ID:Ljava/lang/String; = "client_id"
+
+.field public static final CREDENTIAL_TYPE:Ljava/lang/String; = "credential_type"
+
+.field public static final ENVIRONMENT:Ljava/lang/String; = "environment"
+
+.field public static final EXPIRES_ON:Ljava/lang/String; = "expires_on"
+
+.field public static final HOME_ACCOUNT_ID:Ljava/lang/String; = "home_account_id"
+
+.field public static final SECRET:Ljava/lang/String; = "secret"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method

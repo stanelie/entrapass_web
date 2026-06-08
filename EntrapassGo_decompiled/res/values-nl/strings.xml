@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ActionNotCompatibleWithSelectedComponents">This action is not compatible with the component(s) you selected. If you choose to continue, the component(s) will be cleared. Do you want to continue?</string>
+    <string name="CantBeEmptyField">Veld mag niet leeg zijn</string>
+    <string name="ComponentsAlreadySelected">Components already selected.</string>
+    <string name="ComponentsMaxLimitReached">"Can't add more component as the maximum limit has been reached."</string>
+    <string name="ComponentsNotAvailable">No more components available to assign.</string>
+    <string name="Counter">Counter</string>
+    <string name="Custom">Aangepast</string>
+    <string name="DefaultPort">8801</string>
+    <string name="DeleteAction">Delete action when expired</string>
+    <string name="DoubleZero">00</string>
+    <string name="Duration">Duur</string>
+    <string name="EXCEL">EXCEL</string>
+    <string name="EmailSendSuccessfully">E-mail verzenden gelukt</string>
+    <string name="EnableGoPass">Go Pass inschakelen</string>
+    <string name="End">Einde</string>
+    <string name="EntrapassGOCommaSpace">EntraPassGO:</string>
+    <string name="Exit">Afsluiten</string>
+    <string name="FifteenMinutes">Laatste 15 minuten</string>
+    <string name="FiveMinutes">Laatste 5 minuten</string>
+    <string name="FourHours">Laatste 4 uur</string>
+    <string name="HHMM0">00:00</string>
+    <string name="HHMM24">24:00</string>
+    <string name="HintAT">\@</string>
+    <string name="HintEmail">User@Email.com</string>
+    <string name="Intrusion">Binnendringing</string>
+    <string name="MacroMaker">Macromaker</string>
+    <string name="One">01</string>
+    <string name="PDF">PDF</string>
+    <string name="PartitionArmed">scherpgesteld</string>
+    <string name="PartitionArmedAwayZeroDelay">Scherpgesteld huis leeg geen vertraging</string>
+    <string name="PartitionArmedStay">Scherpgesteld thuisblijver</string>
+    <string name="PartitionArmedStayZeroDelay">Scherpgesteld thuisblijver geen vertraging</string>
+    <string name="PartitionEntryDelayInProgress">Toegangsvertraging aan de gang</string>
+    <string name="PartitionExitDelayInProgress">Uitgangsvertraging aan de gang</string>
+    <string name="PartitionInAlarm">In alarm</string>
+    <string name="PartitionInAlarmDisarmed">In alarm (onscherp)</string>
+    <string name="PartitionNotConnected">Niet verbonden</string>
+    <string name="PartitionNotReady">Niet gereed</string>
+    <string name="PartitionReady">Gereed</string>
+    <string name="PartitionUnknown">Onbekend</string>
+    <string name="Paused">Gepauzeerd</string>
+    <string name="Recurring">Recurring</string>
+    <string name="Relay">Relay</string>
+    <string name="Report_Access">Toegang</string>
+    <string name="Report_AlarmSystem">Alarmsysteem</string>
+    <string name="Report_All">Alle</string>
+    <string name="Report_Area">Gebied</string>
+    <string name="Report_Camera">Camera</string>
+    <string name="Report_Controller">Controller</string>
+    <string name="Report_Database">Database</string>
+    <string name="Report_Door">Deur</string>
+    <string name="Report_DoorEntry">KTES</string>
+    <string name="Report_DoorEntryController">DeurIngangController</string>
+    <string name="Report_GuardTour">Bewakerrondje</string>
+    <string name="Report_Input">Ingang</string>
+    <string name="Report_Login">Aanmelden</string>
+    <string name="Report_ManualOperation">Handmatige bediening</string>
+    <string name="Report_Matrix">Videoserver</string>
+    <string name="Report_Operator">Operator</string>
+    <string name="Report_Relay">Relais</string>
+    <string name="Report_Server">Server</string>
+    <string name="Report_TimeAndAttendance">Tijd en aanwezigheid</string>
+    <string name="RestrictedMessage">Beperkt</string>
+    <string name="RootDetected">Dit apparaat is geroot.</string>
+    <string name="RootDetectedMessage">Je kunt deze app niet gebruiken.</string>
+    <string name="STRComma">:</string>
+    <string name="Search">ZOEKEN</string>
+    <string name="SendEmailNotification">E-mailkennisgeving verzenden</string>
+    <string name="SixtyMinutes">Laatste 60 minuten</string>
+    <string name="SmartService">SmartService</string>
+    <string name="SmartServiceCommaSpace">SmartService:</string>
+    <string name="SmartlinkCommaSpace">SmartLink:</string>
+    <string name="Start">Begin</string>
+    <string name="Title">Titel</string>
+    <string name="ToBeActivated">Te activeren</string>
+    <string name="TwentyFoundHours">Laatste 24 uur</string>
+    <string name="URLCommaSpace">URL:</string>
+    <string name="Versions">Versies</string>
+    <string name="YYYYMMDDHR">YYYY-MM-DD / HR</string>
+    <string name="ZoneAlarm">Alarm</string>
+    <string name="ZoneBypassed">Omlegging</string>
+    <string name="ZoneClosed">Gesloten</string>
+    <string name="ZoneFault">Probleem</string>
+    <string name="ZoneOpened">Geopend</string>
+    <string name="ZoneTamper">Tamper</string>
+    <string name="ZoneUnknown">Onbekend</string>
+    <string name="_1_100">1–100</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_mode_done">Klaar</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Functie +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">spatie</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="accesslevel">Toegangsniveau</string>
+    <string name="action">Action</string>
+    <string name="actionType">Action Type</string>
+    <string name="actionname">Action Name</string>
+    <string name="activate_temp">Tijdelijk activeren</string>
+    <string name="active">Actief</string>
+    <string name="add">Toevoegen</string>
+    <string name="add_door_exception">Voeg een deur uitzondering</string>
+    <string name="add_interval">Interval toevoegen</string>
+    <string name="add_row_card">Een kaart toevoegen</string>
+    <string name="additional_accesslevels">Aanvullende toegangsniveaus</string>
+    <string name="alert">Alert</string>
+    <string name="all_day">Hele dag</string>
+    <string name="allow">Toestaan</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Wachtwoord</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Toegangssleutel</string>
+    <string name="app_loading">Laden…</string>
+    <string name="app_name">EntraPass Go</string>
+    <string name="badge">ID</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="broker_processing">Broker wordt verwerkt</string>
+    <string name="cameraCanceled">De gebruiker geannuleerd beeld vast te leggen!</string>
+    <string name="cameraFail">Sorry! Mislukt image vast te leggen!</string>
+    <string name="cameraNotAvailable">Camera functie niet beschikbaar!</string>
+    <string name="cancel">Annuleren</string>
+    <string name="cancel_button">Knop Annuleren</string>
+    <string name="cardTypeIsMandatory">Card Type is verplicht!</string>
+    <string name="cardnumber">Kaartnummer</string>
+    <string name="cardstate">Kaartstatus</string>
+    <string name="cardtype">Kaarttype</string>
+    <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
+    <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="clear">Wissen</string>
+    <string name="clear_text_end_icon_content_description">Tekst wissen</string>
+    <string name="commaspace">,</string>
+    <string name="common_google_play_services_enable_button">Aanzetten</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
+    <string name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="component">Component</string>
+    <string name="confirm">Bevestigen</string>
+    <string name="count">Count</string>
+    <string name="create_gesture">Een gebaar maken</string>
+    <string name="day">Dag</string>
+    <string name="delete">Verwijderen</string>
+    <string name="demo">Demo</string>
+    <string name="deny">Weigeren</string>
+    <string name="description">Beschrijving</string>
+    <string name="dev_version">© 2016 EntraPass Go Versie 2.0</string>
+    <string name="door">Deur</string>
+    <string name="doorTempoUnlockDoubleSwipe">Deur tijdelijk ontgrendeld door dubbele doorhaling</string>
+    <string name="doorTempoUnlockInput">Deur tijdelijk ontgrendeld door invoer</string>
+    <string name="doorTempoUnlockOperator">Deur tijdelijk ontgrendeld door operator</string>
+    <string name="doorTempoUnlockTripleSwipe">Deur tijdelijk ontgrendeld door driedubbele doorhaling</string>
+    <string name="door_exception">Deuruitzonderingen</string>
+    <string name="doors">Deuren</string>
+    <string name="drawer_close">Sluit het navigatiepaneel</string>
+    <string name="drawer_open">Open het navigatiepaneel</string>
+    <string name="email">E-mail</string>
+    <string name="emptystring" />
+    <string name="end_date">Einddatum</string>
+    <string name="end_time">Eindtijd</string>
+    <string name="ending_date">Einddatum</string>
+    <string name="entapassservercommaspace">EntraPass-server:</string>
+    <string name="enter_a_date">MM/DD/JJJJ</string>
+    <string name="enter_a_number">Voer een nummer in</string>
+    <string name="error_authentication_canceled">Authenticatie geannuleerd door gebruiker</string>
+    <string name="error_entra_id">Er ging iets mis tijdens de authenticatie. Probeer het later opnieuw.</string>
+    <string name="error_icon_content_description">Fout</string>
+    <string name="exit_application">Wil je echt om de toepassing af te sluiten?</string>
+    <string name="expiration">Vervaltijd</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu weergeven</string>
+    <string name="extendedschedule">Uitgebreid schema</string>
+    <string name="fallback_menu_item_copy_link">Link kopiëren</string>
+    <string name="fallback_menu_item_open_in_browser">Openen in browser</string>
+    <string name="fallback_menu_item_share_link">Link delen</string>
+    <string name="forget_password">Uw wachtwoord vergeten?</string>
+    <string name="frequency">Frequency</string>
+    <string name="gateways_sites">Gateways/locaties</string>
+    <string name="gateways_sites_colon">Gateways/locaties:</string>
+    <string name="group_floor">Verdiepingen -groep</string>
+    <string name="h_hint">Hr</string>
+    <string name="hint_port_number">8801</string>
+    <string name="hint_servername">SmartService</string>
+    <string name="hint_serverurl">www.myurl.com</string>
+    <string name="hrs">Hrs</string>
+    <string name="http_auth_dialog_cancel">Annuleren</string>
+    <string name="http_auth_dialog_login">Aanmelden</string>
+    <string name="http_auth_dialog_password">Wachtwoord</string>
+    <string name="http_auth_dialog_title">Voer uw inloggegevens in</string>
+    <string name="http_auth_dialog_username">Gebruikersnaam</string>
+    <string name="i_accept">Akkoord</string>
+    <string name="i_agree">Akkoord</string>
+    <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="inactive">Inactief</string>
+    <string name="interval">Interval</string>
+    <string name="intervals">Intervallen</string>
+    <string name="item_view_role_description">Tabblad</string>
+    <string name="jc_privacy_notice">Privacy-verklaring Johnson Controls</string>
+    <string name="jc_privacy_notice_url">Privacy-verklaring Johnson Controls : <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a></string>
+    <string name="locked">Vergrendeld</string>
+    <string name="lockedfirstpersonin">Wachten op eerste persoon in</string>
+    <string name="log_share_intent_type">text/plain</string>
+    <string name="login">Aanmelden</string>
+    <string name="login_error">Inlogfout</string>
+    <string name="login_error_message">Voer een geldige gebruikersnaam/wachtwoord in.</string>
+    <string name="logout_message">Weet je zeker dat je wil uitloggen?</string>
+    <string name="m_hint">Min</string>
+    <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="min">Min</string>
+    <string name="more_servers">Meer servers</string>
+    <string name="msg_back_nosave">Verlaten zonder op te slaan?</string>
+    <string name="msg_back_nosave_actionscheduler">Are you sure you want to discard any changes you have made?</string>
+    <string name="msg_delete_accesslevel">Weet u zeker dat u dit toegangsniveau wilt verwijderen?</string>
+    <string name="msg_delete_schedule">Weet u zeker dat u dit schema wilt verwijderen?</string>
+    <string name="msg_enddate_smaller_than_startdate">Voer geldige tijden in: de begintijd kan niet later vallen dan de eindtijd.</string>
+    <string name="msg_endtime_value_invalid">Voer geldige tijden in: de begintijd kan niet later vallen dan de eindtijd.</string>
+    <string name="msg_error_addaccesslevel">Het toegangsniveau kan niet worden toegevoegd.</string>
+    <string name="msg_error_addschedule">Het schema kan niet worden toegevoegd.</string>
+    <string name="msg_error_password">Het wachtwoord dat u hebt ingevoerd, is incorrect.</string>
+    <string name="msg_error_server_network">Network Error</string>
+    <string name="msg_error_server_not_connected">server niet aangesloten</string>
+    <string name="msg_error_server_unavailable">Server is niet beschikbaar.</string>
+    <string name="msg_error_update_user">Probleem bij het wijzigen van een gebruiker.</string>
+    <string name="msg_error_updateaccesslevel">Het toegangsniveau kan niet worden gewijzigd.</string>
+    <string name="msg_error_updateschedule">Het schema kan niet worden gewijzigd.</string>
+    <string name="msg_error_upload_photo">De foto kon niet worden geüpload.</string>
+    <string name="msg_error_username">Voer een geldige gebruikersnaam in.</string>
+    <string name="msg_error_username_password">Voer een geldige gebruikersnaam en een geldig wachtwoord in.</string>
+    <string name="msg_gesture_created">Het gebaar is gemaakt.</string>
+    <string name="msg_gesture_notvalid">Ongeldig gebaar. Probeer het opnieuw.</string>
+    <string name="msg_load">Even wachten a.u.b…</string>
+    <string name="msg_login_connexion_error">Kan geen verbinding maken met de server! Controleer de server- en gebruikersinformatie!</string>
+    <string name="msg_no_connexion">De internet verbinding lijkt offline!</string>
+    <string name="msg_password_empty">Wachtwoord mag niet leeg zijn!</string>
+    <string name="msg_pin_invalid">Voer een geldige pin van maximaal 6 cijfers in</string>
+    <string name="msg_psw_sent">U hebt een tijdelijk wachtwoord toegestuurd gekregen.</string>
+    <string name="msg_report_send_ko">Het rapport kon niet worden verzonden.</string>
+    <string name="msg_server_error">Uw server of de gebruiker informatie is niet geldig!</string>
+    <string name="msg_server_error_save">De server kan niet worden opgeslagen!</string>
+    <string name="msg_servername_empty">Naam van server mag niet leeg zijn!</string>
+    <string name="msg_serverurl_empty">Server-URL mag niet leeg zijn!</string>
+    <string name="msg_session_full">Het maximumaantal verbindingen is bereikt. Vraag de systeembeheerder het aantal beschikbare verbindingen in het systeem te verhogen.</string>
+    <string name="msg_user_more_to_search">De gebruiker lijst is te lang. Gebruik de Search functionaliteit om gebruikers filteren om te worden weergegeven in de lijst.</string>
+    <string name="msg_userinfo_cleaned">Na 3 foutieve pogingen wordt informatie van de gebruiker worden gewist.</string>
+    <string name="msg_username_empty">Gebruikersnaam mag niet leeg zijn!</string>
+    <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="name_en">Naam EN</string>
+    <string name="name_fr">Naam FR</string>
+    <string name="no_supervised_temp">Tijdelijk niet bewaakt</string>
+    <string name="none">Geen</string>
+    <string name="normal">Normaal</string>
+    <string name="not_supervised">Niet bewaakt</string>
+    <string name="off">OFF</string>
+    <string name="ok">OK</string>
+    <string name="ok_button">OK-knop</string>
+    <string name="on">ON</string>
+    <string name="password">Wachtwoord</string>
+    <string name="password_toggle_content_description">Wachtwoord tonen</string>
+    <string name="pending">hangende</string>
+    <string name="pin">PIN</string>
+    <string name="port">Poort</string>
+    <string name="port_number">8801</string>
+    <string name="primary_accesslevel">Primaire Toegang Niveau</string>
+    <string name="privacy_notice_content">De persoonlijke gegevens die Johnson Controls via deze toepassing als controller verwerkt, worden verwerkt volgens de Privacy-verklaring van Johnson Controls op <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a>. Door op deze pagina te klikken, geeft u aan dat u de Privacy-verklaring van Johnson Controls hebt gelezen en begrepen. Als volgens de toepasselijke wetgeving uw toestemming vereist is voor het verwerken en/of overdragen (inclusief internationale overdracht) van dergelijke persoonlijke gegevens, en uitsluitend als toestemming volgens de toepasselijke wetgeving vereist is, staan uw bovengenoemde acties gelijk aan uw toestemming.</string>
+    <string name="proceed">Proceed</string>
+    <string name="qr_code_rationale_allow">Toestaan</string>
+    <string name="qr_code_rationale_block">Blokkeren</string>
+    <string name="qr_code_rationale_header">Deze app toegang geven tot uw camera?</string>
+    <string name="qr_code_rationale_message">U kunt zich vervolgens aanmelden met een QR-code.</string>
+    <string name="readerdisable">Lezer uitgeschakeld</string>
+    <string name="readerenable">Lezer ingeschakeld</string>
+    <string name="redo">Opnieuw</string>
+    <string name="reverse_supervision">Achterwaartse supervisie</string>
+    <string name="s_hint">Sec</string>
+    <string name="save">Opslaan</string>
+    <string name="schedule">Schema</string>
+    <string name="search">Zoeken</string>
+    <string name="secondary_accesslevels">Secundaire toegangsniveaus</string>
+    <string name="seconds">Sec</string>
+    <string name="secure_login">Beveiligde aanmelden</string>
+    <string name="select">Selecteren</string>
+    <string name="server_name">Servernaam</string>
+    <string name="server_saved">De serverinstellingen zijn opgeslagen.</string>
+    <string name="server_url">Server-URL</string>
+    <string name="set_date">Stel een datum in</string>
+    <string name="share_chooser_title">Logbestand delen</string>
+    <string name="share_message">Analyseer alstublieft het logbestand.</string>
+    <string name="share_subject">epgo-Android-logs</string>
+    <string name="smartcard_cert_dialog_negative_button">Annuleren</string>
+    <string name="smartcard_cert_dialog_positive_button">Doorgaan</string>
+    <string name="smartcard_cert_dialog_title">Selecteer een certificaat om u aan te melden</string>
+    <string name="smartcard_early_unplug_dialog_message">Smartcardapparaat is verwijderd. Plaats het apparaat opnieuw voordat u zich opnieuw probeert aan te melden.</string>
+    <string name="smartcard_early_unplug_dialog_title">Opnieuw proberen</string>
+    <string name="smartcard_error_dialog_positive_button">OK</string>
+    <string name="smartcard_general_error_dialog_message">Er is een onverwachte fout opgetreden. Probeer het later opnieuw.</string>
+    <string name="smartcard_general_error_dialog_title">Probeer het later opnieuw</string>
+    <string name="smartcard_max_attempt_dialog_message">Te veel mislukte pogingen. Probeer het later opnieuw.</string>
+    <string name="smartcard_max_attempt_dialog_title">Probeer het later opnieuw</string>
+    <string name="smartcard_nfc_diff_connected_message">Gebruik de smartcard waarmee u zich oorspronkelijk hebt aangemeld.</string>
+    <string name="smartcard_nfc_diff_connected_positive_button">Begrepen</string>
+    <string name="smartcard_nfc_diff_connected_title">U kunt slechts één smartcard tegelijk gebruiken</string>
+    <string name="smartcard_nfc_loading_dialog_message">Houd uw smartcard op zijn plaats.</string>
+    <string name="smartcard_nfc_loading_dialog_title">Uw smartcard lezen</string>
+    <string name="smartcard_nfc_prompt_dialog_message">Houd een smartcard vast aan de achterkant van uw telefoon.</string>
+    <string name="smartcard_nfc_prompt_dialog_negative_button">Annuleren</string>
+    <string name="smartcard_nfc_prompt_dialog_title">Uw smartcard voorbereiden</string>
+    <string name="smartcard_nfc_reminder_dialog_message">Als u zich wilt aanmelden met NFC, schakelt u NFC in de apparaatinstellingen in. Meld u vervolgens opnieuw aan.</string>
+    <string name="smartcard_nfc_reminder_dialog_positive_button">OK</string>
+    <string name="smartcard_nfc_reminder_dialog_title">NFC inschakelen in apparaatinstellingen</string>
+    <string name="smartcard_no_cert_dialog_message">Controleer of uw certificaat correct is ingericht op uw smartcardapparaat.</string>
+    <string name="smartcard_no_cert_dialog_title">Er zijn geen toepasselijke certificaten gevonden.</string>
+    <string name="smartcard_pin_dialog_error_message">De ingevoerde pincode is onjuist</string>
+    <string name="smartcard_pin_dialog_message">Voer de pincode van de smartcard in voor toegang tot het certificaat en meld u aan</string>
+    <string name="smartcard_pin_dialog_negative_button">Annuleren</string>
+    <string name="smartcard_pin_dialog_positive_button">Ontgrendelen</string>
+    <string name="smartcard_pin_dialog_title">Smartcard ontgrendelen</string>
+    <string name="smartcard_pin_layout_edittext_hint">Pincode</string>
+    <string name="smartcard_prompt_dialog_message">Sluit een smartcard aan op de achterkant van uw telefoon of houd deze vast.</string>
+    <string name="smartcard_prompt_dialog_negative_button">Annuleren</string>
+    <string name="smartcard_prompt_dialog_title">Uw smartcard voorbereiden</string>
+    <string name="smartcard_removal_prompt_dialog_positive_button">Begrepen</string>
+    <string name="smartcard_removal_prompt_dialog_title">U kunt nu uw smartcard verwijderen</string>
+    <string name="start_date">Startdatum</string>
+    <string name="start_time">Begintijd</string>
+    <string name="starting_date">Startdatum</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stolen_lost">Gestolen / verloren</string>
+    <string name="submit">Versturen</string>
+    <string name="supervision">Bewaking</string>
+    <string name="system_schedule">Systeemschema</string>
+    <string name="tab_1">Gebeurtenissen</string>
+    <string name="tab_2">Gebruikers</string>
+    <string name="tab_3">Rapport</string>
+    <string name="tamporaryunlock">Tijdelijk ontgrendelen</string>
+    <string name="terms_and_conditions">Voorwaarden</string>
+    <string name="terms_and_conditions_content">"Gebruikersovereenkomst Mobile Go (EULA) - Nederlands
+
+BELANGRIJK - NEEM DEZE GEBRUIKERS-OVEREENKOMST (\"EULA\") ZORGVULDIG DOOR VOORDAT U DEZE APPLICATIE GEHEEL OF GEDEELTELIJK DOWNLOADT UIT DE GOOGLE PLAY STORE OF APPLE APP STORE, INSTALLEERT, KOPIEERT OF GEBRUIKT.
+
+DEZE EULA IS EEN WETTELIJKE OVEREENKOMST TUSSEN U EN TYCO SAFETY PRODUCTS CANADA LTD. (\"TYCO\") EN BEHEERST, SAMEN MET HET HIERIN BIJ VERWIJZING OPGENOMEN BELEID (ZOALS HIERNA GEDEFINIEERD), UW TOEGANG TOT EN GEBRUIK VAN DE BIJ DEZE EULA BEHORENDE APPLICATIE, WELKE APPLICATIE SOFTWARE VOOR MOBIELE APPLICATIES EN MOGELIJK OOK MEDIA, GEDRUKT MATERIAAL EN \"ON-LINE\" OF ELEKTRONISCHE DOCUMENTATIE OMVAT (GEZAMENLIJK: DE \"APPLICATIE\" OF DE \"MOBIELE APPLICATIE\"). DOOR DE APPLICATIE TE DOWNLOADEN, TE INSTALLEREN, TE KOPIËREN OF ANDERSZINS TE GEBRUIKEN, GAAT U AKKOORD MET DEZE EULA. ALS U NIET INSTEMT MET ALLE VOORWAARDEN VAN DEZE EULA, DIENT U DE APPLICATIE NIET TE OPENEN, TE DOWNLOADEN, TE INSTALLEREN, TE KOPIËREN OF ANDERSZINS TE GEBRUIKEN. ZOLANG U DE APPLICATIE GEBRUIKT, BLIJFT U AKKOORD MET DEZE VOORWAARDEN EN EVENTUELE WIJZIGINGEN ERVAN. 
+
+1. REIKWIJDTE VAN DE LICENTIE. De Applicatie kan software voor mobiele applicaties, programmabestanden en bijbehorende media, hardware of Applicatiesleutels, gedrukt materiaal en elektronische documentatie omvatten. De Applicatie is beschermd door auteursrecht en internationale auteursrechtverdragen. Alle eigendomsrechten in en op de Applicatie, waaronder in de Applicatie opgenomen afbeeldingen, foto's en tekst, de bijbehorende gedrukte materialen en alle kopieën van de Applicatie, berusten bij Tyco en/of zijn leveranciers. De Applicatie wordt onder licentie verstrekt en is niet te koop. Alle rechten die niet uitdrukkelijk worden verleend bij deze EULA, zijn voorbehouden aan Tyco en zijn leveranciers. Indien u de Applicatie downloadt uit de Apple App Store, zijn de voorwaarden van de aanvullende Apple-gebruikersovereenkomst van toepassing; de voorwaarden daarvan worden hierbij opgenomen in deze EULA, die prevaleert bij strijdigheid met de gebruikersovereenkomst voor de in licentie verstrekte Applicatie.
+
+2. LICENTIEVERLENING. Bij deze EULA worden u de volgende rechten verleend op niet-exclusieve basis:
+
+Met inachtneming van de voorwaarden van deze EULA, verleent Tyco u hierbij een persoonlijke, niet-exclusieve, niet-overdraagbare, beperkte en herroepbare licentie om de Applicatie uitsluitend voor eigen gebruik en overeenkomstig deze Voorwaarden te installeren en te gebruiken op een geschikt mobiel apparaat waarvan de eigendom of zeggenschap bij u berust. Voornoemde licentie omvat het recht op gebruik van de Applicatie samen met uw gelicentieerd gebruik van de EntraPass-software (het \"Systeem\"). Ieder ander gebruik van de Applicatie, waaronder het doorverkopen, overdragen, wijzigen of verspreiden van de Applicatie of bij de Applicatie behorende tekst, foto's, muziek, streepjescodes, video, gegevens, hyperlinks, displays en andere inhoud is verboden. Deze EULA beheerst ook alle geactualiseerde, aangevulde of vervangende versies van deze Applicatie tenzij er voor die versies aparte voorwaarden zijn, in welk geval die aparte voorwaarden van toepassing zijn. 
+
+3. OVERIGE RECHTEN EN BEPERKINGEN. Uw gebruik van de Applicatie is onderworpen aan de volgende aanvullende beperkingen. Indien deze beperkingen niet in acht worden genomen, wordt deze EULA automatisch beëindigd en staan Tyco andere rechtsmiddelen ter beschikking.
+
+a. Beperkingen op reverse engineering &amp; derivative works. Reverse engineering, decompileren of desassembleren van de Applicatie is niet toegestaan. Iedere poging daartoe is grond voor directe beëindiging van deze EULA - behalve als, en alleen voor zover, dergelijke activiteit ondanks deze beperking uitdrukkelijk is toegestaan in het toepasselijke recht. Het is u niet toegestaan zonder schriftelijke toestemming van een bestuurder van Tyco enig onderdeel van de Applicatie te wijzigen of derivative works te maken (behalve zoals is voorzien in artikel 3(e) van deze EULA inzake \"opensourcesoftware\"). U mag geen vermelding, markering of etiket waaruit het eigendomsrecht blijkt, verwijderen uit de Applicatie. U dient redelijke maatregelen te nemen om naleving van deze EULA door uw personeel en agenten te waarborgen.
+
+b. Vermelding van auteursrecht. U dient alle vermeldingen van auteursrecht op alle exemplaren van de Applicatie te handhaven.
+
+c. Beëindiging. Onverminderd alle eventuele overige rechten kan Tyco deze EULA beëindigen indien u de onderhavige voorwaarden niet naleeft. In dat geval dient u alle exemplaren van de Applicatie en alle samenstellende delen daarvan onmiddellijk te vernietigen. 
+
+d. Latere EULA. Voorts kan Tyco deze EULA vervangen door een latere EULA wanneer Tyco u een component, release, upgrade of andere wijziging van, of aanvulling op de Applicatie verstrekt. Bij strijdigheid prevaleren de voorwaarden van die EULA boven die van een eerdere EULA of andere overeenkomst tussen u en Tyco inzake de Applicatie.
+
+e. Opname van \"opensourcesoftware\" en andere software van derden. Delen van de Applicatie kunnen onderworpen zijn aan licentieovereenkomsten van derden inzake het gebruiken, kopiëren, wijzigen, verder verspreiden en garanderen van die delen van de Applicatie, met inbegrip van zogenaamde \"opensourcesoftware\". Een kopie van alle toepasselijke licenties van derden is te vinden onder \"Over\" in de Applicatie. Die opensourcesoftware valt niet onder de in deze EULA beschreven garanties of vrijwaringen. Door de Applicatie te gebruiken, onderwerpt u zich tevens aan de voorwaarden van die licenties van derden. Indien de licentie van derden daarin voorziet, hebt u het recht de broncode van die software te ontvangen voor gebruik en verspreiding in door u gemaakte programma's, mits u op uw beurt instemt met, en de verspreiding van uw programma's plaatsvindt volgens, de voorwaarden van die licentie van derden. Neem voor een gratis kopie van die broncode contact op met uw Tyco-vertegenwoordiger. 
+
+f. Handelsmerken. Deze EULA verleent u geen rechten inzake handels- of dienstmerken van Tyco, zijn verbonden ondernemingen of leveranciers.
+
+g. Verhuur. Het kopiëren, wijzigen, verhuren, leasen, overdragen, verkopen, in sublicentie geven, verspreiden, een zekerheidsrecht verlenen in of anderszins overdragen van rechten op de Applicatie, of het aan derden toestaan de Applicatie te gebruiken, is slechts mogelijk na Tyco's uitdrukkelijke schriftelijke instemming.
+
+h. Demonstratie- en evaluatiekopieën. Een demonstratie- of evaluatiekopie van de Applicatie valt onder deze EULA;, mits de hierin opgenomen licenties aan het eind van de demonstratie- of evaluatieperiode aflopen.
+
+i. Aanvullende beperkingen. De Applicatie kan onderworpen zijn aan aanvullende gebruiksbeperkingen en -voorwaarden overeenkomstig de documentatie bij de Applicatie, welke aanvullende beperkingen en voorwaarden hierbij opgenomen worden in, en onderdeel worden gemaakt van deze EULA.
+
+j. Upgrades en updates. Voor zover Tyco die ter beschikking stelt, mogen upgrades en updates van de Applicatie alleen worden gebruikt om de oorspronkelijke aan u in licentie verstrekte Applicatie geheel of gedeeltelijk te vervangen.
+
+k. Registratie. U dient de Applicatie voor eerste gebruik te registreren bij Tyco. Indien u de Applicatie niet registreert, wordt deze EULA automatisch beëindigd en mag u de Applicatie niet gebruiken. Als Tyco u verzoekt om informatie over de registratie, dient u Tyco juiste, nauwkeurige, actuele en volledige informatie te verstrekken. U dient uw registratiegegevens stipt bij te werken om te waarborgen dat zij steeds nauwkeurig, actueel en volledig zijn. Indien u van Tyco een wachtwoord ontvangt, mag u dat aan niemand bekendmaken. Evenmin mag u een wachtwoord van een ander gebruiken. U bent verantwoordelijk voor de vertrouwelijke behandeling van uw accounts en wachtwoorden. U stelt Tyco onmiddellijk in kennis van ieder ongeoorloofd gebruik van uw wachtwoorden of accounts of van iedere inbreuk op de beveiliging. Na afloop van elke sessie dient u uw account af te sluiten. Tyco is niet verantwoordelijk voor verlies of schade (waaronder ongeoorloofd gebruik van de Applicatie) ontstaan doordat u niet voldoet aan deze voorschriften.
+
+l. Updates. Tyco kan van tijd tot tijd updates, upgrades, bugfixes, patches en andere wijzigingen van de Applicatie ontwikkelen (gezamenlijk: \"Updates\"), die automatisch kunnen worden geïnstalleerd zonder extra kennisgeving aan u of extra toestemming van u. U stemt hierbij in met de Updates. U erkent dat u mogelijk Updates zult moeten installeren om de Applicatie te blijven gebruiken en zegt hierbij toe die Updates stipt te zullen installeren.
+  
+4. OVERIGE SYSTEEMVOORWAARDEN
+
+a. Deactivering door dealer. Als u een overeenkomst met een dealer of andere derde hebt voor het gebruik van het Systeem, kan uw recht op gebruik van het Systeem onderworpen zijn aan de voorwaarden van die overeenkomst en kan de dealer of derde het recht hebben uw toegang tot het Systeem via de Applicatie te beëindigen door uw account te de-autoriseren. Indien de dealer of derde uw account inderdaad de-autoriseert, is Tyco niet aansprakelijk voor schade in verband met, of als gevolg van die de-autorisatie.
+
+b. Toegang voor derden. Hierbij erkent u en gaat u akkoord met: a) de mogelijkheid partijen toe te voegen aan uw account en die partijen gedeeltelijk of volledig toegang te bieden tot het Systeem, en b) aanvaarding, ten aanzien van uw relatie met Tyco, van alle verantwoordelijkheid en aansprakelijkheid voor het doen en laten van die derden. Tyco is niet aansprakelijk voor verlies of schade door het doen en laten van die derden en u vrijwaart Tyco voor alle kosten, schade, verliezen of uitgaven die voor Tyco ontstaan in verband met die derden.
+
+5. EXPORTBEPERKINGEN. U gaat ermee akkoord dat u de Applicatie of enig gedeelte daarvan, of een direct product ervan (gezamenlijk: de \"Beperkte Componenten\") rechtstreeks noch middellijk zult uitvoeren, weder-uitvoeren of overbrengen naar IRAN, NOORD-KOREA, SYRIË en SOEDAN, met inbegrip van entiteiten en personen in die landen (\"Tyco's Positie\"). Verder stemt u ermee in dat u de Beperkte Componenten alleen naar andere landen zult uitvoeren, weder-uitvoeren of overbrengen als dat gebeurt in volledige overeenstemming met alle toepasselijke overheidsvoorschriften, waaronder toepasselijke economische sancties en beperkingen ingesteld door het Ministerie van Financiën van de VS en toepasselijke uitvoermaatregelen ingesteld door het Ministerie van Handel van de VS en het Ministerie van Buitenlandse Zaken van de VS of overige overheidsorganen van de VS, en maatregelen ingesteld door de Europese Unie of overheidsinstellingen van andere landen. Bij overtreding van de toepasselijke wet- en regelgeving van de VS of andere overheden, of bij schending van Tyco's Positie, ongeacht eventuele strijdigheid met voornoemde wet- en regelgeving, wordt deze EULA automatisch beëindigd.
+
+6. BEPERKTE RECHTEN OVERHEID V.S. De Applicatie is \"Commercial Computer Software\" verstrekt met \"restricted rights\" zoals bedoeld in de Federal Acquisition Regulations en door de overheid uitgegeven supplementen daarbij. Gebruik, duplicatie en bekendmaking door de overheid van de VS is te allen tijde onderworpen aan de beperkingen beschreven in (c)(1)(ii) van de Rights in Technical Data and Computer Application, DFAR 255.227-7013 en volgende, c.q. 252.211-7015, c.q. (a) tot en met (d) van de Commercial Computer Application Restricted Rights, FAR 52.227-19, of vergelijkbare bepalingen in het NASA FAR Supplement. Aannemer/fabrikant is Tyco Safety Products Ltd., 3301 Langstaff Road, Concord, Ontario, Canada L4K 4L2.
+
+7. AFWIJZIGING VAN GARANTIE.
+
+U BEGRIJPT EN AANVAARDT UITDRUKKELIJK DAT U NAAR EIGEN INZICHT EN VOOR EIGEN RISICO GEBRUIK MAAKT VAN DE MOBIELE APPLICATIE EN DAT DEZE WORDT VERSTREKT IN DE STAAT WAARIN ZIJ VERKEERT (\"AS IS\") EN BESCHIKBAAR IS (\"AS AVAILABLE\"), ZONDER ENIGE VORM VAN GARANTIE. U BENT ALS ENIGE VERANTWOORDELIJK VOOR SCHADE AAN UW MOBIELE APPARAAT OF ANDER APPARAAT, OF VERLIES VAN GEGEVENS, ALS GEVOLG VAN DAT GEBRUIK. VERDER VERWERPT TYCO ALLE GARANTIES EN VOORWAARDEN VAN ENIGERLEI AARD, AL DAN NIET UITDRUKKELIJK, WAARONDER DE IMPLICIETE GARANTIES EN VOORWAARDEN VAN VERHANDELBAARHEID, GESCHIKTHEID VOOR EEN BEPAALD DOEL EN NIET-INBREUK MET BETREKKING TOT DE MOBIELE APPLICATIE. TYCO IS NIET VERANTWOORDELIJK VOOR PROBLEMEN VEROORZAAKT DOOR VERANDERINGEN IN DE OPERATIONELE EIGENSCHAPPEN VAN DE APPARATUUR WAAROP DE MOBIELE APPLICATIE WERKT, OF VOOR PROBLEMEN MET DE INTERACTIE TUSSEN DE MOBIELE APPLICATIE EN NIET-TYCO-APPLICATIES OF -HARDWAREPRODUCTEN. TYCO AANVAARDT GEEN WIJZIGING VAN DEZE AFWIJZING VAN GARANTIE EN AANVAARDT GEEN ANDERE GARANTIE OF AANSPRAKELIJKHEID IN VERBAND MET DEZE APPLICATIE. EVENMIN AUTORISEERT TYCO ANDEREN OM DAT NAMENS TYCO TE DOEN.
+
+8. BEPERKING VAN AANSPRAKELIJKHEID &amp; UITSLUITING VAN SCHADE.
+
+a. BEPERKING VAN AANSPRAKELIJKHEID. IN GEEN GEVAL IS TYCO'S TOTALE AANSPRAKELIJKHEID (WAARONDER AANSPRAKELIJKHEID WEGENS NALATIGHEID, RISICOAANSPRAKELIJKHEID, CONTRACTBREUK, ONJUISTE WEERGAVE EN ANDERE VORDERINGEN WEGENS NIET-NAKOMING OF ONRECHTMATIGE DAAD) ALS GEVOLG VAN OF IN VERBAND MET DEZE EULA, OF HET GEBRUIK VAN DE APPLICATIE, GROTER DAN HET BEDRAG DAT U ALS VERGOEDING AAN TYCO OF ZIJN WEDERVERKOPER HEBT BETAALD VOOR DE APPLICATIE DIE AANLEIDING IS VOOR DIE AANSPRAKELIJKHEID EN VIJF CANADESE DOLLAR (CAD 5,00). OMDAT EN VOOR ZOVER IN SOMMIGE RECHTSGEBIEDEN DE UITSLUITINGEN OF BEPERKINGEN VAN AANSPRAKELIJKHEID NIET ZIJN TOEGESTAAN, ZIJN DEZE MOGELIJK NIET OP U VAN TOEPASSING.
+
+b. UITSLUITING VAN OVERIGE SCHADE. IN GEEN GEVAL ZIJN TYCO OF ZIJN WEDERVERKOPERS OF LICENTIEGEVERS AANSPRAKELIJK VOOR HET VOLGENDE: (I) VORDERINGEN VAN DERDEN; (II) VERLIES OF BESCHADIGING VAN SYSTEMEN, BESTANDEN OF GEGEVENS, OF AANSPRAKELIJKHEID IN VERBAND MET EEN SCHENDING VAN IEMANDS PRIVACYRECHTEN; (III) VERLIES OF SCHADE WEGENS STORINGEN IN TELECOMMUNICATIE-, INTERNET- OF ELEKTRONISCHE COMMUNICATIEVERBINDINGEN, VERMINKING, BEVEILIGING, VERLIES OF DIEFSTAL VAN GEGEVENS, VIRUSSEN, SPYWARE OF (IV) INDIRECTE, BIJKOMENDE , BIJZONDERE OF GEVOLGSCHADE, SCHADE MET EEN BOETEKARAKTER, VERTROUWENS- OF DEKKINGSSCHADE (MET INBEGRIP VAN GEDERFDE WINST EN BESPARINGEN), IN ELK GEVAL OOK ALS TYCO IS GEWAARSCHUWD VOOR DE MOGELIJKHEID VAN DERGELIJKE SCHADE. U BENT ER ALS ENIGE VERANTWOORDELIJK EN AANSPRAKELIJK VOOR TE VERIFIËREN DAT DE UITVOER VAN DE APPLICATIE VEILIG, NAUWKEURIG, TOEREIKEND EN BETROUWBAAR VOOR GEBRUIK IS. IN SOMMIGE RECHTSGEBIEDEN IS UITSLUITING VAN BIJKOMENDE OF GEVOLGSCHADE OF BEPERKING VAN DE DUUR VAN IMPLICIETE GARANTIES NIET TOEGESTAAN, ZODAT SOMMIGE VAN VOORNOEMDE BEPERKINGEN MOGELIJK ALLEEN VAN TOEPASSING ZIJN OP U VOOR ZOVER DAT WETTELIJK IS TOEGESTAAN.
+
+c. BIJ HET INSTALLEREN, CONFIGUREREN EN GEBRUIKEN VAN DE APPLICATIE KUNT U BEPAALDE STANDAARDINSTELLINGEN WIJZIGEN OF BEPAALDE INSTELLINGEN KIEZEN. ZO KUNT U ONDER ANDERE DE WACHTWOORDBESCHERMING VAN DE APPLICATIE UITSCHAKELEN. DE KEUZES DIE U MAAKT, KUNNEN SCHADELIJKE GEVOLGEN HEBBEN EN/OF LEIDEN TOT NIET-AANBEVOLEN WERKING OF GEBRUIK VAN DE APPLICATIE. U AANVAARDT DE AANSPRAKELIJKHEID VOOR DERGELIJKE SCHADE WANNEER U BEPAALDE INSTELLINGEN KIEST OF STANDAARDINSTELLINGEN AANPAST (WAARONDER HET UITSCHAKELEN VAN DE WACHTWOORDBESCHERMING VAN DE APPLICATIE). VOOR ALLE DUIDELIJKHEID: TYCO IS NIET VERANTWOORDELIJK VOOR GEVALLEN VAN VERLIES OF SCHADE (WAARONDER ONGEOORLOOFD GEBRUIK VAN DE APPLICATIE) DIE KUNNEN ONTSTAAN ALS U DE WACHTWOORDBESCHERMING VAN DE APPLICATIE UITZET.
+
+d. DE MOBIELE APPLICATIE KAN ONDERWORPEN ZIJN AAN BEPERKINGEN, VERTRAGINGEN EN ANDERE AAN MOBIELE NETWERKEN, INTERNET EN ELEKTRONISCHE COMMUNICATIE INHERENTE PROBLEMEN. TYCO IS NIET VERANTWOORDELIJK VOOR VERTRAGINGEN, FOUTEN BIJ VERZENDING OF ANDERE VERLIEZEN OF SCHADE VOORTKOMEND UIT DE OVERDRACHT VAN GEGEVENS OVER COMMUNICATIENETWERKEN EN -VOORZIENINGEN, ZOALS INTERNET EN MOBIELE NETWERKEN. U ERKENT DAT: (A) DE BESCHIKBAARHEID VAN DE MOBIELE APPLICATIE AFHANKELIJK IS VAN UW MOBIELE APPARAAT, UW INTERNETPROVIDER EN UW MOBIELE PROVIDER; EN (B) U VERANTWOORDELIJK BENT VOOR ALLE VERGOEDINGEN VOOR HET GEBRUIK VAN DIE DIENSTEN EN VOOR NALEVING VAN ALLE OVEREENKOMSTEN INZAKE DAT GEBRUIK. 
+
+9. PRIVACYBELEID. Alle door Tyco verzamelde informatie over u, zoals registratiegegevens, is onderworpen aan Tyco's vigerend privacybeleid (het \"Privacybeleid\") en toepasselijk privacyrecht. Het volledige actuele Privacybeleid van Tyco is te vinden op Tyco's website.
+
+10. Toestemming persoonsgegevens. U geeft toestemming voor het verzamelen, verwerken en internationaal verzenden van gegevens en informatie over de zakelijke relatie tussen u en Tyco, waaronder ook persoonsgegevens (bv. namen, adressen, e-mailadressen, telefoonnummers), naar en tussen Tyco en zijn verbonden ondernemingen, ongeacht hun locatie, naar iedere autoriteit en, behalve beveiligingsgegevens, naar instanties voor kredietinformatie, schuldinning of openbare telecommunicatie, dit ter nakoming van Tyco's verplichtingen uit hoofde van deze EULA, ter beoordeling van Tyco's kredietrisico en ter uitvoering van zakelijke activiteiten. U hebt het recht : (a) om inzage in die gegevens te vragen ; (b) onjuiste of verouderde gegevens te corrigeren of te wissen ; en (c) bezwaar te maken tegen vormen van verwerking die niet beantwoorden aan deze doeleinden. U kunt uw rechten uitoefenen door schriftelijk contact op te nemen met Tyco op Tycopolicy@tyco.com of een ander door Tyco opgegeven adres.
+
+11. Apparatuur, diensten en faciliteiten. U bent als enige verantwoordelijk voor het voor eigen rekening verstrekken, installeren en onderhouden van alle apparatuur, faciliteiten, software van derden en diensten die nodig zijn voor toegang tot en gebruik van de Applicatie, waaronder alle hardware en software, modems, mobiele diensten en internettoegang.
+
+12. CESSIE. Deze EULA is bindend voor, en wordt aangegaan ten behoeve van de partijen bij deze overeenkomst en hun respectieve rechtsopvolgers en toegestane rechtverkrijgenden. Tyco kan deze EULA en rechten en verplichtingen die eruit voortkomen naar eigen oordeel cederen. Het door u geheel of gedeeltelijk cederen, in sublicentie geven of anderszins overdragen van rechten (met inbegrip van die voortkomend uit een fusie, overname van activa, aandelenverkoop of andere transactie die resulteert in een gewijzigde zeggenschap) uit hoofde van deze EULA, krachtens deze overeenkomst verleende licentie(s) of enige krachtens deze overeenkomst aan u verleende rechten is niet toegestaan -, behalve als, en alleen voor zover, dergelijke activiteit ondanks deze beperking uitdrukkelijk is toegestaan in het toepasselijke recht. 
+
+13. ALGEMEEN. Eventuele bepalingen van de EULA die onwettig, nietig of anderszins onafdwingbaar blijken te zijn, worden verwijderd uit de EULA, onverlet de geldigheid en afdwingbaarheid van de overige bepalingen. U dient het betaalbewijs van de licentievergoeding te bewaren, evenals modelnummer, serienummer en datum van betaling, en dat betaalbewijs over te leggen wanneer u verzoekt om ondersteuning of assistentie uit hoofde van de in de EULA beschreven garantie. Op deze EULA is het recht van de provincie Ontario, Canada, van toepassing, zonder inachtneming van het collisierecht van Ontario. De partijen aanvaarden hierbij onherroepelijk dat zij als partijen onderworpen zijn aan de jurisdictie van de provinciale en federale rechtbanken van de provincie Ontario voor beslechting van eventuele geschillen naar aanleiding van deze voorwaarden. De partijen sluiten de bepalingen van het Verdrag der Verenigde Naties inzake internationale koopovereenkomsten betreffende roerende zaken uitdrukkelijk uit.
+
+ 
+WAARSCHUWING: De Mobiele Applicatie is bedoeld als uitbreiding van het Systeem. Tyco adviseert het Systeem regelmatig in zijn geheel te testen. De prestatie van de Mobiele Applicatie hangt echter ook bij frequente tests af van onder meer de wijze van installatie van het Systeem, de internetverbinding van de centrale, uitval van de server wegens onderhoud, problemen met het mobiele netwerk, sabotage of stroomstoring. In die situaties kan het zijn dat de Mobiele Applicatie niet zo presteert als verwacht.
+"</string>
+    <string name="time">Tijd</string>
+    <string name="time_format">HH:MM</string>
+    <string name="to">Aan</string>
+    <string name="unlockByAccess">Ontgrendeld door toegang</string>
+    <string name="unlockByDoubleSwipe">Ontgrendeld dubbele kaart aanwezig</string>
+    <string name="unlockByInput">Ontgrendeld door inbreng</string>
+    <string name="unlockByOperator">Ontgrendel door exploitant</string>
+    <string name="unlockBySchedule">Ontgrendeld door de tijd</string>
+    <string name="unlockByTripleSwipe">Ontsloten door triple kaart aanwezig</string>
+    <string name="unlocked">Ontgrendeld</string>
+    <string name="user_choice_dialog_negative_button">Annuleren</string>
+    <string name="user_choice_dialog_on_device_name">Certificaat op dit apparaat</string>
+    <string name="user_choice_dialog_positive_button">Doorgaan</string>
+    <string name="user_choice_dialog_smartcard_name">Fysieke smartcard</string>
+    <string name="user_choice_dialog_title">Hoe wilt u zich aanmelden?</string>
+    <string name="user_delete">Bent u zeker dat u deze gebruiker wilt verwijderen?</string>
+    <string name="user_error_deleted">Fout bij het verwijderen van de gebruiker!</string>
+    <string name="user_name">Gebruikersnaam</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="video">video</string>
+    <string name="videoSearchFastForwardButtonText">>></string>
+    <string name="videoSearchPauseButtonText">||</string>
+    <string name="videoSearchPlayButtonText">></string>
+    <string name="videoSearchReverseButtonText">&lt;</string>
+    <string name="videoSearchRewindButtonText">&lt;&lt;</string>
+    <string name="video_search">Video zoeken</string>
+    <string name="video_state_camera_disabled">Camera met een handicap</string>
+    <string name="video_state_camera_not_found">Camera niet gevonden</string>
+    <string name="video_state_no_video">UnsVideo beschikbaar</string>
+    <string name="video_state_online">Online</string>
+    <string name="video_state_unsupported_format">Ondersteunde videoformaat</string>
+    <string name="wait_keypad">Wacht op toetsenbord</string>
+    <string name="zero">0</string>
+</resources>

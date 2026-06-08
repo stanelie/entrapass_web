@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevels" android:background="@drawable/bg_glass_round_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_titleSecondary" android:background="@drawable/bg_glass_no_border" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_margin="1.0dip" android:text="@string/secondary_accesslevels" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:padding="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_1" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary1_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_1" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_2" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary2_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_2" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_3" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary3_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_3" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_4" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary4_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_4" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_5" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary5_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_5" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_6" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary6_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_6" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_7" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary7_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_7" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_8" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary8_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_8" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_9" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary9_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_9" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_10" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary10_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_10" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel11" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_11" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary11_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_11" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_SecondaryAccessLevel12" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="6.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="22.0dip" android:layout_weight="1.0">
+                    <Spinner android:textSize="16.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/sp_secondary_12" android:background="@drawable/background_dropdown_black" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/select" />
+                    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/tv_secondary12_restricted" android:background="@drawable/background_hashed_border" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/RestrictedMessage" />
+                </FrameLayout>
+                <Button android:id="@id/btn_secondary_date_12" android:background="@drawable/cards_accesslevels_calendar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:textOn="" android:textOff="" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        </LinearLayout>
+        <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </LinearLayout>
+</LinearLayout>

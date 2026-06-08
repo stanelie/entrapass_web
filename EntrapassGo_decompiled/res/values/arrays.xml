@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>Valid</item>
+        <item>Invalid</item>
+        <item>StolenLost</item>
+        <item>Expired</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>Holiday1</item>
+        <item>Holiday2</item>
+        <item>Holiday3</item>
+        <item>Holiday4</item>
+    </string-array>
+    <array name="ms9_ambient_shadow_drawables_z18">
+        <item>@null</item>
+        <item>@drawable/ms9_ambient_shadow_z1</item>
+        <item>@drawable/ms9_ambient_shadow_z2</item>
+        <item>@drawable/ms9_ambient_shadow_z3</item>
+        <item>@drawable/ms9_ambient_shadow_z4</item>
+        <item>@drawable/ms9_ambient_shadow_z5</item>
+        <item>@drawable/ms9_ambient_shadow_z6</item>
+        <item>@drawable/ms9_ambient_shadow_z7</item>
+        <item>@drawable/ms9_ambient_shadow_z8</item>
+        <item>@drawable/ms9_ambient_shadow_z9</item>
+        <item>@drawable/ms9_ambient_shadow_z10</item>
+        <item>@drawable/ms9_ambient_shadow_z11</item>
+        <item>@drawable/ms9_ambient_shadow_z12</item>
+        <item>@drawable/ms9_ambient_shadow_z13</item>
+        <item>@drawable/ms9_ambient_shadow_z14</item>
+        <item>@drawable/ms9_ambient_shadow_z15</item>
+        <item>@drawable/ms9_ambient_shadow_z16</item>
+        <item>@drawable/ms9_ambient_shadow_z17</item>
+        <item>@drawable/ms9_ambient_shadow_z18</item>
+    </array>
+    <array name="ms9_ambient_shadow_drawables_z6">
+        <item>@null</item>
+        <item>@drawable/ms9_ambient_shadow_z1</item>
+        <item>@drawable/ms9_ambient_shadow_z2</item>
+        <item>@drawable/ms9_ambient_shadow_z3</item>
+        <item>@drawable/ms9_ambient_shadow_z4</item>
+        <item>@drawable/ms9_ambient_shadow_z5</item>
+        <item>@drawable/ms9_ambient_shadow_z6</item>
+    </array>
+    <array name="ms9_ambient_shadow_drawables_z9">
+        <item>@null</item>
+        <item>@drawable/ms9_ambient_shadow_z1</item>
+        <item>@drawable/ms9_ambient_shadow_z2</item>
+        <item>@drawable/ms9_ambient_shadow_z3</item>
+        <item>@drawable/ms9_ambient_shadow_z4</item>
+        <item>@drawable/ms9_ambient_shadow_z5</item>
+        <item>@drawable/ms9_ambient_shadow_z6</item>
+        <item>@drawable/ms9_ambient_shadow_z7</item>
+        <item>@drawable/ms9_ambient_shadow_z8</item>
+        <item>@drawable/ms9_ambient_shadow_z9</item>
+    </array>
+    <array name="ms9_composite_shadow_drawables_z6">
+        <item>@null</item>
+        <item>@drawable/ms9_composite_shadow_z1</item>
+        <item>@drawable/ms9_composite_shadow_z2</item>
+        <item>@drawable/ms9_composite_shadow_z3</item>
+        <item>@drawable/ms9_composite_shadow_z4</item>
+        <item>@drawable/ms9_composite_shadow_z5</item>
+        <item>@drawable/ms9_composite_shadow_z6</item>
+    </array>
+    <array name="ms9_composite_shadow_drawables_z9">
+        <item>@null</item>
+        <item>@drawable/ms9_composite_shadow_z1</item>
+        <item>@drawable/ms9_composite_shadow_z2</item>
+        <item>@drawable/ms9_composite_shadow_z3</item>
+        <item>@drawable/ms9_composite_shadow_z4</item>
+        <item>@drawable/ms9_composite_shadow_z5</item>
+        <item>@drawable/ms9_composite_shadow_z6</item>
+        <item>@drawable/ms9_composite_shadow_z7</item>
+        <item>@drawable/ms9_composite_shadow_z8</item>
+        <item>@drawable/ms9_composite_shadow_z9</item>
+    </array>
+    <array name="ms9_spot_shadow_drawables_z18">
+        <item>@null</item>
+        <item>@drawable/ms9_spot_shadow_z1</item>
+        <item>@drawable/ms9_spot_shadow_z2</item>
+        <item>@drawable/ms9_spot_shadow_z3</item>
+        <item>@drawable/ms9_spot_shadow_z4</item>
+        <item>@drawable/ms9_spot_shadow_z5</item>
+        <item>@drawable/ms9_spot_shadow_z6</item>
+        <item>@drawable/ms9_spot_shadow_z7</item>
+        <item>@drawable/ms9_spot_shadow_z8</item>
+        <item>@drawable/ms9_spot_shadow_z9</item>
+        <item>@drawable/ms9_spot_shadow_z10</item>
+        <item>@drawable/ms9_spot_shadow_z11</item>
+        <item>@drawable/ms9_spot_shadow_z12</item>
+        <item>@drawable/ms9_spot_shadow_z13</item>
+        <item>@drawable/ms9_spot_shadow_z14</item>
+        <item>@drawable/ms9_spot_shadow_z15</item>
+        <item>@drawable/ms9_spot_shadow_z16</item>
+        <item>@drawable/ms9_spot_shadow_z17</item>
+        <item>@drawable/ms9_spot_shadow_z18</item>
+    </array>
+    <array name="ms9_spot_shadow_drawables_z6">
+        <item>@null</item>
+        <item>@drawable/ms9_spot_shadow_z1</item>
+        <item>@drawable/ms9_spot_shadow_z2</item>
+        <item>@drawable/ms9_spot_shadow_z3</item>
+        <item>@drawable/ms9_spot_shadow_z4</item>
+        <item>@drawable/ms9_spot_shadow_z5</item>
+        <item>@drawable/ms9_spot_shadow_z6</item>
+    </array>
+    <array name="ms9_spot_shadow_drawables_z9">
+        <item>@null</item>
+        <item>@drawable/ms9_spot_shadow_z1</item>
+        <item>@drawable/ms9_spot_shadow_z2</item>
+        <item>@drawable/ms9_spot_shadow_z3</item>
+        <item>@drawable/ms9_spot_shadow_z4</item>
+        <item>@drawable/ms9_spot_shadow_z5</item>
+        <item>@drawable/ms9_spot_shadow_z6</item>
+        <item>@drawable/ms9_spot_shadow_z7</item>
+        <item>@drawable/ms9_spot_shadow_z8</item>
+        <item>@drawable/ms9_spot_shadow_z9</item>
+    </array>
+    <string-array name="week_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>

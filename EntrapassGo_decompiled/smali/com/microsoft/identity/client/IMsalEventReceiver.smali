@@ -1,0 +1,18 @@
+.class public interface abstract Lcom/microsoft/identity/client/IMsalEventReceiver;
+.super Ljava/lang/Object;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+
+# virtual methods
+.method public abstract onEventsReceived(Ljava/util/List;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;>;)V"
+        }
+    .end annotation
+.end method

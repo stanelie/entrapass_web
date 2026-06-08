@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fl_progressbar" layout="@layout/progressbar" />
+    <include android:id="@id/ll_search" layout="@layout/searchbar" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_obj_gatesite" android:background="@color/gray5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Spinner android:id="@id/sp_obj_gatesite" android:background="@drawable/background_dropdown_black" android:layout_width="200.0dip" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:paddingStart="0.0dip" android:paddingEnd="15.0dip" />
+    </LinearLayout>
+    <View android:id="@id/v_separation" android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <ListView android:id="@id/lv_operations" android:background="@android:color/transparent" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="7.0dip" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="7.0dip" android:layout_weight="1.0" />
+</LinearLayout>

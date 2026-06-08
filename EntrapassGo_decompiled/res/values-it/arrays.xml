@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="card_state">
+        <item>Valido</item>
+        <item>Non valido</item>
+        <item>Rubato/perso</item>
+        <item>Scaduta</item>
+    </string-array>
+    <string-array name="holidays">
+        <item>Festività1</item>
+        <item>Festività2</item>
+        <item>Festività3</item>
+        <item>Festività4</item>
+    </string-array>
+    <string-array name="week_days">
+        <item>Lunedì</item>
+        <item>Martedì</item>
+        <item>Mercoledì</item>
+        <item>Giovedì</item>
+        <item>Venerdì</item>
+        <item>Sabato</item>
+        <item>Domenica</item>
+    </string-array>
+</resources>

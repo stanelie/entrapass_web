@@ -1,0 +1,96 @@
+.class final Lcom/google/android/gms/internal/auth/zzbu;
+.super Ljava/lang/Object;
+.source "r8-map-id-45f6853d6db48099e3b0908902ba7ed9bea1f5bf4db2ab0ad6b2833c732b7865"
+
+# interfaces
+.implements Lcom/google/android/gms/auth/api/proxy/ProxyApi$ProxyResult;
+
+
+# instance fields
+.field private final zza:Lcom/google/android/gms/common/api/Status;
+
+.field private zzb:Lcom/google/android/gms/auth/api/proxy/ProxyResponse;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/auth/api/proxy/ProxyResponse;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/auth/zzbu;->zzb:Lcom/google/android/gms/auth/api/proxy/ProxyResponse;
+
+    sget-object p1, Lcom/google/android/gms/common/api/Status;->RESULT_SUCCESS:Lcom/google/android/gms/common/api/Status;
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/auth/zzbu;->zza:Lcom/google/android/gms/common/api/Status;
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/google/android/gms/common/api/Status;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/auth/zzbu;->zza:Lcom/google/android/gms/common/api/Status;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getResponse()Lcom/google/android/gms/auth/api/proxy/ProxyResponse;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/auth/zzbu;->zzb:Lcom/google/android/gms/auth/api/proxy/ProxyResponse;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method
+
+.method public final getStatus()Lcom/google/android/gms/common/api/Status;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/auth/zzbu;->zza:Lcom/google/android/gms/common/api/Status;
+
+    .line 2
+    .line 3
+    return-object v0
+    .line 4
+    .line 5
+    .line 6
+    .line 7
+    .line 8
+    .line 9
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+.end method

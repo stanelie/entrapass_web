@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/background_rating" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/appIcon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/icon_lancher" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@android:color/darker_gray" android:id="@id/tv_appname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Enjoying EntraPass go?" android:layout_below="@id/appIcon" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0dip" android:textColor="@android:color/darker_gray" android:id="@id/tv_tapstar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Tap a star to rate us" android:layout_below="@id/tv_appname" android:layout_centerHorizontal="true" android:textAlignment="center" />
+    <View android:id="@id/view1" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/tv_tapstar"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <RatingBar android:id="@id/ratingBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:numStars="5" android:layout_below="@id/view1" android:layout_centerHorizontal="true" android:progressTint="@android:color/holo_blue_dark" android:progressBackgroundTint="@android:color/darker_gray" />
+    <View android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" android:layout_below="@id/ratingBar1"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:textSize="20.0dip" android:textColor="@android:color/holo_blue_dark" android:gravity="center_horizontal" android:id="@id/textview1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="No, Thanks" android:layout_below="@id/ratingBar1" />
+    <TextView android:textSize="20.0dip" android:textColor="@android:color/holo_blue_dark" android:gravity="center_horizontal" android:id="@id/textview2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="Remind me later" android:layout_below="@id/textview1" />
+</RelativeLayout>

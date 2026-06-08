@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ActionNotCompatibleWithSelectedComponents">This action is not compatible with the component(s) you selected. If you choose to continue, the component(s) will be cleared. Do you want to continue?</string>
+    <string name="CantBeEmptyField">Alan boþ olamaz</string>
+    <string name="ComponentsAlreadySelected">Components already selected.</string>
+    <string name="ComponentsMaxLimitReached">"Can't add more component as the maximum limit has been reached."</string>
+    <string name="ComponentsNotAvailable">No more components available to assign.</string>
+    <string name="Counter">Counter</string>
+    <string name="Custom">Özel</string>
+    <string name="DefaultPort">8801</string>
+    <string name="DeleteAction">Delete action when expired</string>
+    <string name="DoubleZero">00</string>
+    <string name="Duration">Süre</string>
+    <string name="EXCEL">EXCEL</string>
+    <string name="EmailSendSuccessfully">E-posta başarılı bir şekilde gönderildi</string>
+    <string name="EnableGoPass">"Go Pass'i etkinleştir"</string>
+    <string name="End">Bitir</string>
+    <string name="EntrapassGOCommaSpace">EntraPassGO:</string>
+    <string name="Exit">Çıkış</string>
+    <string name="FifteenMinutes">Son 15 dakika</string>
+    <string name="FiveMinutes">Son 5 dakika</string>
+    <string name="FourHours">Son 4 saat</string>
+    <string name="HHMM0">00:00</string>
+    <string name="HHMM24">24:00</string>
+    <string name="HintAT">\@</string>
+    <string name="HintEmail">User@Email.com</string>
+    <string name="Intrusion">İzinsiz giriş</string>
+    <string name="MacroMaker">Macromaker</string>
+    <string name="One">01</string>
+    <string name="PDF">PDF</string>
+    <string name="PartitionArmed">kuruldu</string>
+    <string name="PartitionArmedAwayZeroDelay">Uzakta kuruldu gecikme yok</string>
+    <string name="PartitionArmedStay">Yerinde kuruldu</string>
+    <string name="PartitionArmedStayZeroDelay">Yerinde kuruldu gecikme yok</string>
+    <string name="PartitionEntryDelayInProgress">Hiriþ gecikmesi sürüyor</string>
+    <string name="PartitionExitDelayInProgress">Çýkýþ gecikmesi sürüyor</string>
+    <string name="PartitionInAlarm">Alarmda</string>
+    <string name="PartitionInAlarmDisarmed">Alarmda (devredýþý)</string>
+    <string name="PartitionNotConnected">Baðlý deðil</string>
+    <string name="PartitionNotReady">Hazýr deðil</string>
+    <string name="PartitionReady">Hazýr</string>
+    <string name="PartitionUnknown">Bilinmeyen</string>
+    <string name="Paused">Duraklatıldı</string>
+    <string name="Recurring">Recurring</string>
+    <string name="Relay">Relay</string>
+    <string name="Report_Access">Erişim</string>
+    <string name="Report_AlarmSystem">Alarm Sistemi</string>
+    <string name="Report_All">Tümü</string>
+    <string name="Report_Area">Alan</string>
+    <string name="Report_Camera">Kamera</string>
+    <string name="Report_Controller">Denetleyici</string>
+    <string name="Report_Database">Veritabanı</string>
+    <string name="Report_Door">Kapı</string>
+    <string name="Report_DoorEntry">KTES</string>
+    <string name="Report_DoorEntryController">Kapı Giriş Denetleyicisi</string>
+    <string name="Report_GuardTour">Muhafız Turu</string>
+    <string name="Report_Input">Giriş</string>
+    <string name="Report_Login">Giriş</string>
+    <string name="Report_ManualOperation">Manüel İşlem</string>
+    <string name="Report_Matrix">Video Sunucusu</string>
+    <string name="Report_Operator">Operatör</string>
+    <string name="Report_Relay">Röle</string>
+    <string name="Report_Server">Sunucu</string>
+    <string name="Report_TimeAndAttendance">Saat ve Katılım</string>
+    <string name="RestrictedMessage">Kısıtlı</string>
+    <string name="RootDetected">Bu cihaz rootlanmış.</string>
+    <string name="RootDetectedMessage">Bu uygulamayı kullanamazsınız.</string>
+    <string name="STRComma">:</string>
+    <string name="Search">ARA</string>
+    <string name="SendEmailNotification">E-posta bildirimi gönder</string>
+    <string name="SixtyMinutes">Son 60 dakika</string>
+    <string name="SmartService">SmartService</string>
+    <string name="SmartServiceCommaSpace">SmartService:</string>
+    <string name="SmartlinkCommaSpace">SmartLink:</string>
+    <string name="Start">Başlat</string>
+    <string name="Title">Başlık</string>
+    <string name="ToBeActivated">Etkinleþtirilecek</string>
+    <string name="TwentyFoundHours">Son 24 saat</string>
+    <string name="URLCommaSpace">URL:</string>
+    <string name="Versions">Sürümler</string>
+    <string name="YYYYMMDDHR">YYYY-MM-DD / HR</string>
+    <string name="ZoneAlarm">Alarmda</string>
+    <string name="ZoneBypassed">Alarm düzeltimi</string>
+    <string name="ZoneClosed">Kapalý</string>
+    <string name="ZoneFault">Baypasý</string>
+    <string name="ZoneOpened">Açýk</string>
+    <string name="ZoneTamper">Manüel yoksayýlmadý</string>
+    <string name="ZoneUnknown">Bilinmeyen</string>
+    <string name="_1_100">1–100</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_mode_done">Bitti</string>
+    <string name="abc_capital_off">KAPAT</string>
+    <string name="abc_capital_on">AÇ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">sil</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Üst Karakter+</string>
+    <string name="abc_menu_space_shortcut_label">boşluk</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menü+</string>
+    <string name="abc_search_hint">Ara…</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_toolbar_collapse_description">Daralt</string>
+    <string name="accesslevel">Erişim düzeyi</string>
+    <string name="action">Action</string>
+    <string name="actionType">Action Type</string>
+    <string name="actionname">Action Name</string>
+    <string name="activate_temp">Geçici olarak etkinleştir</string>
+    <string name="active">Etkin</string>
+    <string name="add">Ekle</string>
+    <string name="add_door_exception">Bir Kapı İstisna ekle</string>
+    <string name="add_interval">Aralık Ekle</string>
+    <string name="add_row_card">Bir kart ekle</string>
+    <string name="additional_accesslevels">Ek erişim düzeyleri</string>
+    <string name="alert">Alert</string>
+    <string name="all_day">Tüm gün</string>
+    <string name="allow">İzin ver</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Şifre</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">Şifre anahtarı</string>
+    <string name="app_loading">Yükleniyor…</string>
+    <string name="app_name">EntraPass Go</string>
+    <string name="badge">Kimlik</string>
+    <string name="bottomsheet_action_expand_halfway">Yarım genişlet</string>
+    <string name="broker_processing">Aracı işlemi devam ediyor</string>
+    <string name="cameraCanceled">Kullanıcı iptal görüntü yakalama!</string>
+    <string name="cameraFail">Üzgünüm! Görüntü yakalamak için başarısız oldu!</string>
+    <string name="cameraNotAvailable">Kamera özelliği mevcut değil!</string>
+    <string name="cancel">İptal</string>
+    <string name="cancel_button">İptal Düğmesi</string>
+    <string name="cardTypeIsMandatory">Kart Türü zorunludur!</string>
+    <string name="cardnumber">Kart numarası</string>
+    <string name="cardstate">Kart durumu</string>
+    <string name="cardtype">Kart türü</string>
+    <string name="character_counter_content_description">Girilen karakter: %1$d / %2$d</string>
+    <string name="character_counter_overflowed_content_description">Karakter sınırı aşıldı %1$d / %2$d</string>
+    <string name="clear">Temizle</string>
+    <string name="clear_text_end_icon_content_description">Metni temizle</string>
+    <string name="commaspace">,</string>
+    <string name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
+    <string name="component">Component</string>
+    <string name="confirm">Onayla</string>
+    <string name="count">Count</string>
+    <string name="create_gesture">Bir jest oluştur</string>
+    <string name="day">Gün</string>
+    <string name="delete">Sil</string>
+    <string name="demo">Demo</string>
+    <string name="deny">Reddet</string>
+    <string name="description">Açıklama</string>
+    <string name="dev_version">© 2016 EntraPass Go Sürüm 2.0</string>
+    <string name="door">Kapı</string>
+    <string name="doorTempoUnlockDoubleSwipe">Kapý kilidi çift okutmayla geçici olarak açýldý</string>
+    <string name="doorTempoUnlockInput">Kapý kilidi girdi tarafýndan geçici açýldý</string>
+    <string name="doorTempoUnlockOperator">Kapýnýn kilidi bir operatörce geçici açýldý</string>
+    <string name="doorTempoUnlockTripleSwipe">Kapý kilidi üçlü okutmayla geçici olarak açýldý</string>
+    <string name="door_exception">Kapı İstisnaları</string>
+    <string name="doors">Kapılar</string>
+    <string name="drawer_close">Navigasyon paneli kapatın</string>
+    <string name="drawer_open">Navigasyon panelini açın</string>
+    <string name="email">E-posta</string>
+    <string name="emptystring" />
+    <string name="end_date">Bitiş tarihi</string>
+    <string name="end_time">Bitiş zamanı</string>
+    <string name="ending_date">Sona erme tarihi</string>
+    <string name="entapassservercommaspace">EntraPass Sunucusu:</string>
+    <string name="enter_a_date">AY/GÜN/YIL</string>
+    <string name="enter_a_number">Bir sayı gir</string>
+    <string name="error_authentication_canceled">Kimlik doğrulama kullanıcı tarafından iptal edildi</string>
+    <string name="error_entra_id">Kimlik doğrulama sırasında bir sorun oluştu. Lütfen bir süre sonra tekrar deneyin.</string>
+    <string name="error_icon_content_description">Hata</string>
+    <string name="exit_application">Eğer gerçekten uygulamadan çıkmak istiyor musunuz?</string>
+    <string name="expiration">Sona Erme</string>
+    <string name="exposed_dropdown_menu_content_description">Açılır menüyü göster</string>
+    <string name="extendedschedule">Uzatýlmýþ zamanlama</string>
+    <string name="fallback_menu_item_copy_link">Bağlantıyı kopyala</string>
+    <string name="fallback_menu_item_open_in_browser">Tarayıcıda aç</string>
+    <string name="fallback_menu_item_share_link">Bağlantıyı paylaş</string>
+    <string name="forget_password">Parolanızı mı unuttunuz?</string>
+    <string name="frequency">Frequency</string>
+    <string name="gateways_sites">Geçitler/Bölgeler</string>
+    <string name="gateways_sites_colon">Geçitler/Bölgeler:</string>
+    <string name="group_floor">Grup kat</string>
+    <string name="h_hint">Saat</string>
+    <string name="hint_port_number">8801</string>
+    <string name="hint_servername">SmartService</string>
+    <string name="hint_serverurl">www.myurl.com</string>
+    <string name="hrs">Hrs</string>
+    <string name="http_auth_dialog_cancel">İptal</string>
+    <string name="http_auth_dialog_login">Giriş</string>
+    <string name="http_auth_dialog_password">Parola</string>
+    <string name="http_auth_dialog_title">Kimlik bilgilerinizi girin</string>
+    <string name="http_auth_dialog_username">Kullanıcı Adı</string>
+    <string name="i_accept">Kabul ediyorum</string>
+    <string name="i_agree">Kabul ediyorum</string>
+    <string name="icon_content_description">İletişim kutusu simgesi</string>
+    <string name="inactive">İnaktif</string>
+    <string name="interval">Aralık</string>
+    <string name="intervals">Aralıklarla</string>
+    <string name="item_view_role_description">Sekme</string>
+    <string name="jc_privacy_notice">Johnson Controls Gizlilik Bildirimi</string>
+    <string name="jc_privacy_notice_url">Johnson Controls Gizlilik Bildirimi : <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a></string>
+    <string name="locked">Kilitli</string>
+    <string name="lockedfirstpersonin">ilk kişi bekliyorum</string>
+    <string name="log_share_intent_type">text/plain</string>
+    <string name="login">Oturum aç</string>
+    <string name="login_error">Giriş Hatası</string>
+    <string name="login_error_message">Lütfen geçerli bir kullanıcı adı/şifre girin.</string>
+    <string name="login_with_entra_id">Login with entra id</string>
+    <string name="logout_message">Eğer oturum kapatma etmek istediğinizden emin misiniz?</string>
+    <string name="m_hint">Dak</string>
+    <string name="material_clock_toggle_content_description">"ÖÖ veya ÖS'yi seçin"</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="min">Min</string>
+    <string name="more_servers">Daha çok sunucu</string>
+    <string name="msg_back_nosave">Kaydetmeden çıkmak istiyor musunuz?</string>
+    <string name="msg_back_nosave_actionscheduler">Are you sure you want to discard any changes you have made?</string>
+    <string name="msg_delete_accesslevel">Bu erişim düzeyini silmek istediğinizden emin misiniz?</string>
+    <string name="msg_delete_schedule">Bu zamanlmayı silmek istediğinizden emin misiniz?</string>
+    <string name="msg_enddate_smaller_than_startdate">Lütfen geçerli zamanı girin, başlangıç saati bitiş saatinden daha büyük olamaz.</string>
+    <string name="msg_endtime_value_invalid">Lütfen geçerli zamanı girin, başlangıç saati bitiş saatinden daha büyük olamaz.</string>
+    <string name="msg_error_addaccesslevel">Erişim düzeyi eklenemiyor.</string>
+    <string name="msg_error_addschedule">Zamanlama eklenemiyor.</string>
+    <string name="msg_error_password">Girdiğiniz parola yanlış.</string>
+    <string name="msg_error_server_network">Ağ Hatası</string>
+    <string name="msg_error_server_not_connected">Sunucu bağlı değil</string>
+    <string name="msg_error_server_unavailable">Sunucu mevcut değildir.</string>
+    <string name="msg_error_update_user">Bir kullanıcı değiştirme Problem.</string>
+    <string name="msg_error_updateaccesslevel">Erişim düzeyi değiştirilemiyor.</string>
+    <string name="msg_error_updateschedule">Zamanlama değiştirilemiyor.</string>
+    <string name="msg_error_upload_photo">Resim yüklenemiyor.</string>
+    <string name="msg_error_username">Lütfen geçerli bir kullanıcı adı girin.</string>
+    <string name="msg_error_username_password">Lütfen geçerli bir kullanıcı adı veya geçerli bir parola girin.</string>
+    <string name="msg_gesture_created">Jest başarılı oluşturuldu.</string>
+    <string name="msg_gesture_notvalid">Geçersiz jest, lütfen tekrar deneyin.</string>
+    <string name="msg_load">Lütfen bekleyin…</string>
+    <string name="msg_login_connexion_error">Sunucuya bağlanamıyor! Lütfen sunucu ve kullanıcı bilgilerinizi kontrol edin!</string>
+    <string name="msg_no_connexion">İnternet iliş çevrimdışı görünüyor!</string>
+    <string name="msg_password_empty">Parola boş olamaz!</string>
+    <string name="msg_pin_invalid">Lütfen maksimum 6 basamaklı geçerli bir PIN numarası girin</string>
+    <string name="msg_psw_sent">Geçici bir parola size gönderildi.</string>
+    <string name="msg_report_send_ko">Rapor gönderilemiyor.</string>
+    <string name="msg_server_error">Sunucu ya da kullanıcı bilgisi geçerli değil!</string>
+    <string name="msg_server_error_save">Sunucu kaydedilemedi!</string>
+    <string name="msg_servername_empty">Sunucu adı boş olamaz!</string>
+    <string name="msg_serverurl_empty">"Sunucu URL'si boş olamaz!"</string>
+    <string name="msg_session_full">Maksimum bağlantı sayısına ulaşıldı, lütfen Sistemde kullanılabilecek bağlantı sayısını arttırmak için Sistem Yöneticinizle irtibata geçin.</string>
+    <string name="msg_user_more_to_search">Kullanıcı listesi çok uzun. Listede görüntülenmesini kullanıcıları filtrelemek için arama işlevini kullanın.</string>
+    <string name="msg_userinfo_cleaned">3 hatalı denemeden sonra, kullanıcının bilgileri silinecek.</string>
+    <string name="msg_username_empty">Kullanıcı adı boş olamaz!</string>
+    <string name="mtrl_badge_numberless_content_description">Yeni bildirim</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s içeriğini kaldır</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">%1$d adetten fazla yeni bildirim</string>
+    <string name="mtrl_picker_a11y_next_month">Sonraki aya değiştir</string>
+    <string name="mtrl_picker_a11y_prev_month">Önceki aya değiştir</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_day_of_week_column_header">Gün sütunu: %1$s</string>
+    <string name="mtrl_picker_navigate_to_year_description">%1$s yılına git</string>
+    <string name="mtrl_picker_save">Kaydet</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Takvim giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Gün seçmeye geçmek için dokunun</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Metin giriş moduna geç</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Yıl seçmeye geçmek için dokunun</string>
+    <string name="name_en">Adı EN</string>
+    <string name="name_fr">Adı FR</string>
+    <string name="no_supervised_temp">Geçici olarak gözetilmez</string>
+    <string name="none">Hiçbiri</string>
+    <string name="normal">Normal</string>
+    <string name="not_supervised">Gözetilmez</string>
+    <string name="off">OFF</string>
+    <string name="ok">OK</string>
+    <string name="ok_button">Tamam Düğmesi</string>
+    <string name="on">ON</string>
+    <string name="password">Parola</string>
+    <string name="password_toggle_content_description">Şifreyi göster</string>
+    <string name="pending">kadar</string>
+    <string name="pin">PIN</string>
+    <string name="port">Port</string>
+    <string name="port_number">8801</string>
+    <string name="primary_accesslevel">Birincil Erişim Düzeyi</string>
+    <string name="privacy_notice_content">Denetleyici olarak Johnson Controls tarafından bu uygulama ile işlenen kişisel veriler, <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a> adresinde bulunan Johnson Controls Gizlilik Bildirimine uygun olarak işlenecektir. Bu sayfada herhangi bir yere tıkladığınızda, Johnson Controls Gizlilik Bildirimini okuduğunuzu ve anladığınızı onaylamış olacaksınız. Söz konusu kişisel verilerin işlenmesi ve/veya aktarılması (uluslararası aktarım dahil) konusunda yürürlükte olan yasa uyarınca ve kesinlikle yürürlükteki yasa kapsamında onayın gerekli olduğu ölçüde onayınız isteniyorsa, yukarıdaki eylemleriniz onayınızdır.</string>
+    <string name="proceed">Proceed</string>
+    <string name="qr_code_rationale_allow">İzin ver</string>
+    <string name="qr_code_rationale_block">Engelle</string>
+    <string name="qr_code_rationale_header">Bu uygulamanın kameranıza erişmesine izin verilsin mi?</string>
+    <string name="qr_code_rationale_message">Sonra QR koduyla oturum açabilirsiniz.</string>
+    <string name="readerdisable">Okuyucu devredışı bırakıldı</string>
+    <string name="readerenable">Okuyucu etkinleştirildi</string>
+    <string name="redo">Yinele</string>
+    <string name="reverse_supervision">Ters Kontrol</string>
+    <string name="s_hint">Sn</string>
+    <string name="save">Kaydet</string>
+    <string name="schedule">Zamanlama</string>
+    <string name="search">Ara</string>
+    <string name="secondary_accesslevels">İkincil erişim düzeyleri</string>
+    <string name="seconds">Sec</string>
+    <string name="secure_login">Güvenli oturum aç</string>
+    <string name="select">Seç</string>
+    <string name="server_name">Sunucu adı</string>
+    <string name="server_saved">Sunucu ayarları kaydedildi.</string>
+    <string name="server_url">"Sunucu URL'si"</string>
+    <string name="set_date">Bir tarih ata</string>
+    <string name="share_chooser_title">Günlük Dosyasını Paylaş</string>
+    <string name="share_message">Lütfen günlüğü analiz edin.</string>
+    <string name="share_subject">epgo-Android-logs</string>
+    <string name="smartcard_cert_dialog_negative_button">İptal</string>
+    <string name="smartcard_cert_dialog_positive_button">Devam</string>
+    <string name="smartcard_cert_dialog_title">Oturum açmak için bir sertifika seçin</string>
+    <string name="smartcard_early_unplug_dialog_message">Akıllı kart cihazı kaldırıldı. Yeniden oturum açmaya çalışmadan önce lütfen cihazı yeniden takın.</string>
+    <string name="smartcard_early_unplug_dialog_title">Yeniden deneyin</string>
+    <string name="smartcard_error_dialog_positive_button">Tamam</string>
+    <string name="smartcard_general_error_dialog_message">Beklenmeyen bir hata oluştu. Lütfen daha sonra yeniden deneyin.</string>
+    <string name="smartcard_general_error_dialog_title">Daha sonra tekrar deneyin</string>
+    <string name="smartcard_max_attempt_dialog_message">Çok fazla başarısız girişimde bulunuldu, daha sonra yeniden deneyin.</string>
+    <string name="smartcard_max_attempt_dialog_title">Daha sonra tekrar deneyin</string>
+    <string name="smartcard_nfc_diff_connected_message">İlk olarak oturum açtığınız akıllı kartı kullanın.</string>
+    <string name="smartcard_nfc_diff_connected_positive_button">Anladım</string>
+    <string name="smartcard_nfc_diff_connected_title">Aynı anda yalnızca bir akıllı kart kullanabilirsiniz</string>
+    <string name="smartcard_nfc_loading_dialog_message">Akıllı kartınızı yerine yerleştirin.</string>
+    <string name="smartcard_nfc_loading_dialog_title">Akıllı kartınız okunuyor</string>
+    <string name="smartcard_nfc_prompt_dialog_message">Bir akıllı kartı telefonunuzun arkasına yakın tutun.</string>
+    <string name="smartcard_nfc_prompt_dialog_negative_button">İptal</string>
+    <string name="smartcard_nfc_prompt_dialog_title">Akıllı kartınızı hazırlayın</string>
+    <string name="smartcard_nfc_reminder_dialog_message">NFC ile oturum açmak için cihaz ayarlarınızda NFC’yi etkinleştirin. Ardından yeniden oturum açın.</string>
+    <string name="smartcard_nfc_reminder_dialog_positive_button">Anladım</string>
+    <string name="smartcard_nfc_reminder_dialog_title">Cihaz ayarlarında NFC’yi etkinleştirin</string>
+    <string name="smartcard_no_cert_dialog_message">Sertifikanızın akıllı kart cihazınıza doğru şekilde sağlandığını onaylayın.</string>
+    <string name="smartcard_no_cert_dialog_title">Uygulanabilir sertifika bulunamadı.</string>
+    <string name="smartcard_pin_dialog_error_message">Girdiğiniz PIN yanlıştı</string>
+    <string name="smartcard_pin_dialog_message">Sertifikaya erişmek ve oturum açmak için akıllı kart PIN kodunu girin</string>
+    <string name="smartcard_pin_dialog_negative_button">İptal</string>
+    <string name="smartcard_pin_dialog_positive_button">Kilidi aç</string>
+    <string name="smartcard_pin_dialog_title">Akıllı kartın kilidini açın</string>
+    <string name="smartcard_pin_layout_edittext_hint">PIN</string>
+    <string name="smartcard_prompt_dialog_message">Telefonunuzun arkasına bir akıllı kart takın veya akıllı kartı telefonunuza yakın tutun.</string>
+    <string name="smartcard_prompt_dialog_negative_button">İptal</string>
+    <string name="smartcard_prompt_dialog_title">Akıllı kartınızı hazırlayın</string>
+    <string name="smartcard_removal_prompt_dialog_positive_button">Anladım</string>
+    <string name="smartcard_removal_prompt_dialog_title">Şimdi akıllı kartınızı kaldırabilirsiniz</string>
+    <string name="start_date">Başlangıç tarihi</string>
+    <string name="start_time">Başlama zamanı</string>
+    <string name="starting_date">Başlangıç tarihi</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stolen_lost">Çalıntı / kayıp</string>
+    <string name="submit">Gönder</string>
+    <string name="supervision">Gözetim</string>
+    <string name="system_schedule">Sistem zamanlaması</string>
+    <string name="tab_1">Olaylar</string>
+    <string name="tab_2">Kullanýcýlar</string>
+    <string name="tab_3">Rapor</string>
+    <string name="tamporaryunlock">Geçici olarak kilidini aç</string>
+    <string name="terms_and_conditions">Şartlar ve Koşullar</string>
+    <string name="terms_and_conditions_content">"Mobile Go Son Kullanıcı Lisans Sözleşmesi (EULA) - Türkçe
+
+ÖNEMLİ - BU SON KULLANICI LİSANS SÖZLEŞMESİNİ (\"EULA\"), BU UYGULAMAYI VEYA HERHANGİ BİR KISMINI GOOGLE PLAY STORE VEYA APPLE APP STORE'DAN İNDİRMEDEN, KURMADAN, KOPYALAMADAN VEYA KULLANMADAN ÖNCE DİKKATLİCE OKUYUN.
+
+BU EULA, SİZ VE TYCO SAFETY PRODUCTS CANADA LTD. (\"TYCO\") ARASINDA YAPILMIŞ YASAL BİR SÖZLEŞMEDİR. BU SÖZLEŞME, BELİRTİLEN GİZLİLİK POLİTİKASI (AŞAĞIDA AÇIKLANMIŞTIR) DAHİLİNDE BU EULA İLE BİRLİKTE TEMİN EDİLEN MOBİL UYGULAMA YAZILIMINI İÇEREN UYGULAMA VE BU UYGULAMAYA AİT MEDYA, BASILI MATERYALLER VE \"ONLINE\" VEYA ELEKTRONİK DOKÜMANLARA (TÜMÜ \"UYGULAMA\" VEYA \"MOBILE APPLICATION\" OLARAK ADLANDIRILACAKTIR) ERİŞİM VE KULLANIM KOŞULLARINI İÇERMEKTEDİR. UYGULAMAYI İNDİREREK VEYA YÜKLEYEREK, KOPYALAYARAK VEYA DİĞER BİR ŞEKİLDE KULLANARAK, BU EULA'NIN ŞARTLARINI VE KOŞULLARINI TÜMÜYLE KABUL EDİYORSUNUZ. BU EULA'NIN ŞARTLARINI VE KOŞULLARINI TÜMÜYLE KABUL ETMİYORSANIZ, BU UYGULAMAYI AÇMAYIN, İNDİRMEYİN, YÜKLEMEYİN, KOPYALAMAYIN VEYA DİĞER BİR ŞEKİLDE KULLANMAYIN. BU UYGULAMAYI KULLANMAYA DEVAM ETMENİZ, BELİRTİLEN ŞARTLARI VE KOŞULLARI VE BUNLARDA YAPILACAK DEĞİŞİKLİKLERİ KABUL ETTİĞİNİZİ GÖSTERİR. 
+
+1.  LİSANS KAPSAMI.  Uygulama, mobil uygulama kodu, program dosyaları ve ilişkili medya, donanım veya Uygulama tuşları, basılı materyal ve elektronik dokümanlar içerebilir. Uygulama, telif hakkı yasalarına ve uluslararası telif hakkı anlaşmalarına ve diğer fikri mülkiyet yasalarına ve anlaşmalarına göre korunmaktadır. Uygulamaya ait tüm markalar ve fikri mülkiyet hakları (her türlü resim, fotoğraf ve Uygulama içinde yer alan metinler dahil ancak bunlarla sınırlı olmamak kaydıyla), Uygulama ile birlikte verilen tüm basılı materyaller ve Uygulamanın kopyaları Tyco'ya ve/veya tedarikçilerine aittir. Uygulama lisanslı olup satılamaz. Bu EULA kapsamında açıkça verilmeyen tüm haklar, Tyco'ya ve tedarikçilerine aittir. Uygulamayı Apple App Store'dan indirdiğiniz takdirde, bu EULA ve içerdiği şartlar ve koşullar, Apple'ın Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi'ni tamamlayıcı mahiyettedir. Bu EULA hükümleri ile Lisanslı Uygulama Son Kullanıcı Lisans Sözleşmesi arasında herhangi bir tutarsızlık olması durumunda, bu EULA hükümleri geçerli olacaktır.
+
+2.  LİSANS VERME.  Bu EULA, aşağıdaki münhasır olmayan hakları size sağlar:
+
+Tyco, bu EULA koşullarına tabi olmak kaydıyla, Uygulamayı yalnızca bu hükümlere uygun olarak sahip olduğunuz veya kontrolünüzde olan uyumlu bir mobil cihazda, kişisel kullanım için kurmanız ve kullanmanız için kişisel, münhasır olmayan, devredilemez, sınırlı ve iptal edilebilen bir lisans verir. Yukarıda belirtilen lisans, Uygulamayı, lisanslı EntraPass yazılımı (\"Sistem\") ile birlikte kullanma hakkını içerir. Uygulamanın ve Uygulamaya ilişkin metin, resim, müzik, barkod, video, veri, hiperlink, görüntü ve diğer içeriğin yeniden satılması, devredilmesi, değiştirilmesi veya dağıtımı dahil olmak üzere ancak bunlarla sınırlı olmamak üzere herhangi bir diğer amaçla kulllanımı yasaktır. Bu Uygulamaya ilişkin güncellemelere, eklemelere veya değiştirmelere ilişkin ayrı hükümler geçerli olmadığı sürece, bu EULA'da belirtilen tüm hükümler bu güncellemeler, eklemeler veya değiştirmeler için de geçerli olur. 
+
+3.  DİĞER HAKLAR VE SINIRLAMALAR.  Uygulamayı kullanımınız, aşağıdaki ek sınırlamalara tabidir. Bu kısıtlamalardan herhangi birine uyulmaması, bu EULA'nın otomatik olarak feshedilmesine ve Tyco'nun diğer yasal yollara başvurmasına neden olacaktır.
+
+a.  Tersine Mühendislik ve Türemiş Çalışmalarda Sınırlamalar.  Uygulama üzerinde tersine mühendislik yapamaz, kaynak koda dönüştüremez veya Uygulamanın kodlarını çözemezsiniz; bu sınırlamalara yasalar tarafından açıkça izin verilmediği hallerde, bu işlemleri gerçekleştirmeye yönelik herhangi bir teşebbüs, bu EULA'yı derhal sona erdirir. Bir Tyco yetkilisinin yazılı izni olmaksızın (bu EULA'nın 3(e) maddesinde \"açık kaynak\" yazılım ile ilgili belirtilenlerin haricinde), Uygulamanın herhangi bir bölümde bir değişiklik veya düzeltme ya da herhangi bir türev çalışması yapamazsınız. Herhangi bir mülkiyet bildirimini, markaları veya etiketleri Uygulamadan kaldıramazsınız. Bu EULA'nın şartlarına ve koşullarına personeliniz ve temsilcileriniz tarafından uyulmasını sağlamak için makul önlemler tarafınızdan alınacaktır.
+
+b.  Telif Hakkı Bildirimleri.  Tüm telif hakkı bildirimlerini Uygulamanın tüm kopyalarında bulundurmanız gerekmektedir.
+
+c.  Fesih.  Diğer haklar saklı kalmak kaydıyla, Tyco, burada yer alan şartlara ve koşullara uyulmadığı takdirde, bu EULA'yı feshedebilir. Böyle bir durumda, Uygulamanın ve bileşen kısımlarının tüm kopyalarını derhal yok etmeniz gerekir. 
+
+d.  Müteakip EULA.  Tyco, Uygulamaya gelecekte yapılacak herhangi bir ekleme, yeni bir sürüm, yükseltme ya da düzeltme sunabilmek amacıyla mevcut EULA'yı geçersiz kılarak yeni bir EULA yürürlüğe sokabilir. Benzer şekilde bu EULA, önceki EULA hükümleri veya Uygulamaya yönelik Tyco ile aranızdaki diğer sözleşmelerle çeliştiği takdirde, bu EULA'nın hükümleri geçerli olacaktır.
+
+e.  \"Açık Kaynak\" ve diğer Bağımsız Şirketlerin Yazılımı. Uygulamanın bazı bölümleri, yaygın olarak \"açık kaynak\" yazılım olarak bilinen durumlar da dahil olmak üzere, Uygulamanın bu bölümlerinin kullanımı, kopyalanması, değiştirilmesi, yeniden dağıtılması ve garantisi ile ilgili bazı üçüncü taraf lisans sözleşmelerine tabi olabilir. Geçerli her üçüncü taraf lisansının bir kopyası Uygulamanın \"Hakkında\" ekranında bulunabilir. Bu tür açık kaynaklı yazılımlar, bu EULA'da belirtilen herhangi bir garanti veya tazminata tabi değildir. Uygulamayı kullanarak bu tür üçüncü taraf lisansların şartlarına da bağlı kalmayı kabul edersiniz. Geçerli üçüncü taraf lisansı kapsamında sağlandıysa, üçüncü taraf lisans şartlarına tabi olmayı kabul ettiğiniz sürece, bu tür bir yazılımın kaynak kodunu, oluşturduğunuz herhangi bir programda kullanmak ve dağıtmak için alma hakkına sahipsiniz; programlarınız bu lisans şartları uyarınca dağıtılır. Bu kaynak kodun bir kopyası, Tyco temsilcinizle iletişime geçilerek ücretsiz olarak edinilebilir. 
+
+f.  Ticari markalar.  Bu EULA size, Tyco'nun, yan kuruluşlarının veya tedarikçilerinin ticari markaları ya da hizmet markalarına ilişkin hiçbir hak vermez.
+
+g.  Kiralama.  Tyco'nun önceden yazılı olarak izni alınmaksızın Uygulama kopyalanamaz, üzerinde değişiklik yapılamaz, kiraya verilemez, kiralanamaz, devredilemez, satılamaz, alt lisansı verilemez, dağıtılamaz, bir güvenlik menfaatinde bulunulamaz veya başkasına Uygulama ile ilgili haklar devredilemez ya da üçüncü şahısların Uygulamayı kullanmasına izin verilemez.
+
+h.  Tanıtım ve Değerlendirme Kopyaları. Uygulamanın tanıtım ve değerlendirme kopyası, burada yer alan lisansların, tanıtım ve değerlendirme süresi sonunda sona ermesi koşuluyla, bu EULA kapsamındadır.
+
+i.  İlave Kısıtlamalar.  Uygulama, Uygulama ile birlikte verilen dokümanlarda belirtilen ilave kısıtlamalara ve koşullara tabi olabilir; bu ilave kısıtlamalar ve koşullar, bu EULA'ya dahil edilmiş olup bu EULA'nın bir parçasını oluşturur.
+
+j.  Yükseltmeler ve Güncellemeler.  Tyco'nun kullanıma sunduğu ölçüde, Uygulamaya yönelik yükseltmeler ve güncellemeler, yalnızca kullanımına yetkili olduğunuz orijinal Uygulamanın tamamını veya bir kısmını değiştirmek için kullanılabilir.
+
+k.  Kayıt.  Uygulama kullanılmadan önce Tyco'ya kayıt yapılmasını gerektirebilir. Uygulamayı kayıt ettirmediğiniz takdirde, bu EULA otomatik olarak feshedilir ve Uygulamayı kullanamayabilirsiniz. Tyco sizden kayıt bilgilerinizi talep ederse Tyco'ya doğru, kesin, güncel ve eksiksiz bilgi sağlayacaksınız. Kaydınızı doğru, güncel ve eksiksiz tutmak için derhal güncelleyeceksiniz. Tyco size bir şifre verdiği takdirde, bunu başka hiçbir tarafa açıklayamazsınız. Herhangi bir üçüncü şahsa ait bir şifreyi kullanamazsınız. Hesaplarınızın ve şifrelerinizin gizliliğini korumak sizin sorumluluğunuzdadır. Şifrenizin veya hesaplarınızın herhangi bir yetkisiz kullanımı veya herhangi bir güvenlik ihlali söz konusu olduğunda derhal Tyco'ya haber vermeyi kabul ediyorsunuz. Ayrıca, her oturumun sonunda hesaplarınızdan çıkmayı kabul ediyorsunuz. Tyco, bu koşullara uymadığınız takdirde ortaya çıkabilecek herhangi bir kayıp ya da hasardan (Uygulamanın yetkisiz kullanımı dahil) sorumlu tutulamaz.
+
+l.  Güncellemeler.  Tyco, zaman zaman, size herhangi bir ek bildirim yapmadan veya sizden ek bir onay almadan, otomatik olarak yüklenebilecek Uygulamaya yönelik güncellemeler, yükseltmeler, hata düzeltmeleri, yamalar ve diğer değişiklikler (tümü \"Güncellemeler\" olarak adlandırılan) geliştirebilir. Burada, böyle Güncellemeleri kabul ettiğinizi bildiriyorsunuz. Uygulamayı kullanmaya devam etmek için Güncellemeleri yüklemeniz gerekebileceğini ve bu Güncellemeleri derhal kurmayı kabul ediyorsunuz.
+  
+4.  SİSTEME İLİŞKİN DİĞER ŞARTLAR
+
+a.  Bayi Tarafından Yetkinin Geri Alınması.  Sistemin kullanımı için bir bayiyle veya üçüncü bir tarafla sözleşmeniz varsa, Sistemi kullanma hakkınız bayinin veya diğer üçüncü tarafların yaptığı sözleşmenin şartlarına ve koşullarına tabi olabilir ve bayi veya diğer üçüncü taraflar hesabınızı yetkisiz hale getirerek Uygulama marifetiyle Sisteme erişiminizi feshetme hakkına sahip olabilir. Bayi veya diğer üçüncü tarafın hesabınızı yetkisiz hale getirmesi durumunda, bu durumdan kaynaklanan herhangi bir zarardan dolayı Tyco hiçbir sorumluluk taşımaz.  
+
+b.  Üçüncü Tarafların Erişimi.  Aşağıdaki hükümleri onaylıyor ve kabul ediyorsunuz: (a) hesabınıza üçüncü taraflar ekleyebilirsiniz ve bu taraflar Sisteme tamamen veya kısmen erişime sahip olabilirler ve (b) Tyco ile aranızdaki ilişkide bu tür üçüncü tarafların her türlü yaptıkları veya yapmadıkları eylemlerden tamamen sorumlusunuz. Tyco, bu tür üçüncü tarafların yaptıkları veya yapmadıkları eylemlerden kaynaklanan kayıp ve hasarlardan sorumlu tutulamaz; üçüncü tarafların kullanımından doğan ve Tyco'nun maruz kaldığı her türlü harcama, kayıp ve hasar için Tyco'nun kayıplarını tazmin edeceksiniz.   
+
+5.  İHRACAT KISITLAMALARI. Uygulamanın herhangi bir kısmını veya onunla ilgili herhangi bir ürünü (yukarıda belirtilenler, \"Kontrole Tabi Bileşenler\" olarak anılacaktır) İRAN, KUZEY KORE, SURİYE ve SUDAN'a veya bu ülkelerdeki bir kurum veya şahsa doğrudan veya dolaylı olarak (\"Tyco'nun Konumunda\") ihraç etmemeyi, yeniden ihraç etmemeyi veya aktarmayacağınızı kabul ediyorsunuz. Ayrıca ABD Hazine Bakanlığı tarafından uygulanan ekonomik yaptırımlar ve sınırlamalar ve ABD Ticaret Bakanlığı ve ABD Dışişleri Bakanlığı ve diğer ABD devlet kurumları, Avrupa Birliği veya diğer ülkelerin devlet kurumları tarafından uygulanan yürürlükteki ihracat kontrol tedbirleri dahilinde ancak bunlarla sınırlı olmaksızın, bu Kontrole Tabi Bileşenleri yürürlükteki bu tür yasalara aykırı olarak diğer ülkelere ihraç etmemeyi, yeniden ihraç etmemeyi veya devretmemeyi kabul ediyorsunuz. Yürürlükteki yasalara, ABD veya diğer ülke mevzuatlarına aykırı davrandığınız takdirde veya belirtilen bu yasalara aykırı olsun veya olmasın Tyco'nun Konumu'nu ihlal ettiğiniz durumlarda bu EULA otomatik olarak feshedilecektir.
+
+6.  ABD HÜKÜMETİ SINIRLANDIRILMIŞ HAKLAR.  Uygulama, Federal Edinme Yönetmeliği ve üretici kuruluş tarafından sağlanan tamamlayıcı hükümler çerçevesinde \"sınırlandırılmış haklar\" ile temin edilen Ticari Bilgisayar Yazılımıdır. ABD hükümeti tarafından kullanılması, çoğaltılması veya ifşa edilmesi aşağıdaki hükümler çerçevesinde sınırlamalara tabidir: DFAR 255.227-7013 ve müteakip sayfalarındaki Teknik Veri ve Bilgisayar Uygulamasına Dair Haklar maddesinin (c)(1)(ii) alt paragrafında veya 252.211-7015'de veya  FAR 52.227-19'daki Ticari Bilgisayar Uygulamalarına Yönelik Sınırlandırılmış Haklar maddesinin (a) ila (d) maddelerinde ya da NASA FAR ekindeki benzer maddelerde yer alan sınırlamalara tabidir. Yüklenici/üretici, Tyco Safety Products Ltd., 3301 Langstaff Road, Concord, Ontario, Canada L4K 4L2.
+
+7.  GARANTİNİN REDDİ.
+
+MOBİL UYGULAMAYI KULLANMANIN TAMAMEN KENDİ SORUMLULUĞUNUZDA OLDUĞUNU VE UYGULAMANIN \"TEMİN EDİLDİĞİ ŞEKİLDE OLDUĞUNU\" VE HERHANGİ BİR GARANTİ KAPSAMINDA \"OLMADIĞINI\" AÇIKÇA ANLIYOR VE KABUL EDİYORSUNUZ. MOBİL CİHAZINIZDA VEYA DİĞER CİHAZLARINIZDA, KULLANIMDAN MEYDANA GELEBİLECEK HER TÜRLÜ HASAR VE VERİ KAYBININ SORUMLULUĞU SİZE AİTTİR. TYCO AYRICA, MOBİL UYGULAMAYA YÖNELİK SATILABİLİRLİĞE VE BELİRLİ BİR AMACA UYGUNLUĞA YA DA FİKRİ MÜLKİYETİN İHLÂL EDİLMEMESİNE İLİŞKİN ZIMNİ GARANTİLER DÂHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE AÇIK VEYA ZIMNİ HER TÜRLÜ GARANTİYİ VE KOŞULU REDDEDER. TYCO, MOBİL UYGULAMANIN ÇALIŞTIĞI İŞLETİM ÖZELLİKLERİNİN DEĞİŞTİRİLMESİ SONUCUNDA DOĞAN SORUNLARDAN VEYA TYCO TARAFINDAN ÜRETİLMEYEN UYGULAMA VEYA DONANIMIN MOBİL UYGULAMA İLE OLAN ETKİLEŞİMİNDEN SORUMLU TUTULAMAZ. TYCO, BU UYGULAMAYA YÖNELİK KENDİ ADINA BU GARANTİYİ VEYA DİĞER HERHANGİ BİR GARANTİYİ YA DA YÜKÜMLÜLÜĞÜ DEĞİŞTİRMEK VE UYGULAMAK ÜZERE HİÇBİR KİŞİYE TAAHHÜTTE BULUNMAMIŞ VE YETKİLENDİRMEMİŞTİR.
+
+8.  SORUMLULUĞUN SINIRLANDIRILMASI VE HASARLARIN REDDİ.
+
+a.  SORUMLULUĞUN SINIRLANDIRILMASI.  HİÇBİR DURUMDA, TYCO'NUN BU EULA HÜKÜMLERİNDEN YA DA UYGULAMANIN KULLANIMINDAN DOĞAN SORUMLULUĞU (İHMAL SORUMLULUĞU, KUSURSUZ SORUMLULUK, SÖZLEŞMENİN İHLALİ, YANLIŞ BEYAN VE DİĞER SÖZLEŞME YA DA HAKSIZ FİİLLER DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK KAYDIYLA), BU SORUMLULUĞUN OLUŞMASI İÇİN TYCO VEYA BAYİSİNE BU UYGULAMA İÇİN ÖDEMİŞ OLDUĞUNUZ MEBLAĞI VE BEŞ KANADA DOLARINI (CAD$5.00) AŞAMAZ. BAZI YASALAR SORUMLULUĞUN BU TÜR REDDİNE VEYA SINIRLANDIRILMASINA İZİN VERMEDİĞİ TAKDİRDE, BUNLAR SİZİN İÇİN GEÇERLİ OLMAYABİLİR.
+
+b.  DİĞER HASARLARIN REDDİ. HİÇBİR DURUMDA, TYCO VEYA BAYİLERİ YA DA LİSANS VERENLER, AŞAĞIDAKİLER İÇİN SORUMLU TUTULAMAZ: (I) ÜÇÜNCÜ TARAFLARIN YAPMIŞ OLDUĞU İHLALLERDEN; (II) HERHANGİ BİR SİSTEME, KAYIT VEYA VERİYE YÖNELİK KAYIP VE HASARLAR YA DA KİŞİLERİN GİZLİLİK HAKKININ İHLALİNE İLİŞKİN SORUMLUKLARDAN; (III) TELEKOMMÜNİKASYON, İNTERNET, ELEKTRONİK HABERLEŞME, YOLSUZLUK, GÜVENLİK, VERİLERİN KAYBI VEYA ÇALINMASI, VİRÜSLER, CASUS YAZILIMLARDAN DOĞAN HER TÜRLÜ KAYIP VE HASARDAN VEYA (IV) TYCO DAHA ÖNCEDEN BU TÜR OLASI HASARLARDAN HABERDAR EDİLMİŞ OLSA BİLE DOLAYLI, ARIZİ, ÖZEL, BİR ŞEYİN SONUCUNDA MEYDANA GELEN, CEZAİ, BAĞIMLI OLARAK MEYDANA GELEN YA DA MALİ KAYIPLAR (GELİR KAYIPLARI VE TASARRUFLARIN KAYBEDİLMESİ DAHİL). UYGULAMADAN ALINAN HER VERİMİN GÜVENLİĞİNİN, DOĞRULUĞUNUN, UYGUNLUĞUNUN VE GÜVENİLİRLİĞİNİN DOĞRULANMASI SORUMLULUĞU TÜMÜYLE SİZE AİTTİR. BAZI YASALAR ARIZİ VEYA BİR ŞEYİN SONUCUNDA MEYDANA GELEN HASARLARA YA DA ZIMNİ GARANTİNİN SÜRESİNE YÖNELİK SORUMLULUK REDDİNE İZİN VERMEMEKTEDİR. YUKARIDA BELİRTİLEN SINIRLAMALARIN BAZILARI, BU YASALARIN İZİN VERDİĞİ ÖLÇÜDE SİZE UYGULANABİLİR..
+
+c.  UYGULAMAYI İNDİRDİĞİNİZDE, KURDUĞUNUZDA YA DA KULLANDIĞINIZDA, UYGULAMANIN ŞİFRE KORUMASI DAHİL ANCAK BUNUNLA SINIRLI OLMAMAK KAYDIYLA, BAZI VARSAYILAN AYARLARI DEĞİŞTİRME VEYA BAZI AYARLAR SEÇME FIRSATINA SAHİPSİNİZ. YAPTIĞINIZ SEÇİMLER, UYGULAMADA HASARA VE/VEYA İSTENMEYEN İŞLETİME VEYA KULLANIMA NEDEN OLABİLİR. BELİRLİ AYARLAR SEÇTİĞİNİZDE YA DA VARSAYILAN AYARLARI DEĞİŞTİRDİĞİNİZDE (UYGULAMANIN ŞİFRE KORUMASI DAHİL ANCAK BUNUNLA SINIRLI OLMAMAK KAYDIYLA) MEYDANA GELEBİLECEK OLASI HASARLARDA TÜM SORUMLULUK SİZE AİTTİR. ŞÜPHEYE MAHAL VERMEMEK İÇİN, UYGULAMANIN ŞİFRE KORUMASINI DEVRE DIŞI BIRAKTIĞINIZDA MEYDANA GELEBİLECEK HER TÜRLÜ KAYIP VE HASARA (UYGULAMANIN YETKİSİZ KİŞİLERCE KULLANILMASI DAHİL) KARŞI TYCO SORUMLU TUTULAMAZ.
+
+d.  MOBİL UYGULAMA HÜCRESEL AĞLARIN, İNTERNET VE ELEKTRONİK HABERLEŞMENİN KULLANIMINDAN KAYNAKLANAN SINIRLAMALARA, GECİKMELERE VEYA DİĞER SORUNLARA TABİ OLABİLİR. TYCO, İNTERNET VE HÜCRESEL AĞLAR DAHİL İLETİŞİM AĞLARI VE ARAÇLARI ÜZERİNDEN AKTARILAN VERİLERDE KAYNAKLANAN GECİKME, AKTARMA HATALARI VEYA DİĞER KAYIP VE HASARDAN SORUMLU DEĞİLDİR. AŞAĞIDAKİ HÜKÜMLERİ KABUL EDİYORSUNUZ: (A) MOBİL UYGULAMANIN KULLANILABİLİRLİĞİ MOBİL CİHAZINIZA, İNTERNET SERVİS SAĞLAYICINIZA VE MOBİL TAŞIYICINIZA BAĞLIDIR; (B) KULLANIMDAN VE BU KULLANIMA YÖNELİK ANLAŞMALARDAN DOĞAN HER TÜRLÜ ÜCRET SİZİN SORUMLULUĞUNUZDADIR.  
+
+9.  GİZLİLİK POLİTİKASI.  Kayıt bilgileri gibi Tyco'nun sizden topladığı tüm bilgiler, Tyco'nun zaman zaman yürürlükte olan gizlilik politikasına (\"Gizlilik Politikası\") ve yürürlükteki gizlilik yasalarına tabidir. Tyco'nun yürürlükteki Gizlilik Politikası'nı görmek için, lütfen Tyco'nun web sitesini ziyaret edin.
+
+10.  Veri Gizliliği Onayı.  Bu EULA'da yer alan hükümler dahilinde Tyco'nun sorumluklarını yerine getirmesi kaydıyla, Tyco'nun kredi riskini değerlendirmek ve herhangi bir işi gerçekleştirmek amacıyla, güvenlik bilgileri haricinde, kredi değerlendirme kuruluşlarına, icra dairelerine veya kamu telekomünikasyon kuruluşuna veya herhangi bir diğer kuruma verilebilmesini teminen, kişisel olarak tanımlanabilen verilerin (örneğin isimler, adresler, e-posta adresleri, telefon numaraları) Tyco'ya ve nerede olurlarsa olsunlar Tyco ile bağlı kuruluşlarına aktarılması dahil olmak üzere Tyco ile aranızdaki iş ilişkisine dair veri ve bilgilerin toplanmasına, işlenmesine ve uluslararası aktarımına izin veriyorsunuz.  Aşağıdakileri yapma hakkına sahipsiniz: (a) bu verilere erişim sağlama; (b) doğru olmayan veya artık geçerli olmayan verilen düzeltilmesi veya silinmesi; and (c) amacı dışında kullanıma müdahale etme.  Tycopolcy@tyco.com adresinden Tyco'ya veya Tyco'nun belirteceği bir başka adrese yazarak hakkınızı kullanabilirsiniz.
+
+11.  Ekipmanlar, Hizmetler ve Araçlar.  Sınırlamalar olmaksızın, tüm donanım ve yazılımlar, modemler, hücresel servisler ve internet erişimi de dahil olmak üzere, Uygulamaya erişmek ve Uygulamayı kullanmak için gerekli tüm ekipman, araç, üçüncü taraf yazılım ve hizmetleri kendi masraflarınızı karşılayarak edinmek, bunları yüklemek ve çalışmalarını sağlamaktan sadece siz sorumlusunuz.
+
+12.  DEVİR.  Bu EULA hükümleri, buradaki tarafları, haleflerini ve devredilenleri bağlar ve onların yararınadır. Tyco, bu EULA'yı ve burada verilen hak ve yükümlülükleri kendi takdirine bağlı olarak devredebilir. Bu EULA ile verilen herhangi bir hak (bir şirket birleşmesi, varlıkların edinilmesi, hisse satışı veya yönetimin değişmesi ile sonuçlanan her türlü işlem dahil), bu Sözleşme kapsamında verilen herhangi bir lisans ya da hak, yürürlükteki yasalar tarafından açıkça izin verilen haller dışında, bu kısıtlamaya bakılmaksızın, tamamen veya kısmen devredilemez, alt lisansı verilemez veya aktarılamaz. 
+
+13.  GENEL.  Bu EULA'nın herhangi bir hükmünün hukuka aykırı, geçersiz veya herhangi bir nedenle uygulanamaz olduğu tespit edilirse, söz konusu hüküm bu EULA'dan ayrı tutulur; bu durum geriye kalan hükümlerin geçerliliğini ve uygulanabilirliğini etkilemeyecektir. Model numarası, seri numarası ve ödeme tarihi de dahil olmak üzere ödenen lisans ücreti belgesini saklamalı ve bu EULA'da belirtilen garanti kapsamındaki hizmet veya yardımı alırken bu ödeme belgesini sunmalısınız. Bu EULA, Kanada'nın Ontario Bölgesi kanunlarına tabi olup, hukuki uyuşmazlıklar ilkelerine aykırı değildir. Taraflar, işbu şartlar ve koşullar altında doğan veya bunlarla ilgili olan tüm anlaşmazlıkları gidermek amacıyla Ontario Eyalet ve Bölge Federal Mahkemeleri'nin yargı yetkisini geri dönüşü olmaksızın kabul etmektedir. Taraflar, Uluslararası Mal Satışları Sözleşmeleri hakkındaki Birleşmiş Milletler Sözleşmesi hükümlerinin uygulanmasını özellikle kapsam dışı bırakmaktadır.
+
+ 
+UYARI:  Mobil Uygulama, Sistemin bir uzantısı olarak düşünülmüştür. Tyco, Sistemin tamamının düzenli olarak test edilmesini önerir. Bununla birlikte, sık yapılan testlere rağmen, Mobil Uygulamanın performansı, Sistemin nasıl kurulduğu, panelin internet bağlantısı, bakım nedeniyle arada sırada sunucunun kapalı kalma süresi, hücresel şebeke ile ilgili sorunlar, ceza gerektiren harici müdahale veya elektrik kesintisi gibi çeşitli faktörlere bağlıdır; Mobil Uygulamanın beklenen performansının dışında çalışmasına neden olabilir.
+"</string>
+    <string name="time">Zaman</string>
+    <string name="time_format">SAAT:DAK</string>
+    <string name="to">Kime</string>
+    <string name="unlockByAccess">Erişim kilidi</string>
+    <string name="unlockByDoubleSwipe">Kilidi açılır çift kart mevcut</string>
+    <string name="unlockByInput">Giriş kilidi</string>
+    <string name="unlockByOperator">Operatör tarafından kilidini</string>
+    <string name="unlockBySchedule">Zaman kilidi</string>
+    <string name="unlockByTripleSwipe">Üçlü kart mevcut kilidi</string>
+    <string name="unlocked">Kilidi Açık</string>
+    <string name="user_choice_dialog_negative_button">İptal</string>
+    <string name="user_choice_dialog_on_device_name">Bu cihazdaki sertifika</string>
+    <string name="user_choice_dialog_positive_button">Devam</string>
+    <string name="user_choice_dialog_smartcard_name">Fiziksel akıllı kart</string>
+    <string name="user_choice_dialog_title">Nasıl oturum açmak istersiniz?</string>
+    <string name="user_delete">Bu kullanıcıyı silmek istediğinizden emin misiniz?</string>
+    <string name="user_error_deleted">Hata kullanıcı silme!</string>
+    <string name="user_name">Kullanıcı adı</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="video">video</string>
+    <string name="videoSearchFastForwardButtonText">>></string>
+    <string name="videoSearchPauseButtonText">||</string>
+    <string name="videoSearchPlayButtonText">></string>
+    <string name="videoSearchReverseButtonText">&lt;</string>
+    <string name="videoSearchRewindButtonText">&lt;&lt;</string>
+    <string name="video_search">Video Arama</string>
+    <string name="video_state_camera_disabled">Kamerası Engelli</string>
+    <string name="video_state_camera_not_found">Kamera Bulunamadı</string>
+    <string name="video_state_no_video">Kullanılamaz video</string>
+    <string name="video_state_online">çevrimiçi</string>
+    <string name="video_state_unsupported_format">Desteklenmeyen Video Formatı</string>
+    <string name="wait_keypad">Klavye girişini bekle</string>
+    <string name="zero">0</string>
+</resources>

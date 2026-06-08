@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ActionNotCompatibleWithSelectedComponents">This action is not compatible with the component(s) you selected. If you choose to continue, the component(s) will be cleared. Do you want to continue?</string>
+    <string name="CantBeEmptyField">Le champ ne peut-être vide</string>
+    <string name="ComponentsAlreadySelected">Components already selected.</string>
+    <string name="ComponentsMaxLimitReached">"Can't add more component as the maximum limit has been reached."</string>
+    <string name="ComponentsNotAvailable">No more components available to assign.</string>
+    <string name="Counter">Counter</string>
+    <string name="Custom">Personnalisée</string>
+    <string name="DefaultPort">8801</string>
+    <string name="DeleteAction">Delete action when expired</string>
+    <string name="DoubleZero">00</string>
+    <string name="Duration">Durée</string>
+    <string name="EXCEL">EXCEL</string>
+    <string name="EmailSendSuccessfully">E-mail envoyé avec succès</string>
+    <string name="EnableGoPass">Activer Go Pass</string>
+    <string name="End">Fin</string>
+    <string name="EntrapassGOCommaSpace">EntraPassGO:</string>
+    <string name="Exit">Sortie</string>
+    <string name="FifteenMinutes">15 dernières minutes</string>
+    <string name="FiveMinutes">5 dernières minutes</string>
+    <string name="FourHours">4 dernières heures</string>
+    <string name="HHMM0">00:00</string>
+    <string name="HHMM24">24:00</string>
+    <string name="HintAT">\@</string>
+    <string name="HintEmail">User@Email.com</string>
+    <string name="Intrusion">Intrusion</string>
+    <string name="MacroMaker">Macromaker</string>
+    <string name="One">01</string>
+    <string name="PDF">PDF</string>
+    <string name="PartitionArmed">Armée</string>
+    <string name="PartitionArmedAwayZeroDelay">Armée en mode Absent - aucun délai</string>
+    <string name="PartitionArmedStay">Armée en mode Absent</string>
+    <string name="PartitionArmedStayZeroDelay">Armée en mode Domicile - aucun délai</string>
+    <string name="PartitionEntryDelayInProgress">"Délai d'entrée en cours"</string>
+    <string name="PartitionExitDelayInProgress">Délai de sortie en cours</string>
+    <string name="PartitionInAlarm">En alarme</string>
+    <string name="PartitionInAlarmDisarmed">En alarme (désarmé)</string>
+    <string name="PartitionNotConnected">Non connectée</string>
+    <string name="PartitionNotReady">Pas prêt</string>
+    <string name="PartitionReady">Prêt</string>
+    <string name="PartitionUnknown">Inconnu</string>
+    <string name="Paused">En pause</string>
+    <string name="Recurring">Recurring</string>
+    <string name="Relay">Relay</string>
+    <string name="Report_Access">Accès</string>
+    <string name="Report_AlarmSystem">"Système d'alarme"</string>
+    <string name="Report_All">Tous</string>
+    <string name="Report_Area">Secteur</string>
+    <string name="Report_Camera">Caméra</string>
+    <string name="Report_Controller">Contrôleur</string>
+    <string name="Report_Database">Base de données</string>
+    <string name="Report_Door">Porte</string>
+    <string name="Report_DoorEntry">KTES</string>
+    <string name="Report_DoorEntryController">DoorEntryController</string>
+    <string name="Report_GuardTour">Ronde de garde</string>
+    <string name="Report_Input">Entrée</string>
+    <string name="Report_Login">Connexion</string>
+    <string name="Report_ManualOperation">Fonctionnement manuel</string>
+    <string name="Report_Matrix">Serveur vidéo</string>
+    <string name="Report_Operator">Opérateur</string>
+    <string name="Report_Relay">Relais</string>
+    <string name="Report_Server">Serveur</string>
+    <string name="Report_TimeAndAttendance">Temps et présence</string>
+    <string name="RestrictedMessage">Restreint</string>
+    <string name="RootDetected">Cet appareil est rooté.</string>
+    <string name="RootDetectedMessage">Vous ne pouvez pas utiliser cette app.</string>
+    <string name="STRComma">:</string>
+    <string name="Search">RECHERCHE</string>
+    <string name="SendEmailNotification">Envoyer une notification par e-mail</string>
+    <string name="SixtyMinutes">60 dernières minutes</string>
+    <string name="SmartService">SmartService</string>
+    <string name="SmartServiceCommaSpace">SmartService:</string>
+    <string name="SmartlinkCommaSpace">SmartLink:</string>
+    <string name="Start">Début</string>
+    <string name="Title">Titre</string>
+    <string name="ToBeActivated">À activer</string>
+    <string name="TwentyFoundHours">24 dernières heures</string>
+    <string name="URLCommaSpace">URL:</string>
+    <string name="Versions">Versions</string>
+    <string name="YYYYMMDDHR">YYYY-MM-DD / HR</string>
+    <string name="ZoneAlarm">En alarme</string>
+    <string name="ZoneBypassed">Exclusion</string>
+    <string name="ZoneClosed">Fermée</string>
+    <string name="ZoneFault">Défaillante</string>
+    <string name="ZoneOpened">Ouverte</string>
+    <string name="ZoneTamper">Autoprotection</string>
+    <string name="ZoneUnknown">Inconnu</string>
+    <string name="_1_100">1–100</string>
+    <string name="abc_action_bar_up_description">Revenir en haut de la page</string>
+    <string name="abc_action_mode_done">OK</string>
+    <string name="abc_capital_off">NON</string>
+    <string name="abc_capital_on">OUI</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">supprimer</string>
+    <string name="abc_menu_enter_shortcut_label">entrée</string>
+    <string name="abc_menu_function_shortcut_label">Fonction+</string>
+    <string name="abc_menu_meta_shortcut_label">Méta+</string>
+    <string name="abc_menu_shift_shortcut_label">Maj+</string>
+    <string name="abc_menu_space_shortcut_label">espace</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Rechercher…</string>
+    <string name="abc_searchview_description_clear">Effacer la requête</string>
+    <string name="abc_searchview_description_search">Rechercher</string>
+    <string name="abc_searchview_description_submit">Envoyer la requête</string>
+    <string name="abc_searchview_description_voice">Recherche vocale</string>
+    <string name="abc_toolbar_collapse_description">Réduire</string>
+    <string name="accesslevel">"Niveau d'accès"</string>
+    <string name="action">Action</string>
+    <string name="actionType">Action Type</string>
+    <string name="actionname">Action Name</string>
+    <string name="activate_temp">Activation temporaire</string>
+    <string name="active">Actif</string>
+    <string name="add">Ajouter</string>
+    <string name="add_door_exception">Ajouter une exception de porte</string>
+    <string name="add_interval">Ajouter un intervalle</string>
+    <string name="add_row_card">Ajouter une carte</string>
+    <string name="additional_accesslevels">"Niveau d'accès supplémentaires"</string>
+    <string name="alert">Alert</string>
+    <string name="all_day">Toute la journée</string>
+    <string name="allow">Autoriser</string>
+    <string name="android.credentials.TYPE_PASSWORD_CREDENTIAL">Mot de passe</string>
+    <string name="androidx.credentials.TYPE_PUBLIC_KEY_CREDENTIAL">"Clé d'accès"</string>
+    <string name="app_loading">Chargement…</string>
+    <string name="app_name">EntraPass Go</string>
+    <string name="badge">Badge</string>
+    <string name="bottomsheet_action_expand_halfway">Développer en entier</string>
+    <string name="broker_processing">Le service Broker effectue le traitement</string>
+    <string name="cameraCanceled">"L'utilisateur a annulé la capture d'image!"</string>
+    <string name="cameraFail">"Désolé! Échec de la capture d'image!"</string>
+    <string name="cameraNotAvailable">"Cette fonctionnalité de la caméra n'est pas disponible!"</string>
+    <string name="cancel">Annuler</string>
+    <string name="cancel_button">Bouton Annuler</string>
+    <string name="cardTypeIsMandatory">Le Type de carte est obligatoire!</string>
+    <string name="cardnumber">Numéro de carte</string>
+    <string name="cardstate">État de la carte</string>
+    <string name="cardtype">Type de carte</string>
+    <string name="character_counter_content_description">Caractères saisis %1$d sur %2$d</string>
+    <string name="character_counter_overflowed_content_description">Nombre maximal de caractères dépassé : %1$d sur %2$d</string>
+    <string name="clear">Effacer</string>
+    <string name="clear_text_end_icon_content_description">Effacer le texte</string>
+    <string name="commaspace">,</string>
+    <string name="common_google_play_services_enable_button">Activer</string>
+    <string name="common_google_play_services_enable_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
+    <string name="common_google_play_services_enable_title">Activer les services Google Play</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
+    <string name="common_google_play_services_install_title">Installer les services Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilité des services Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Erreur liée aux services Google Play</string>
+    <string name="common_google_play_services_unknown_issue">"L'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
+    <string name="common_google_play_services_update_button">Mettre à jour</string>
+    <string name="common_google_play_services_update_text">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
+    <string name="common_google_play_services_update_title">Mettre à jour les services Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
+    <string name="common_google_play_services_wear_update_text">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
+    <string name="common_open_on_phone">Ouvrir sur le téléphone</string>
+    <string name="common_signin_button_text">Se connecter</string>
+    <string name="common_signin_button_text_long">Se connecter avec Google</string>
+    <string name="component">Component</string>
+    <string name="confirm">Confirmer</string>
+    <string name="count">Count</string>
+    <string name="create_gesture">Créer une gestuelle</string>
+    <string name="day">Jour</string>
+    <string name="delete">Supprimer</string>
+    <string name="demo">Démo</string>
+    <string name="deny">Refuser</string>
+    <string name="description">Description</string>
+    <string name="dev_version">© 2016, EntraPass Go Version 2.0</string>
+    <string name="door">Porte</string>
+    <string name="doorTempoUnlockDoubleSwipe">Porte déverrouillée temporairement par double présentation de carte</string>
+    <string name="doorTempoUnlockInput">Porte déverrouillée temporairement par entrée</string>
+    <string name="doorTempoUnlockOperator">Porte déverrouillée temporairement par un opérateur</string>
+    <string name="doorTempoUnlockTripleSwipe">Porte déverrouillée temporairement par triple présentation de carte</string>
+    <string name="door_exception">Exceptions de porte</string>
+    <string name="doors">Portes</string>
+    <string name="drawer_close">Fermez le panneau de navigation</string>
+    <string name="drawer_open">Ouvrez le panneau de navigation</string>
+    <string name="email">Courriel</string>
+    <string name="emptystring" />
+    <string name="end_date">Date de fin</string>
+    <string name="end_time">Heure de fin</string>
+    <string name="ending_date">Date de fin</string>
+    <string name="entapassservercommaspace">Serveur EntraPass:</string>
+    <string name="enter_a_date">AAAA-MM-JJ</string>
+    <string name="enter_a_number">Entrez un nombre</string>
+    <string name="error_authentication_canceled">"Authentification annulée par l'utilisateur"</string>
+    <string name="error_entra_id">"Une erreur s'est produite lors de l'authentification. Veuillez réessayer plus tard."</string>
+    <string name="error_icon_content_description">Erreur</string>
+    <string name="exit_application">"Voulez-vous vraiment quitter l'application?"</string>
+    <string name="expiration">Expiration</string>
+    <string name="exposed_dropdown_menu_content_description">Afficher le menu déroulant</string>
+    <string name="extendedschedule">Horaire prolongé</string>
+    <string name="fallback_menu_item_copy_link">Copier le lien</string>
+    <string name="fallback_menu_item_open_in_browser">Ouvrir dans un navigateur</string>
+    <string name="fallback_menu_item_share_link">Partager le lien</string>
+    <string name="forget_password">Mot de passe oublié ?</string>
+    <string name="frequency">Frequency</string>
+    <string name="gateways_sites">Passerelles/sites</string>
+    <string name="gateways_sites_colon">Passerelles/Sites:</string>
+    <string name="group_floor">"Groupe d'étages"</string>
+    <string name="h_hint">Hr</string>
+    <string name="hint_port_number">8801</string>
+    <string name="hint_servername">SmartService</string>
+    <string name="hint_serverurl">www.myurl.com</string>
+    <string name="hrs">Hrs</string>
+    <string name="http_auth_dialog_cancel">Annuler</string>
+    <string name="http_auth_dialog_login">Connexion</string>
+    <string name="http_auth_dialog_password">Mot de passe</string>
+    <string name="http_auth_dialog_title">"Entrez vos informations d'identification"</string>
+    <string name="http_auth_dialog_username">"Nom d'utilisateur"</string>
+    <string name="i_accept">Accepter</string>
+    <string name="i_agree">"J'accepte"</string>
+    <string name="icon_content_description">Icône de la boîte de dialogue</string>
+    <string name="inactive">Inactif</string>
+    <string name="interval">Intervalle</string>
+    <string name="intervals">Intervalles</string>
+    <string name="item_view_role_description">Tabulation</string>
+    <string name="jc_privacy_notice">Déclaration de confidentialité de Johnson Controls</string>
+    <string name="jc_privacy_notice_url">Déclaration de confidentialité de Johnson Controls : <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a></string>
+    <string name="locked">Verrouillée</string>
+    <string name="lockedfirstpersonin">En attente de la première entrée</string>
+    <string name="log_share_intent_type">text/plain</string>
+    <string name="login">Connexion</string>
+    <string name="login_error">Erreur de connexion</string>
+    <string name="login_error_message">"Veuillez saisir un nom d'utilisateur/mot de passe valide."</string>
+    <string name="logout_message">Etes vous certain de vouloir vous déconnecter?</string>
+    <string name="m_hint">Min</string>
+    <string name="material_clock_toggle_content_description">Sélectionner le format AM ou PM</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="min">Min</string>
+    <string name="more_servers">Plus de serveurs</string>
+    <string name="msg_back_nosave">Quitter sans sauvegarder?</string>
+    <string name="msg_back_nosave_actionscheduler">Are you sure you want to discard any changes you have made?</string>
+    <string name="msg_delete_accesslevel">"Voulez-vous vraiment supprimer ce niveau d'accès?"</string>
+    <string name="msg_delete_schedule">Voulez-vous vraiment supprimer cet horaire?</string>
+    <string name="msg_enddate_smaller_than_startdate">Veuillez entrer des dates valides, la date de début ne peut être supérieure à la date de fin!</string>
+    <string name="msg_endtime_value_invalid">"Veuillez saisir des heures valides, l'heure de début ne peut être supérieure à l'heure de fin!"</string>
+    <string name="msg_error_addaccesslevel">"Impossible d'ajouter le niveau d'accès."</string>
+    <string name="msg_error_addschedule">"Impossible d'ajouter l'horaire."</string>
+    <string name="msg_error_password">Le mot de passe saisi est incorrect.</string>
+    <string name="msg_error_server_network">Erreur réseau</string>
+    <string name="msg_error_server_not_connected">"Le server n'est pas connecté"</string>
+    <string name="msg_error_server_unavailable">"Le server n'est pas disponible"</string>
+    <string name="msg_error_update_user">"Problème dans la modification d'un utilisateur."</string>
+    <string name="msg_error_updateaccesslevel">"Impossible de modifier le niveau d'accès."</string>
+    <string name="msg_error_updateschedule">"Impossible de modifier l'horaire."</string>
+    <string name="msg_error_upload_photo">Impossible de téléverser la photo.</string>
+    <string name="msg_error_username">"Veuillez saisir un nom d'utilisateur valide."</string>
+    <string name="msg_error_username_password">"Veuillez saisir un nom d'utilisateur et un mot de passe valides."</string>
+    <string name="msg_gesture_created">La gestuelle a été créée avec succès.</string>
+    <string name="msg_gesture_notvalid">Gestuelle invalide; veuillez réessayer.</string>
+    <string name="msg_load">Veuillez patienter…</string>
+    <string name="msg_login_connexion_error">"Impossible d'établir la connexion avec le serveur! Veuillez vérifier vos données d'utilisateur et de serveur!"</string>
+    <string name="msg_no_connexion">Internet semble déconnecté!</string>
+    <string name="msg_password_empty">Le mot de passe ne peut pas être vide!</string>
+    <string name="msg_pin_invalid">"Veuillez saisir un PIN valide d'un maximum de 6 caractères numériques"</string>
+    <string name="msg_psw_sent">Un mot de passe temporaire vous a été envoyé!</string>
+    <string name="msg_report_send_ko">"L'envoi du rapport a échoué!"</string>
+    <string name="msg_server_error">"Les informations de votre serveur ou de l'utilisateur ne sont pas valides!"</string>
+    <string name="msg_server_error_save">Le serveur ne peut pas être sauvegardé!</string>
+    <string name="msg_servername_empty">Le nom du serveur ne peut pas être vide!</string>
+    <string name="msg_serverurl_empty">"L'URL du serveur ne peut pas être vide"</string>
+    <string name="msg_session_full">Le nombre maximum de connexions a été atteint; veuillez communiquer avec votre administrateur de système pour augmenter le nombre de connexions disponibles.</string>
+    <string name="msg_user_more_to_search">La liste des utilisateurs est trop longue. Veuillez utiliser la fonctionnalité de recherche pour filtrer les utilisateurs à afficher dans la liste.</string>
+    <string name="msg_userinfo_cleaned">"Après 3 tentatives erronnées, l'information de l'utilisateur sera effacée."</string>
+    <string name="msg_username_empty">"Le nom d'utilisateur ne peut pas être vide!"</string>
+    <string name="mtrl_badge_numberless_content_description">Nouvelle notification</string>
+    <string name="mtrl_chip_close_icon_content_description">Supprimer %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Plus de %1$d nouvelles notifications</string>
+    <string name="mtrl_picker_a11y_next_month">Passer au mois suivant</string>
+    <string name="mtrl_picker_a11y_prev_month">Passer au mois précédent</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_day_of_week_column_header">Colonne du jour de la semaine : %1$s</string>
+    <string name="mtrl_picker_navigate_to_year_description">"Accéder à l'année %1$s"</string>
+    <string name="mtrl_picker_save">Enregistrer</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Passer au mode de saisie Agenda</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Appuyer pour sélectionner un jour</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Passer au mode de saisie Texte</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Appuyer pour sélectionner une année</string>
+    <string name="name_en">Nom EN</string>
+    <string name="name_fr">Nom FR</string>
+    <string name="no_supervised_temp">Temporairement non supervisée</string>
+    <string name="none">Aucun</string>
+    <string name="normal">Normal</string>
+    <string name="not_supervised">Non supervisée</string>
+    <string name="off">OFF</string>
+    <string name="ok">OK</string>
+    <string name="ok_button">Bouton OK</string>
+    <string name="on">ON</string>
+    <string name="password">Mot de passe</string>
+    <string name="password_toggle_content_description">Afficher le mot de passe</string>
+    <string name="pending">En attente</string>
+    <string name="pin">NIP</string>
+    <string name="port">Port</string>
+    <string name="port_number">8801</string>
+    <string name="primary_accesslevel">"Niveau d'accès primaire"</string>
+    <string name="privacy_notice_content">Les données personnelles traitées par cette application sous le contrôle de Johnson Controls seront traitées selon déclaration de confidentialité de Johnson Controls présenté au <a href="https://www.johnsoncontrols.com/legal/privacy">https://www.johnsoncontrols.com/legal/privacy</a>. En installant ce logiciel, vous reconnaissez avoir lu et compris déclaration de confidentialité de Johnson Controls. Si votre consentement est requis sous une loi précise pour permettre le traitement ou le transfert (incluant le transfert à l’international) de ces données personnelles, et dans la mesure où le consentement est requis par la loi, votre action ci-dessus constitue votre consentement.</string>
+    <string name="proceed">Proceed</string>
+    <string name="qr_code_rationale_allow">Autoriser</string>
+    <string name="qr_code_rationale_block">Bloquer</string>
+    <string name="qr_code_rationale_header">Autoriser cette application à accéder à votre caméra ?</string>
+    <string name="qr_code_rationale_message">Vous pouvez ensuite vous connecter avec un code QR.</string>
+    <string name="readerdisable">Lecteur désactivé</string>
+    <string name="readerenable">Lecteur activé</string>
+    <string name="redo">Rétablir</string>
+    <string name="reverse_supervision">Supervision inverse</string>
+    <string name="s_hint">Sec</string>
+    <string name="save">Sauvegarder</string>
+    <string name="schedule">Horaire</string>
+    <string name="search">Recherche</string>
+    <string name="secondary_accesslevels">Accès secondaires</string>
+    <string name="seconds">Sec</string>
+    <string name="secure_login">Inscription sécurisée</string>
+    <string name="select">Sélectionner</string>
+    <string name="server_name">Nom du serveur</string>
+    <string name="server_saved">Les réglages du serveur ont été sauvegardés.</string>
+    <string name="server_url">Serveur URL</string>
+    <string name="set_date">Fixer une date</string>
+    <string name="share_chooser_title">Partager le fichier journal</string>
+    <string name="share_message">Veuillez analyser le journal.</string>
+    <string name="share_subject">epgo-Android-logs</string>
+    <string name="smartcard_cert_dialog_negative_button">Annuler</string>
+    <string name="smartcard_cert_dialog_positive_button">Continuer</string>
+    <string name="smartcard_cert_dialog_title">Sélectionner un certificat avec la connexion</string>
+    <string name="smartcard_early_unplug_dialog_message">Le périphérique de carte à puce a été supprimé. Réinsérez l’appareil avant de tenter de vous reconnecter.</string>
+    <string name="smartcard_early_unplug_dialog_title">Réessayer</string>
+    <string name="smartcard_error_dialog_positive_button">OK</string>
+    <string name="smartcard_general_error_dialog_message">Une erreur inattendue s’est produite. Réessayez plus tard.</string>
+    <string name="smartcard_general_error_dialog_title">Réessayez ultérieurement</string>
+    <string name="smartcard_max_attempt_dialog_message">Trop de tentatives ayant échoué, réessayez ultérieurement.</string>
+    <string name="smartcard_max_attempt_dialog_title">Réessayez ultérieurement</string>
+    <string name="smartcard_nfc_diff_connected_message">Utilisez la carte à puce avec laquelle vous vous êtes connecté à l’origine.</string>
+    <string name="smartcard_nfc_diff_connected_positive_button">OK</string>
+    <string name="smartcard_nfc_diff_connected_title">Vous ne pouvez utiliser qu’une seule carte à puce à la fois</string>
+    <string name="smartcard_nfc_loading_dialog_message">Gardez votre carte à puce en place.</string>
+    <string name="smartcard_nfc_loading_dialog_title">Lecture de votre carte à puce</string>
+    <string name="smartcard_nfc_prompt_dialog_message">Maintenez une carte à puce au dos de votre téléphone.</string>
+    <string name="smartcard_nfc_prompt_dialog_negative_button">Annuler</string>
+    <string name="smartcard_nfc_prompt_dialog_title">Préparez votre carte à puce</string>
+    <string name="smartcard_nfc_reminder_dialog_message">Pour vous connecter avec NFC, activez NFC dans les paramètres de votre appareil. Puis reconnectez-vous.</string>
+    <string name="smartcard_nfc_reminder_dialog_positive_button">OK</string>
+    <string name="smartcard_nfc_reminder_dialog_title">Activer NFC dans les paramètres de l’appareil</string>
+    <string name="smartcard_no_cert_dialog_message">Vérifiez que votre certificat a été correctement configuré sur votre périphérique de carte à puce.</string>
+    <string name="smartcard_no_cert_dialog_title">Aucun certificat applicable trouvé.</string>
+    <string name="smartcard_pin_dialog_error_message">Le code confidentiel que vous avez entré était incorrect</string>
+    <string name="smartcard_pin_dialog_message">Entrez le code PIN de la carte à puce pour accéder au certificat et vous connecter</string>
+    <string name="smartcard_pin_dialog_negative_button">Annuler</string>
+    <string name="smartcard_pin_dialog_positive_button">Déverrouiller</string>
+    <string name="smartcard_pin_dialog_title">Déverrouiller une carte à puce</string>
+    <string name="smartcard_pin_layout_edittext_hint">PIN</string>
+    <string name="smartcard_prompt_dialog_message">Branchez ou maintenez une carte à puce au dos de votre téléphone.</string>
+    <string name="smartcard_prompt_dialog_negative_button">Annuler</string>
+    <string name="smartcard_prompt_dialog_title">Préparez votre carte à puce</string>
+    <string name="smartcard_removal_prompt_dialog_positive_button">OK</string>
+    <string name="smartcard_removal_prompt_dialog_title">Vous pouvez maintenant supprimer votre carte à puce</string>
+    <string name="start_date">Date de début</string>
+    <string name="start_time">Heure de début</string>
+    <string name="starting_date">Date de début</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stolen_lost">Volée / perdue</string>
+    <string name="submit">Soumettre</string>
+    <string name="supervision">Supervision</string>
+    <string name="system_schedule">Horaire système</string>
+    <string name="tab_1">Événements</string>
+    <string name="tab_2">Utilisateurs</string>
+    <string name="tab_3">Rapport</string>
+    <string name="tamporaryunlock">Déverrouillage temporaire</string>
+    <string name="terms_and_conditions">Modalités</string>
+    <string name="terms_and_conditions_content">"Contrat de licence utilisateur final Mobile Go (CLUF)
+ 
+IMPORTANT - VEUILLEZ LIRE CE CONTRAT DE LICENCE UTILISATEUR FINAL (« CLUF ») ATTENTIVEMENT AVANT DE TÉLÉCHARGER CETTE APPLICATION OU TOUTE PORTION DE CETTE DERNIÈRE À PARTIR DE GOOGLE PLAY STORE OU APPLE APP STORE, OU L'INSTALLATION, LA COPIE OU EN UTILISANT L'APPLICATION.
+
+CE CLUF EST UN ACCORD JURIDIQUE ENTRE VOUS ET TYCO SAFETY PRODUCTS CANADA LTD., (« TYCO »), ET DE CONCERT AVEC LA POLITIQUE SUR LA CONFIDENTIALITÉ (SELON CE QUI EST DÉFINI CI-DESSOUS) INCORPORÉE AUX PRÉSENTES PAR RÉFÉRENCE, RÉGIT VOTRE ACCÈS ET VOTRE UTILISATION DE L'APPLICATION QUI ACCOMPAGNE CE CLUF ET QUI COMPREND LE LOGICIEL DE L'APPLICATION MOBILE ET PEUT INCLURE DES MÉDIAS INFORMATIQUES, DES DOCUMENTS IMPRIMÉS, ET « EN LIGNE » OU DOCUMENTATION ÉLECTRONIQUE (COLLECTIVEMENT, l'« APPLICATION » OU L'« APLICATION MOBILE »). EN TÉLÉCHARGEANT L'APPLICATION OU EN L'INSTALLANT, EN LA COPIANT OU EN L'UTILISANT, VOUS ACCEPTEZ D'ÊTRE LIÉ PAR LES TERMES DU PRÉSENT CLUF. SI VOUS N񺳎PTEZ PAS TOUS LES TERMES ET CONDITIONS DE CE CLUF, N'OUVREZ PAS, NE TÉLÉCHARGEZ PAS, N'INSTALLEZ PAS, NE COPIEZ PAS OU N'UTILISEZ PAS L'APPLICATION. L'UTILISATION CONTINUE DE L'APPLICATION SIGNIFIE VOTRE ACCEPTATION CONTINUE DE CES MODALITÉS ET DE TOUTE MODIFICATION À CES DERNIÈRES.
+
+
+1.\u0009CHAMP D'APPLICATION DE LA LICENCE. L'application peut inclure du code informatique mobile, des fichiers de programme et tous les médias associés, les clés matérielles ou logicielles, du matériel imprimé et de la documentation électronique. L'application est protégée par les lois et traités internationaux sur le copyright, ainsi que d'autres lois et traités sur la propriété intellectuelle. Tous les titres et droits de propriété intellectuelle dans et concernant l'application (y compris mais sans s'y limiter, les images, les photos, et textes incorporés dans l'application), le matériel imprimé qui l'accompagne et toutes les copies de l'application, sont la propriété de Tyco et/ou de ses fournisseurs. L'application est sous licence et n'est pas vendue. Tous les droits non expressément accordés en vertu du présent CLUF sont réservés par Tyco et ses fournisseurs. Si vous téléchargez l'application du App Store de Apple, les modalités de ce CLUF viennent compléter le contrat de licence du CLUF de Apple, dont les modalités sont incorporées aux présentes. Dans l'éventualité d'une divergence entre les deux, le présent CLUF a préséance.
+
+2. OCTROI DE LICENCE. Ce CLUF vous accorde les droits suivants sur une base non exclusive :
+
+Sous réserve des termes du présent CLUF, Tyco vous accorde par les présentes une licence personnelle, non exclusive, non transférable, limitée et révocable, pour installer et utiliser l'application uniquement à des fins personnelles sur un appareil mobile compatible détenu ou contrôlé par vous conformément à ces modalités. La licence ci-dessus inclut le droit d'utiliser l'application conjointement avec votre utilisation autorisée du logiciel EntraPass (le « système »). Toute utilisation de l'application de toute autre manière, y compris, sans limitation, la revente, le transfert, la modification ou la distribution de l'application ou du texte, des images, de la musique, des codes à barres, des vidéos, des données, des hyperliens, est interdite. Le présent CLUF régit également toute mise à jour, ou compléments ou remplacements, de la présente application, à moins que des modalités distinctes ne soient jointes à ces mises à jour, suppléments ou remplacements, auquel cas les conditions particulières s'appliqueront. 
+
+3.  AUTRES DROITS ET LIMITATIONS. Votre utilisation de l'application est soumise aux limitations supplémentaires suivantes. Le non-respect de l'une de ces restrictions entraînera la résiliation automatique du présent CLUF et mettra d'autres recours juridiques à la disposition de Tyco.
+
+a.\u0009Limitations sur l'ingénierie inverse et les travaux dérivés. Vous ne pouvez faire d'ingénierie inverse, décompiler ou désassembler l'application, et toute tentative de le faire entraînerait immédiatement la résiliation du présent CLUF - sauf et uniquement dans la mesure où cette activité peut être expressément autorisée par la loi applicable, nonobstant cette limitation. Vous ne pouvez pas faire de changements ou modifications à toute partie de l'application, ou créer des oeuvres dérivées, sans l'autorisation écrite d'un officiel de Tyco (sauf tel que prévu au paragraphe 3 (e) de ce CLUF par rapport au logiciel « open source »). Vous ne pouvez pas supprimer les avis ou étiquettes de propriété de l'application. Vous devez mettre en place les mesures raisonnables permettant d'assurer la conformité avec les termes et conditions du présent CLUF par votre
+personnel et agents.
+
+b.\u0009Avis de droits d'auteur. Vous devez conserver tous les avis de droits d'auteur sur toutes les copies de l'application.
+
+c.\u0009Résiliation. Sans préjudice pour tous autres droits, Tyco peut résilier ce CLUF si vous ne respectez pas les termes et conditions des présentes. Dans ce cas, vous devez immédiatement détruire toutes les copies de l'application et toutes ses composantes. 
+
+d.\u0009CLUF subséquent. Tyco peut également remplacer ce CLUF avec un CLUF subséquent pour vous fournir toute composante future, l'émission, la mise à jour ou autre modification ou ajout à l'application. De même, dans la mesure où les termes de cet CLUF sont en conflit avec tout CLUF préalable ou autre entente entre vous et Tyco concernant l'application, les termes du présent CLUF prévaudront.
+
+e.\u0009Incorporation de « Open Source » et autres logiciels tiers. Certaines parties de l'application peuvent être soumises à certains accords de licence de tierces parties régissant l'utilisation, la copie, la modification, la redistribution et la garantie de ces parties de l'application, y compris ce qui est communément connu comme logiciel « open source ». Une copie de chaque licence de tiers applicable peut être trouvée dans l'écran « À propos » de l'application. Un tel logiciel « open source » n'est pas visé par toute garantie ou indemnité dans le cadre du présent CLUF. En utilisant l'application, vous acceptez également d'être lié par les termes de ces licences tierces. Si cela est prévu dans la licence tierce applicable, vous pourriez avoir le droit de recevoir le code source de ces logiciels pour l'utilisation et la distribution de tout programme que vous créez, aussi longtemps que vous, en retour acceptez d'être lié par les termes de la licence tierce, et que vos programmes sont distribués sous les termes de cette licence. Le cas échéant, une copie de ce code source peut être obtenue gratuitement en contactant votre représentant Tyco.
+
+f.\u0009Marques. Ce CLUF ne vous accorde aucun droit relatif aux marques déposées ou aux marques de service de Tyco, ses sociétés affiliées ou ses fournisseurs.
+
+g.\u0009Location. Vous ne pouvez pas copier, modifier, louer, transférer, vendre, sous-licencier, distribuer, rendre disponible à d'autres ou transférer l'application ou permettre à un tiers d'utiliser l'application à moins d'en obtenir le consentement écrit de Tyco.
+
+h.\u0009Démos et copies d'évaluation. Une copie de démonstration ou d'évaluation de l'application est couverte par le présent CLUF à condition que les licences contenues dans ce document expirent à la fin de la période de démonstration ou d'évaluation
+
+i.\u0009Restrictions supplémentaires. L'application peut être soumise à des restrictions et conditions supplémentaires relatives à l'utilisation comme indiqué dans la documentation accompagnant le logiciel, lesquelles restrictions et conditions supplémentaires sont incorporées dans le présent CLUF et en font partie.
+
+j.\u0009Mises à niveau et mises à jour. Dans la mesure où Tyco les rend disponibles, les mises à niveau et mises à jour logicielles ne peuvent être utilisées pour remplacer en tout ou en partie l'application originale que vous êtes autorisé à utiliser.
+
+k. Enregistrement. L'application peut exiger l'enregistrement auprès de Tyco avant utilisation. Si vous n'enregistrez pas l'application, ce CLUF est automatiquement résilié et vous ne pouvez pas utiliser l'application. Si Tyco vous demande des informations d'enregistrement, vous fournirez à Tyco des informations véridiques, exactes, actuelles et complètes. Vous mettrez rapidement à jour votre inscription pour la maintenir exacte, actuelle et complète. Si Tyco vous émet un mot de passe, vous ne devez pas le révéler à un tiers. Vous ne pouvez pas utiliser un mot de passe appartenant à un tiers. Vous êtes responsable de la confidentialité de vos comptes et mots de passe. Vous acceptez d'informer immédiatement Tyco de toute utilisation non autorisée de vos mots de passe ou comptes ou de toute autre violation de la sécurité. Vous acceptez également de quitter vos comptes à la fin de chaque session. Tyco ne sera pas responsable des pertes ou dommages (y compris l'utilisation non autorisée de l'application) qui pourraient résulter du non-respect de ces exigences.
+
+l. Mises à jour. Tyco peut de temps à autre mettre au point des mises à jour, des mises à niveau, des correctifs pour les bogues, des rustines et d'autres modifications à l'application (collectivement, les « mises à jour »), qui peuvent être installées automatiquement sans aucun avis supplémentaire. Vous consentez par les présentes à ces mises à jour. Vous reconnaissez que vous devrez peut-être installer les mises à jour pour poursuivre l'utilisation de l'application et vous acceptez par les présentes de les installer rapidement.
+  
+4. AUTRES TERMES DU SYSTÈME
+
+a.\u0009Désactivation par le revendeur. Si vous avez un contrat avec un revendeur ou un tiers pour l'utilisation du système, votre droit d'utiliser le système peut être assujetti aux termes et conditions de ce contrat avec le concessionnaire ou un tiers et le concessionnaire ou un autre tiers peut avoir la possibilité de résilier votre accès au système via l'application en désactivant votre compte. Dans le cas où votre revendeur ou un autre tiers désactive votre compte, Tyco n'aura aucune responsabilité envers vous pour des dommages résultant ou découlant d'une telle situation. 
+
+b.\u0009Accès de tiers. Vous reconnaissez et acceptez que (a) vous avez la possibilité d'ajouter d'autres parties à votre compte, et ces parties peuvent avoir un accès complet ou partiel au Système, et (b) entre vous et Tyco, vous assumez toute responsabilité à l'égard des actions ou inactions de ces tiers. Tyco ne sera pas responsable des pertes ou dommages découlant des actions ou inactions de ces tiers, et vous indemniserez Tyco pour tous frais, dommages, pertes ou dépenses encourus par Tyco à l'égard de ces tiers.  
+
+5.\u0009RESTRICTIONS À L'EXPORTATION. Vous vous engagez à ne pas exporter, réexporter ou transférer quelque partie que ce soit de l'application ou de tout produit dérivé (ce qui précède, collectivement désigné comme la « Composante soumise à restriction »), à l'IRAN, la CORÉE DU NORD, la SYRIE, CUBA et le SOUDAN, y compris les entités ou les personnes dans ces pays, soit directement ou indirectement (« Position Tyco »). Vous acceptez également que vous n'exporterez, ni ne réexporterez ou transférerez la Composante soumise à restriction à tous les autres pays, sauf en pleine conformité avec toutes les exigences gouvernementales applicables, y compris mais sans s'y limiter à des sanctions économiques et des contraintes applicables administrés par le département du Trésor américain et les mesures de contrôle d'exportation applicables gérées par le département américain du Commerce et le Département américain d'État, d'autres agences gouvernementales américaines et les mesures administrées par l'Union européenne ou les organismes gouvernementaux de tous les autres pays. Toute violation de votre part des lois ou règlements des États-Unis ou de tout autre gouvernement, ou non-respect de la position de Tyco nonobstant si oui ou non cela est contraire à toutes les lois ou règlements applicables susmentionnées applicables, entraînera la résiliation automatique du présent CLUF.
+
+6.\u0009DROITS RESTREINTS DU GOUVERNEMENT des États-Unis. L'application est un logiciel informatique commercial fourni avec des « droits restreints » en vertu de la Federal Acquisition Regulations et les suppléments d'agence. Toute utilisation, duplication ou divulgation par le gouvernement américain est soumise aux restrictions énoncées à l'alinéa (c) (1) (ii) des droits sur les données techniques et logiciels informatiques du DFAR 255.227-7013 et suivants ou 252.211-7015, ou sous-paragraphes (a) à (d) des droits commerciaux restreints des logiciels d'ordinateur FAR 52.227-19, selon le cas, ou de clauses similaires du NASA FAR. L'entrepreneur/constructeur est Tyco Safety Products Ltd., 3301, chemin Langstaff, Concord, Ontario, Canada L4K 4L2.
+
+7.\u0009EXCLUSIONS DE GARANTIE.
+
+VOUS COMPRENEZ ET CONSENTEZ FORMELLEMENT AU FAIT QUE VOTRE UTILISATION DE L'APPLICATION MOBILE EST À VOTRE ENTIÈRE DISCRÉTION ET À VOS RISQUES ET QUE L'APPLICATION EST FOURNIE « EN L'ÉTAT » ET EST OFFERTE SANS AUCUNE GARANTIE. VOUS ÊTES SEUL RESPONSABLE DES ÉVENTUELS DOMMAGES OCCASIONNÉS À VOTRE  DISPOSITIF MOBILE OU À TOUT AUTRE DISPOSITIF, OU ENCORE DES PERTES DE DONNÉES RÉSULTANT D'UNE TELLE UTILISATION. TYCO DÉCLINE EXPRESSÉMENT TOUTES LES GARANTIES ET LES CONDITIONS IMPLICITES OU EXPRESSES, Y COMPRIS, SANS TOUTEFOIS S'Y LIMITER, LES GARANTIES ET CONDITIONS DE QUALITÉ MARCHANDE, D'ADÉQUATION À UNE FIN PARTICULIÈRE ET DE NON-CONTREFAÇON, LE TOUT EN LIEN AVEC L'APPLICATION MOBILE. TYCO NE PEUT ÊTRE TENU RESPONSABLE DE TOUT PROBLÈME CAUSÉ PAR LES MODIFICATIONS APPORTÉES AUX CARACTÉRISTIQUES DE FONCTIONNEMENT DU OU DES DISPOSITIFS SUR LESQUELS L'APPLICATION MOBILE EST EXPLOITÉE, OU DE TOUT PROBLÈME EN LIEN AVEC L'INTERACTION DE L'APPLICATION MOBILE AVEC D'AUTRES APPLICATIONS NON-TYCO OU DE MATÉRIEL INFORMATIQUE. TYCO N'AUTORISE AUCUNE AUTRE PERSONNE À AGIR EN SON NOM EN VUE DE MODIFIER LA PRÉSENTE GARANTIE ET N'ASSUME AUCUNE RESPONSABILITÉ QUANT AUX AUTRES GARANTIES OU RESPONSABILITÉS RELATIVES À CETTE APPLICATION.
+
+8.  LIMITATION DE RESPONSABILITÉ ET EXCLUSION DES DOMMAGES.
+
+a.\u0009LIMITATION DE RESPONSABILITÉ. EN AUCUN CAS LA RESPONSABILITÉ TOTALE DE TYCO (Y COMPRIS, MAIS SANS S'Y LIMITER, LA RESPONSABILITÉ POUR NÉGLIGENCE, RESPONSABILITÉ STRICTE, RUPTURE DE CONTRAT, LA FAUSSE DÉCLARATION ET AUTRE CONTRACT OU RÉCLAMMATION) PROVENANT DE OU LIÉS AU PRÉSENT CLUF, OU DE L'UTILISATION DE L'APPLICATION,NE POURRA DÉPASSER LE MONTANT LE PLUS ÉLEVÉ ENTRE 5,00 $ CAD OU LE MONTANT DES FRAIS PAYÉS À TYCO OU SON REVENDEUR POUR LE LOGICIEL QUI DONNE LIEU À LA RESPONSABILITÉ. PARCE QUE ET DANS LA MESURE OÙ CERTAINES JURIDICTIONS NE PERMETTENT PAS LES EXCLUSIONS OU LIMITATIONS DE RESPONSABILITÉ CI-DESSUS, CES TERMES PEUVENT NE PAS S'APPLIQUER À VOUS.
+
+b.\u0009EXCLUSION DES AUTRES DOMMAGES. EN AUCUN CAS TYCO OU UN DE SES REVENDEURS OU CONCÉDANTS NE SERA RESPONSABLE DES DOMMAGES SUIVANTS: (I) LES REVENDICATIONS DE TIERS; (II) LA PERTE OU TOUT DOMMAGE À DES SYSTÈMES, DES DONNÉES OU DES ENREGISTREMENTS OU LA RESPONSABILITÉ CONCERNANT UNE VIOLATION DES DROITS DE LA VIE PRIVÉE D'INDIVIDUS; (III) DES PERTES OU DES DOMMAGES EN LIEN AVEC LES PANNES DES TÉLÉCOMMUNICATIONS, DE L'INTERNET, DES COMMUNICATIONS ÉLECTRONIQUES, DE LA CORRUPTION, DE LA SÉCURITÉ, DE LA PERTE OU LE VOL DES DONNÉES, DES VIRUS OU UN LOGICIEL MALVEILLANT; OU (IV) DES DOMMAGES INDIRECTS, ACCESSOIRES, SPÉCIAUX, CONSÉQUENTS, PUNITIFS, D'ABUS DE CONFIANCE, OU DES DOMMAGES RELIÉS À DES PERTES FINANCIÈRES, DANS CHAQUE CAS MÊME SI TYCO A ÉTÉ INFORMÉ DE LA POSSIBILITÉ DE TELS DOMMAGES. VOUS ÊTES SEUL RESPONSABLE ET REDEVABLE DE VÉRIFIER LA SÉCURITÉ, L'EXACTITUDE ET L'ADÉQUATION DE TOUTES LES DONNÉES PRODUITES PAR L'APPLICATION, ET POUR TOUTE CONSÉQUENCE Y DÉCOULANT. CERTAINES JURIDICTIONS NE PERMETTENT PAS L'EXCLUSION DE DOMMAGES ACCESSOIRES OU INDIRECTS, OU LA LIMITATION DE LA DURÉE D'UNE GARANTIE IMPLICITE, DE SORTE QUE CERTAINES DES LIMITATIONS
+CI-DESSUS PEUVENT S'APPLIQUER À VOUS QUE DANS LA MESURE AUTORISÉE PAR CES LOIS.
+
+c.\u0009LORSQUE VOUS INSTALLEZ, CONFIGUREZ OU UTILISEZ L'APPLICATION, VOUS AVEZ LA POSSIBILITÉ DE MODIFIER CERTAINS PARAMÈTRES PAR DÉFAUT OU DE CHOISIR DES RÉGLAGES PARTICULIERS, Y COMPRIS, SANS TOUTEFOIS S'Y LIMITER, LA POSSIBILITÉ DE DÉSACTIVER LA PROTECTION PAR MOT DE PASSE DE L'APPLICATION. LES SÉLECTIONS FAITES PEUVENT ENTRAÎNER DES DOMMAGES ET UNE UTILISATION NON RECOMMANDÉE DE L'APPLICATION. VOUS ASSUMEZ TOUTE RESPONSABILITÉ DE TELS DOMMAGES LORSQUE VOUS SÉLECTIONNEZ UN PARAMÈTRE EN PARTICULIER OU QUE VOUS CHANGEZ LES PARAMÈTRES PAR DÉFAUT (Y COMPRIS, SANS TOUTEFOIS S'Y LIMITER, LA DÉSACTIVATION DE LA PROTECTION DE L'APPLICATION PAR MOT DE PASSE). POUR ÉVITER TOUT DOUTE, TYCO NE SERA PAS RESPONSABLE DE TOUTE PERTE OU DE TOUT DOMMAGE (Y COMPRIS L'UTILISATION NON AUTORISÉE DE L'APPLICATION) POUVANT RÉSULTER DE LA DÉSACTIVATION DE LA PROTECTION PAR MOT DE PASSE DE L'APPLICATION.
+
+d.\u0009L'APPLICATION MOBILE PEUT ETRE SOUMISE À DES LIMITES, RETARDS ET AUTRES PROBLÈMES INHÉRENTS À L'UTILISATION DES RÉSEAUX CELLULAIRES, DE L'INTERNET ET DES COMMUNICATIONS ÉLECTRONIQUES. TYCO N'EST PAS RESPONSABLE DES RETARDS, DES DÉFAUTS DE LIVRAISON OU D'AUTRES PERTES OU DOMMAGES RÉSULTANT DU TRANSFERT DE DONNÉES SUR DES RÉSEAUX ET DES INSTALLATIONS DE COMMUNICATION, Y COMPRIS L'INTERNET ET LES RÉSEAUX CELLULAIRES. VOUS RECONNAISSEZ QUE (A) LA DISPONIBILITÉ DE L'APPLICATION MOBILE EST DEPENDANTE DE VOTRE DISPOSITIF MOBILE, DE VOTRE FOURNISSEUR DE SERVICE INTERNET ET DE VOTRE OPÉRATEUR MOBILE; (B) VOUS ÊTES RESPONSABLE DE TOUS LES FRAIS LIÉS À L'UTILISATION ET DE LA CONFORMITÉ AUX ACCORDS CONNEXES À CETTE UTILISATION.
+
+
+9. POLITIQUE DE CONFIDENTIALITÉ. Toutes les informations que Tyco recueille auprès de vous, telles que les informations d'enregistrement, sont soumises à la politique de confidentialité de Tyco en vigueur (la « Politique de confidentialité ») et aux lois applicables en matière de confidentialité. Veuillez consulter le site Web de Tyco pour consulter la politique de confidentialité dans son ensemble.
+
+10. Consentement en matière de confidentialité des données. Vous consentez à la collecte, au traitement et au transfert international de données et d'informations relatives aux relations d񺿺ires entre vous et Tyco, y compris le transfert de données personnelles identifiables (noms, adresses, adresses électroniques, numéros de téléphone) entre Tyco et ses partenaires, peu importe où ils se trouvent, à toute autre autorité et, à l'exception des détails de sécurité, à toute référence de crédit, collecte de créances ou organisme public de télécommunications aux fins de remplir les obligations de Tyco en vertu du présent CLUF, d'évaluer le risque de crédit de Tyco et de mettre en oeuvre toute activité. Vous avez le droit (a) de demander l 'accès à ces données, (b) de rectifier ou d'annuler toute donnée inexacte ou périmée et (c) de vous objecter à tout traitement qui n'est pas conforme à ces fins. Vous pouvez exercer vos droits en écrivant à Tyco à Tycopolicy@tyco.com ou à tout autre endroit désigné par Tyco.
+
+11.\u0009Équipement, services et installations. Vous êtes seul responsable de la prestation, de l'installation et de l'entretien de tous les équipements, installations, logiciels tiers et services nécessaires à l'accès et à l'utilisation de l'application, y compris, sans limitation, tout matériel et logiciel, les modems, le service cellulaire et l'accès à Internet.
+
+12.\u0009CESSION. Le présent CLUF aura force obligatoire pour les parties, ainsi que leurs successeurs respectifs et les ayants droit autorisés. Tyco peut céder ce CLUF, ainsi que tous les droits et obligations qui en découlent, à sa discrétion. Vous ne pouvez pas céder, sous-licencier ou transférer de quelque manière que ce soit des droits (y compris à la suite d'une fusion, acquisition d'actifs, vente d'actions ou toute autre opération entraînant un changement de contrôle) aux termes du présent CLUF, en tout ou en partie, sauf et uniquement dans la mesure où cette activité peut être expressément autorisée par la loi applicable nonobstant cette limitation.
+
+13.\u0009GÉNÉRAL. Si une disposition du présent CLUF est jugée illégale, nulle ou, pour quelque raison que ce soit inapplicable, cette disposition sera retirée du présent CLUF et n񺿾ctera pas la validité et le caractère exécutoire des dispositions restantes. Vous devez conserver une preuve du paiement de la licence, y compris le numéro de modèle, numéro de série et la date de paiement, et présenter la preuve de paiement lors de la recherche de service ou d'assistance couverts par la garantie stipulée dans le présent CLUF. Ce CLUF est régi par les lois de la province de l'Ontario, Canada, sans égard à ses conflits de principes de droit. Les parties conviennent irrévocablement qu'elles se soumettent à la compétence personnelle des tribunaux fédéraux et provinciaux de l'Ontario aux fins de résolution de tous les litiges découlants ou liés à ces modalités et conditions. Les parties excluent expressément l'application des dispositions de la Convention des Nations Unies sur les contrats de vente internationaux de marchandises.
+
+ 
+MISE EN GARDE\u0009L'application mobile est destinée à être une extension du système. Tyco recommande que l'ensemble du système soit complètement testé sur une base régulière. Cependant, en dépit des essais fréquents, la performance de l'application mobile est soumise à divers facteurs, y compris la façon dont le système est installé, la connexion Internet du panneau, les pannes occasionnelles du serveur en raison de la maintenance, les problèmes avec le réseau cellulaire, toute altération criminelle ou panne électrique, il est possible que l'application mobile ne fonctionne pas comme prévu.
+"</string>
+    <string name="time">Heure</string>
+    <string name="time_format">HH:MM</string>
+    <string name="to">À</string>
+    <string name="unlockByAccess">Déverrouillé par accès</string>
+    <string name="unlockByDoubleSwipe">Déverrouillé par double présentation de carte</string>
+    <string name="unlockByInput">Déverrouillé par entrée</string>
+    <string name="unlockByOperator">Déverrouillé par opérateur</string>
+    <string name="unlockBySchedule">Déverrouillé par horaire</string>
+    <string name="unlockByTripleSwipe">Déverrouillé par triple présentation de carte</string>
+    <string name="unlocked">Déverrouillée</string>
+    <string name="user_choice_dialog_negative_button">Annuler</string>
+    <string name="user_choice_dialog_on_device_name">Certificat sur cet appareil</string>
+    <string name="user_choice_dialog_positive_button">Continuer</string>
+    <string name="user_choice_dialog_smartcard_name">Carte à puce physique</string>
+    <string name="user_choice_dialog_title">Comment voulez-vous vous connecter ?</string>
+    <string name="user_delete">Êtes-vous sûr de vouloir supprimer cet utilisateur?</string>
+    <string name="user_error_deleted">"Erreur dans la suppression de l'utilisateur!"</string>
+    <string name="user_name">"Nom d'utilisateur"</string>
+    <string name="username">"Nom d'utilisateur"</string>
+    <string name="video">Vidéo</string>
+    <string name="videoSearchFastForwardButtonText">>></string>
+    <string name="videoSearchPauseButtonText">||</string>
+    <string name="videoSearchPlayButtonText">></string>
+    <string name="videoSearchReverseButtonText">&lt;</string>
+    <string name="videoSearchRewindButtonText">&lt;&lt;</string>
+    <string name="video_search">Recherche de vidéos</string>
+    <string name="video_state_camera_disabled">Caméra désactivée</string>
+    <string name="video_state_camera_not_found">Caméra non trouvée</string>
+    <string name="video_state_no_video">Vidéo non disponible</string>
+    <string name="video_state_online">En ligne</string>
+    <string name="video_state_unsupported_format">Format de vidéo non supporté</string>
+    <string name="wait_keypad">Veuillez attendre pour le clavier</string>
+    <string name="zero">0</string>
+</resources>

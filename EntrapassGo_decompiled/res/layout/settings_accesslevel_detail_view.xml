@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/fl_progressbar" layout="@layout/progressbar" />
+    <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+        <include layout="@layout/settings_language_view" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="7.0dip" />
+    <ScrollView android:gravity="center" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_table" android:background="@drawable/bg_glass_round_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_glass_no_border" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_margin="1.0dip" android:weightSum="3.0">
+                <View android:layout_width="8.0dip" android:layout_height="fill_parent" />
+                <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/door" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/schedule" android:singleLine="true" android:layout_weight="1.0" />
+                <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="@string/group_floor" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="1.0dip" />
+                <View android:layout_width="8.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_door_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

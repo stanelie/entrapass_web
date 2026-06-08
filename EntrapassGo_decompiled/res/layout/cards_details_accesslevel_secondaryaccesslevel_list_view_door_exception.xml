@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_DoorException" android:background="@drawable/bg_glass_round_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/tv_titleDoorException" android:background="@drawable/bg_glass_no_border" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_margin="1.0dip" android:text="@string/door_exception" />
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_DoorExceptionContent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:textSize="12.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/btn_add_door_exception" android:background="@drawable/bg_btn_gray_dark" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/button_height" android:layout_marginTop="7.0dip" android:text="@string/add_door_exception" />
+    <View android:layout_width="fill_parent" android:layout_height="7.0dip" />
+</LinearLayout>

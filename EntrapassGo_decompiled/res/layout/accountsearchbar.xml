@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_search" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@color/gray5" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <androidx.appcompat.widget.SwitchCompat android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/tgbtn_username_cardnumber" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:checked="true" android:textOn="" android:textOff="" android:thumb="@drawable/thumb" android:layout_marginStart="5.0dip" app:showText="true" app:track="@drawable/trackgreen" />
+        <EditText android:textColor="@color/white" android:id="@id/et_searchview" android:background="@drawable/background_edittext_black" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_margin="5.0dip" android:hint="@string/emptystring" android:maxLines="1" android:lines="1" android:layout_weight="1.0" android:inputType="text" />
+    </LinearLayout>
+    <View android:background="#40bebebe" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

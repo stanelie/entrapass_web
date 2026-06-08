@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_bottom" android:background="@drawable/bg_glass_square_border" android:paddingLeft="7.0dip" android:paddingTop="13.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_margin="7.0dip" android:weightSum="8.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/inputs_quick_temporary_no_supervision" android:scaleType="fitXY" android:contentDescription="@string/zero" />
+        <Button android:id="@id/btn_input_tempo_unlock" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/alphaline" android:layout_width="1.0dip" android:layout_height="44.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:id="@id/iv_activate_deactivate" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/inputs_quick_normalsupervision" android:scaleType="fitXY" android:contentDescription="@string/zero" />
+        <Button android:id="@id/btn_input_normal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/alphaline" android:layout_width="1.0dip" android:layout_height="44.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/inputs_quick_continous_supervision" android:scaleType="fitXY" android:contentDescription="@string/zero" />
+        <Button android:id="@id/btn_input_supervision" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:background="@drawable/alphaline" android:layout_width="1.0dip" android:layout_height="44.0dip" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <FrameLayout android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/inputs_quick_no_supervision" android:scaleType="fitXY" android:contentDescription="@string/zero" />
+        <Button android:id="@id/btn_input_no_supervision" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>
