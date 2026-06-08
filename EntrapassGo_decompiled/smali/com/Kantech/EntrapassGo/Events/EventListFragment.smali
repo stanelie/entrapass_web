@@ -1967,7 +1967,7 @@
 .end method
 
 .method public final onPrepareOptionsMenu(Landroid/view/Menu;)V
-    .locals 0
+    .locals 4
 
     .line 1
     invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onPrepareOptionsMenu(Landroid/view/Menu;)V
@@ -2056,6 +2056,12 @@
     .line 45
     .line 46
     invoke-virtual {p1}, Lcom/Kantech/EntrapassGo/MainActivity;->k()V
+
+    const/4 v0, 0x0
+    const/16 v1, 0x3e9
+    const/16 v2, 0x64
+    const-string v3, "Event History..."
+    invoke-interface {p1, v0, v1, v2, v3}, Landroid/view/Menu;->add(IIILjava/lang/CharSequence;)Landroid/view/MenuItem;
 
     .line 47
     .line 48
@@ -2762,10 +2768,26 @@
     move-result v3
     if-eqz v3, :cond_no_startdate
 
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    move-result-object v3
+    if-eqz v3, :cond_default_days
+    const-string v4, "EntrapassGoPrefs"
+    const/4 v5, 0x0
+    invoke-virtual {v3, v4, v5}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    move-result-object v3
+    const-string v4, "events_history_days"
+    const/4 v5, 0x7
+    invoke-interface {v3, v4, v5}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    move-result v3
+    if-eqz v3, :cond_no_startdate
+    neg-int v5, v3
+    goto :goto_start_calendar
+    :cond_default_days
+    const/4 v5, -0x7
+    :goto_start_calendar
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
     move-result-object v3
     const/4 v4, 0x5
-    const/4 v5, -0x7
     invoke-virtual {v3, v4, v5}, Ljava/util/Calendar;->add(II)V
     invoke-virtual {v3}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
     move-result-object v3
@@ -3154,4 +3176,63 @@
     .line 73
     .line 74
     .line 75
+.end method
+
+.method public onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    .locals 7
+
+    invoke-interface {p1}, Landroid/view/MenuItem;->getItemId()I
+    move-result v0
+
+    const/16 v1, 0x3e9
+    if-ne v0, v1, :cond_super
+
+    invoke-virtual {p0}, Landroidx/fragment/app/Fragment;->getContext()Landroid/content/Context;
+    move-result-object v0
+    if-eqz v0, :cond_return_true
+
+    const-string v1, "EntrapassGoPrefs"
+    const/4 v2, 0x0
+    invoke-virtual {v0, v1, v2}, Landroid/content/Context;->getSharedPreferences(Ljava/lang/String;I)Landroid/content/SharedPreferences;
+    move-result-object v1
+    const-string v2, "events_history_days"
+    const/4 v3, 0x7
+    invoke-interface {v1, v2, v3}, Landroid/content/SharedPreferences;->getInt(Ljava/lang/String;I)I
+    move-result v1
+
+    new-instance v2, Landroid/widget/EditText;
+    invoke-direct {v2, v0}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
+    const/4 v3, 0x2
+    invoke-virtual {v2, v3}, Landroid/widget/EditText;->setInputType(I)V
+    const/16 v3, 0x28
+    invoke-virtual {v2, v3, v3, v3, v3}, Landroid/view/View;->setPadding(IIII)V
+    invoke-static {v1}, Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+    move-result-object v3
+    invoke-virtual {v2, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    new-instance v3, Lcom/Kantech/EntrapassGo/Events/EventListFragment$HistoryClickListener;
+    invoke-direct {v3, p0, v2}, Lcom/Kantech/EntrapassGo/Events/EventListFragment$HistoryClickListener;-><init>(Lcom/Kantech/EntrapassGo/Events/EventListFragment;Landroid/widget/EditText;)V
+
+    new-instance v4, Landroid/app/AlertDialog$Builder;
+    invoke-direct {v4, v0}, Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+    const-string v5, "Event History"
+    invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+    const-string v5, "Days of history to load on startup\n(0 = live events only):"
+    invoke-virtual {v4, v5}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+    invoke-virtual {v4, v2}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
+    const-string v5, "OK"
+    invoke-virtual {v4, v5, v3}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+    const-string v5, "Cancel"
+    const/4 v6, 0x0
+    invoke-virtual {v4, v5, v6}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+    invoke-virtual {v4}, Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+
+    :cond_return_true
+    const/4 v0, 0x1
+    return v0
+
+    :cond_super
+    invoke-super {p0, p1}, Landroidx/fragment/app/Fragment;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+    move-result v0
+    return v0
 .end method
