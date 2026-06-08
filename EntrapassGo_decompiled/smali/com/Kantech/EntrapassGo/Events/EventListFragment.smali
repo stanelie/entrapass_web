@@ -2634,7 +2634,7 @@
 .end method
 
 .method public final r()V
-    .locals 3
+    .locals 7
 
     .line 1
     const-string v0, "sdKey="
@@ -2757,6 +2757,36 @@
     .line 61
     move-result-object v0
 
+    sget-object v3, Lcom/Kantech/EntrapassGo/StaticDatas;->y0:Ljava/util/ArrayList;
+    invoke-virtual {v3}, Ljava/util/ArrayList;->isEmpty()Z
+    move-result v3
+    if-eqz v3, :cond_no_startdate
+
+    invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+    move-result-object v3
+    const/4 v4, 0x5
+    const/4 v5, -0x7
+    invoke-virtual {v3, v4, v5}, Ljava/util/Calendar;->add(II)V
+    invoke-virtual {v3}, Ljava/util/Calendar;->getTime()Ljava/util/Date;
+    move-result-object v3
+
+    new-instance v4, Ljava/text/SimpleDateFormat;
+    const-string v5, "yyyy-MM-dd"
+    invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+    move-result-object v6
+    invoke-direct {v4, v5, v6}, Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;Ljava/util/Locale;)V
+    invoke-virtual {v4, v3}, Ljava/text/DateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+    move-result-object v3
+
+    new-instance v4, Ljava/lang/StringBuilder;
+    invoke-direct {v4, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v5, "&startDate="
+    invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v0
+
+    :cond_no_startdate
     .line 62
     const-string v2, "GET"
 
