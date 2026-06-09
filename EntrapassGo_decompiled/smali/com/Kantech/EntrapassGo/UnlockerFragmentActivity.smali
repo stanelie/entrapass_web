@@ -607,7 +607,7 @@
 .end method
 
 .method public final onCreate(Landroid/os/Bundle;)V
-    .registers 7
+    .registers 11
 
     .line 1
     const-string v0, "\u00a9 "
@@ -688,6 +688,32 @@
     sput-object v1, Lcom/Kantech/EntrapassGo/StaticDatas;->d:Ljava/lang/ref/WeakReference;
 
     .line 37
+    :try_start_pre_logout
+    sget-object v5, Lcom/Kantech/EntrapassGo/StaticDatas;->n0:Ljava/lang/String;
+    sget-object v6, Lcom/Kantech/EntrapassGo/StaticDatas;->m0:Ljava/lang/String;
+    if-eqz v5, :no_pre_logout
+    if-eqz v6, :no_pre_logout
+    new-instance v7, Ljava/lang/StringBuilder;
+    invoke-direct {v7, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    const-string v8, "Logout"
+    invoke-virtual {v7, v8}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v6
+    new-instance v7, Ljava/lang/StringBuilder;
+    const-string v8, "sdKey="
+    invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-virtual {v7, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v5
+    new-instance v7, Lcom/Kantech/EntrapassGo/UnlockerFragmentActivity$1;
+    invoke-direct {v7, v6, v5}, Lcom/Kantech/EntrapassGo/UnlockerFragmentActivity$1;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+    new-instance v8, Ljava/lang/Thread;
+    invoke-direct {v8, v7}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+    invoke-virtual {v8}, Ljava/lang/Thread;->start()V
+    :try_end_pre_logout
+    .catch Ljava/lang/Exception; {:try_start_pre_logout .. :try_end_pre_logout} :no_pre_logout
+    :no_pre_logout
+
     .line 38
     invoke-static {}, Lcom/Kantech/EntrapassGo/StaticDatas;->g()V
 
